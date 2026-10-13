@@ -1,0 +1,110 @@
+{
+  "icao": "WART",
+  "iata": "SUP",
+  "name": "Trunojoyo Airport",
+  "city": "Sumenep, Madura",
+  "elevation_ft": 10,
+  "latitude": -7.0233,
+  "longitude": 113.8911,
+  "profile": "VFR_LOCAL",
+  "runways": [
+    {
+      "pair": ["12", "30"],
+      "designator": "12",
+      "reciprocal": "30",
+      "length_ft": 5249,
+      "width_ft": 98,
+      "surface": "ASP",
+      "heading_degT": 118.0,
+      "ils_available": false,
+      "holdingPoints": ["A1", "B1"],
+      "_source": "Kemenhub UPBU Trunojoyo Sisi Udara 2026 (1.600m x 30m)"
+    }
+  ],
+  "units": {
+    "delivery": null,
+    "apron": null,
+    "ground": null,
+    "tower": {
+      "callsign": "Trunojoyo Tower",
+      "frequency": "118.100",
+      "_source": "AIP WART AD 2.18 / Kemenhub",
+      "_status": "verified"
+    },
+    "approach": {
+      "callsign": "Surabaya Control",
+      "frequency": "123.200",
+      "_source": "Surabaya TMA Sector Madura",
+      "_status": "verified"
+    },
+    "departure": null,
+    "center": {
+      "callsign": "Bali Control",
+      "frequency": "128.300",
+      "_source": "AIP Indonesia"
+    },
+    "atis": null
+  },
+  "taxiways": [
+    { "id": "Alpha", "spoken": "Alfa", "dimension": "40m x 10m", "description": "Connects Apron Alpha to RWY 12-30" },
+    { "id": "Bravo", "spoken": "Bravo", "dimension": "75m x 15m", "description": "Connects Apron Bravo to RWY 12-30" }
+  ],
+  "stands": [
+    { "id": "1", "spoken": "Stand One", "type": "TRAINING", "apron": "Apron Alpha" },
+    { "id": "2", "spoken": "Stand Two", "type": "TRAINING", "apron": "Apron Alpha" },
+    { "id": "3", "spoken": "Stand Three", "type": "COMMERCIAL", "apron": "Apron Bravo" },
+    { "id": "4", "spoken": "Stand Four", "type": "COMMERCIAL", "apron": "Apron Bravo" }
+  ],
+  "trainingAreas": [
+    {
+      "id": "Alpha",
+      "spoken": "Area Alfa",
+      "sector": "South / Madura Strait",
+      "radial": 160,
+      "distance_nm": "10-20",
+      "altitude_ft_min": 1500,
+      "altitude_ft_max": 3500
+    },
+    {
+      "id": "Bravo",
+      "spoken": "Area Bravo",
+      "sector": "East / Sapudi Island",
+      "radial": 90,
+      "distance_nm": "15-25",
+      "altitude_ft_min": 2000,
+      "altitude_ft_max": 4000
+    }
+  ],
+  "procedures": {
+    "sids": [],
+    "stars": [],
+    "approaches": [
+      {
+        "id": "VIS12",
+        "type": "VISUAL",
+        "runway": "12",
+        "pattern": "standard left-hand circuit",
+        "circuit_alt_ft": 1000
+      },
+      {
+        "id": "VIS30",
+        "type": "VISUAL",
+        "runway": "30",
+        "pattern": "standard left-hand circuit",
+        "circuit_alt_ft": 1000
+      }
+    ],
+    "holdings": []
+  },
+  "_meta": {
+    "datasetCycle": "2026-KEMENHUB-UPBU",
+    "status": "verified",
+    "notes": [
+      "Data sisi udara diverifikasi langsung dari Ditjen Hubud Kemenhub UPBU Trunojoyo (Oktober 2026).",
+      "Pangkalan latih pilot Poltekbang Surabaya, Merpati Pilot School, dan Nusa Flying School.",
+      "Memiliki 1 runway aktif: RWY 12-30 (1600m x 30m).",
+      "2 taxiway: Taxiway Alpha dan Bravo.",
+      "2 apron: Apron Alpha (1.600 m²) dan Apron Bravo (12.000 m²)."
+    ]
+  }
+}

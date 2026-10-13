@@ -1,0 +1,135 @@
+{
+  "icao": "WADD",
+  "iata": "DPS",
+  "name": "I Gusti Ngurah Rai International",
+  "city": "Denpasar / Bali",
+  "elevation_ft": 14,
+  "latitude": -8.7482,
+  "longitude": 115.1670,
+  "profile": "IFR_COMMERCIAL",
+  "runways": [
+    {
+      "pair": ["09", "27"],
+      "designator": "09",
+      "reciprocal": "27",
+      "length_ft": 9842,
+      "width_ft": 148,
+      "surface": "ASP",
+      "heading_degT": 90,
+      "ils_available": true,
+      "holdingPoints": ["C1"],
+      "_source": "NEEDS AIP WADD AD 2.12 verification"
+    }
+  ],
+  "units": {
+    "delivery": null,
+    "apron": null,
+    "ground": {
+      "callsign": "Bali Ground",
+      "frequency": "121.700",
+      "_source": "NEEDS AIP WADD AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "tower": {
+      "callsign": "Bali Tower",
+      "frequency": "118.100",
+      "_source": "NEEDS AIP WADD AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "approach": {
+      "callsign": "Bali Approach",
+      "frequency": "119.500",
+      "_source": "NEEDS AIP WADD AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "departure": null,
+    "center": {
+      "callsign": "Bali Control",
+      "frequency": "120.700",
+      "_source": "NEEDS AIP ENR verification",
+      "_status": "training-approx"
+    },
+    "atis": {
+      "callsign": "Bali Information",
+      "frequency": "127.900",
+      "_source": "NEEDS AIP WADD AD 2.18 verification",
+      "_status": "training-approx"
+    }
+  },
+  "taxiways": [
+    { "id": "Alpha", "spoken": "Alfa" },
+    { "id": "Bravo", "spoken": "Bravo" },
+    { "id": "Charlie", "spoken": "Charlie" }
+  ],
+  "_taxiwayNote": "Verify vs AIP WADD AD 2.24 aerodrome chart.",
+  "stands": [
+    { "id": "A1", "spoken": "stand Alfa One", "type": "INTERNATIONAL", "apron": "International" },
+    { "id": "B6", "spoken": "stand Bravo Six", "type": "DOMESTIC", "apron": "Domestic" }
+  ],
+  "trainingAreas": [],
+  "procedures": {
+    "sids": [
+      {
+        "id": "BLI2C",
+        "name": "BLI Two Charlie",
+        "runway": "09",
+        "initialAltFt": 7000
+      },
+      {
+        "id": "BLI1E",
+        "name": "BLI One Echo",
+        "runway": "27",
+        "initialAltFt": 7000
+      }
+    ],
+    "stars": [
+      {
+        "id": "ELANG1A",
+        "name": "ELANG One Alfa",
+        "runway": "09",
+        "entryFix": "ELANG",
+        "initialDescentFt": 15000,
+        "_source": "NEEDS AIP WADD AD 2.22 verification — identifier may have changed",
+        "_status": "training-approx"
+      }
+    ],
+    "approaches": [
+      {
+        "id": "ILS09",
+        "type": "ILS",
+        "runway": "09",
+        "finalApproachFix": "POSOP",
+        "fafAltFt": 3000,
+        "da_mda_ft": 350,
+        "missedApproachAltFt": 3000,
+        "missedApproachHeading": null,
+        "_source": "NEEDS AIP WADD AD 2.24 ILS approach chart verification",
+        "_status": "training-approx"
+      }
+    ],
+    "holdings": [
+      {
+        "fix": "BLI",
+        "inboundTrack": 90,
+        "turns": "right",
+        "altFt": 7000,
+        "published": true,
+        "_source": "NEEDS AIP WADD AD 2.22 holding chart verification",
+        "_status": "training-approx"
+      }
+    ]
+  },
+  "_meta": {
+    "datasetCycle": "NEEDS AIP AIRAC cycle date",
+    "status": "training-approx",
+    "verifiedBy": null,
+    "lastChecked": "2026-10-09",
+    "disclaimer": "For training simulation only. Not for operational use.",
+    "notes": [
+      "ALL frequencies are training approximations — verify vs AIP WADD AD 2.18",
+      "STAR and approach procedure names may be outdated — verify vs AIP WADD AD 2.22",
+      "Holding fix BLI and procedure parameters must be verified vs published chart",
+      "Crossing restrictions on STAR not included — needs AIP WADD AD 2.22"
+    ]
+  }
+}

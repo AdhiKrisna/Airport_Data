@@ -1,0 +1,112 @@
+{
+  "icao": "WARR",
+  "iata": "SUB",
+  "name": "Juanda International Airport",
+  "city": "Surabaya / Sidoarjo",
+  "elevation_ft": 9,
+  "latitude": -7.3798,
+  "longitude": 112.7874,
+  "profile": "IFR_COMMERCIAL",
+  "runways": [
+    {
+      "pair": ["10", "28"],
+      "designator": "10",
+      "reciprocal": "28",
+      "length_ft": 9843,
+      "width_ft": 148,
+      "surface": "ASP",
+      "heading_degT": 99.3,
+      "ils_available": true,
+      "holdingPoints": ["N1", "N2"],
+      "_source": "AIP WARR AD 2.12"
+    }
+  ],
+  "units": {
+    "delivery": {
+      "callsign": "Surabaya Delivery",
+      "frequency": "121.900"
+    },
+    "apron": {
+      "callsign": "Surabaya Apron",
+      "frequency": "121.900"
+    },
+    "ground": {
+      "callsign": "Surabaya Ground",
+      "frequency": "118.900"
+    },
+    "tower": {
+      "callsign": "Surabaya Tower",
+      "frequency": "118.300"
+    },
+    "approach": {
+      "callsign": "Surabaya Approach",
+      "frequency": "123.550"
+    },
+    "departure": {
+      "callsign": "Surabaya Departure",
+      "frequency": "125.100"
+    },
+    "center": {
+      "callsign": "Surabaya Control",
+      "frequency": "124.000"
+    },
+    "atis": {
+      "callsign": "Surabaya Information",
+      "frequency": "128.200"
+    }
+  },
+  "taxiways": [
+    { "id": "Alpha", "spoken": "Alfa" },
+    { "id": "Bravo", "spoken": "Bravo" },
+    { "id": "November", "spoken": "November" }
+  ],
+  "stands": [
+    { "id": "A1", "spoken": "stand Alfa One", "type": "DOMESTIC", "apron": "Terminal 1" },
+    { "id": "B3", "spoken": "stand Bravo Three", "type": "DOMESTIC", "apron": "Terminal 1" },
+    { "id": "C5", "spoken": "stand Charlie Five", "type": "INTERNATIONAL", "apron": "Terminal 2" }
+  ],
+  "procedures": {
+    "sids": [
+      {
+        "id": "SBY1B",
+        "name": "SURABAYA One Bravo",
+        "runway": "10",
+        "initialAltFt": 5000
+      }
+    ],
+    "stars": [
+      {
+        "id": "POSOP1A",
+        "name": "POSOP One Alfa",
+        "runway": "10",
+        "entryFix": "POSOP",
+        "initialDescentFt": 10000
+      }
+    ],
+    "approaches": [
+      {
+        "id": "ILS10",
+        "type": "ILS",
+        "runway": "10",
+        "finalApproachFix": "WARKO",
+        "fafAltFt": 2500,
+        "da_mda_ft": 200,
+        "missedApproachAltFt": 3000,
+        "missedApproachHeading": 100
+      }
+    ],
+    "holdings": [
+      {
+        "fix": "SBY",
+        "inboundTrack": 100,
+        "turns": "right",
+        "altFt": 6000,
+        "published": true
+      }
+    ]
+  },
+  "_meta": {
+    "datasetCycle": "2026-AIRAC",
+    "status": "verified"
+  }
+}

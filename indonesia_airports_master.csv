@@ -1,0 +1,732 @@
+ident,name,type,municipality,province_name,country_name,latitude_deg,longitude_deg,elevation_ft,scheduled_service,iata_code,runway_count,max_runway_length_ft,runway_pairs,runways_summary,frequency_count,frequency_types,navaid_count,navaids_summary,rtf_viable
+AXO,Pantar Kabir Airport,small_airport,Kabir,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.244832,124.219108,18.0,no,AXO,1,2953.0,"[03, 21]",03,0,,0,,False
+DEX,Nop Goliat Dekai Airport,small_airport,Dekai,Papua Pegunungan (Highland Papua),Indonesia,-4.8557,139.482006,198.0,yes,DEX,1,6398.0,"[07, 25]",07,0,,0,,False
+ID-0001,Namber Airfield,closed,Namber-Numfoor Island,Papua,Indonesia,-1.0733499527,134.830993652,64.0,no,,0,,,,0,,0,,False
+ID-0002,Kamiri Airfield,closed,Kamiri-Numfoor Island,Papua,Indonesia,-0.971504,134.809006,54.0,no,,0,,,,0,,0,,False
+ID-0003,Pulau Panjang Airport,small_airport,Jakarta,Jawa Barat (West Java),Indonesia,-5.644444,106.5625,155.0,no,PPJ,1,,"[07, 25]",07,0,,0,,False
+ID-0004,Okpahik Airstrip,small_airport,Okpahik,Papua Pegunungan (Highland Papua),Indonesia,-4.697855,140.770547,6300.0,yes,,0,,,,0,,0,,False
+ID-0006,Garuda Wisnu Kencana Cultural Park Heliport,heliport,"Kuta Selatan, Badung",Bali,Indonesia,-8.808354,115.16235,315.0,no,,0,,,,0,,0,,False
+ID-0007,Malinau Heliport,heliport,Malinau-Borneo Island,Kalimantan Utara (North Kalimantan),Indonesia,3.55264,116.6256,86.0,no,,0,,,,0,,0,,False
+ID-0008,Berau Airport,small_airport,Sokan-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,2.16350007057,117.68699646,39.0,no,,0,,,,0,,0,,False
+ID-0010,Jatiwangi Airport,small_airport,,Jawa Barat (West Java),Indonesia,-6.678375,108.252219444,,no,,1,,"[15, 33]",15,0,,0,,False
+ID-0011,Siloam Hospital Denpasar Heliport,heliport,"Kuta, Badung",Bali,Indonesia,-8.71527,115.18479,,no,,0,,,,0,,0,,False
+ID-0012,Lasondre Airport,small_airport,Pulau-Pulau Batu,Sumatera Utara (North Sumatra),Indonesia,-0.01924,98.30097,30.0,yes,,1,4593.0,"[06, 24]",06,0,,0,,False
+ID-0014,Mason Sky Tours Heliport,heliport,Denpasar,Bali,Indonesia,-8.718024,115.205471,20.0,no,,0,,,,0,,0,,False
+ID-0015,Discovery Kartika Plaza Heliport,heliport,"Kuta, Badung",Bali,Indonesia,-8.728339,115.166369,10.0,yes,,0,,,,0,,0,,False
+ID-0016,Grand Inna Bali Beach Heliport,heliport,Denpasar,Bali,Indonesia,-8.676952,115.265071,3.0,no,,0,,,,0,,0,,False
+ID-0017,Samarinda Temingdun Airport,closed,Samarinda,Kalimantan Timur (East Kalimantan),Indonesia,-0.484524,117.157082,33.0,no,,0,,,,0,,0,,False
+ID-0018,Selaru Airstrip,closed,Selaru Island,Maluku,Indonesia,-8.256,130.842,20.0,no,,0,,,,0,,0,,False
+ID-0019,Paiton Power Helipad,heliport,Bhinar,Jawa Timur (East Java),Indonesia,-7.7169054,113.597366,5.0,no,,0,,,,0,,0,,False
+ID-0020,Karyadibya Helipad,heliport,Purwosari,Jawa Timur (East Java),Indonesia,-7.76384709931,112.737796605,,no,,0,,,,0,,0,,False
+ID-0021,Pandaan Helipad,heliport,Purwosari,Jawa Timur (East Java),Indonesia,-7.7683326,112.7391373,,no,,0,,,,0,,0,,False
+ID-0022,Aboge Airstrip,small_airport,Aboge,Papua Selatan (South Papua),Indonesia,-6.0634,139.267,53.0,no,,1,1635.0,"[02, 20]",02,0,,0,,False
+ID-0023,Aboyi Airstrip,small_airport,Aboyi,Papua Pegunungan (Highland Papua),Indonesia,-4.288741,140.640664,828.0,no,,1,1315.0,"[02, 20]",02,0,,0,,False
+ID-0024,Amazu Airstrip,small_airport,Amazu,Papua Selatan (South Papua),Indonesia,-5.6119,139.6234,58.0,no,,1,1968.0,"[12, 30]",12,0,,0,,False
+ID-0025,Ambisibil Airstrip,small_airport,Ambisibil,Papua Pegunungan (Highland Papua),Indonesia,-4.67128,140.574487,6425.0,no,,1,,"[15, 33]",15,0,,0,,False
+ID-0026,Angguruk Airstrip,small_airport,Angguruk,Papua Pegunungan (Highland Papua),Indonesia,-4.200167,139.432554,4820.0,no,,1,1640.0,"[09, 27]",09,0,,0,,False
+ID-0027,Arsbol Airstrip,small_airport,Arsbol,Papua Pegunungan (Highland Papua),Indonesia,-3.6941,138.9372,2800.0,no,,1,1706.0,"[03, 21]",03,0,,0,,False
+ID-0028,Bentiang Airstrip,small_airport,Bentiang,Kalimantan Barat (West Kalimantan),Indonesia,0.9196,109.9155,2390.0,no,,1,1479.0,"[04, 22]",04,0,,0,,False
+ID-0029,Beoga Airport,small_airport,Nungai Beoga,Papua Tengah (Central Papua),Indonesia,-3.8165,137.4252,6238.0,no,,1,1601.0,"[16, 34]",16,0,,0,,False
+ID-0030,Bime Airstrip,small_airport,Bime,Papua Pegunungan (Highland Papua),Indonesia,-4.48558,140.219843,4483.0,no,,1,1659.0,"[17, 35]",17,0,,0,,False
+ID-0031,Diphikin Airstrip,small_airport,Binsari,Papua Pegunungan (Highland Papua),Indonesia,-4.725525,140.792284,5568.0,yes,,1,1745.0,"[18, 36]",18,0,,0,,False
+ID-0032,Binuang Airstrip,small_airport,Binuang,Kalimantan Utara (North Kalimantan),Indonesia,3.7147,115.8517,2675.0,no,,1,1600.0,"[06, 24]",06,0,,0,,False
+ID-0033,Biri Airstrip,small_airport,Biri,Papua,Indonesia,-2.87793,137.76816,415.0,no,,1,1476.0,"[15, 33]",15,0,,0,,False
+ID-0034,Bomela Airport,small_airport,Bomela,Papua Pegunungan (Highland Papua),Indonesia,-4.693634,139.912707,5050.0,no,,1,2247.0,"[02A, 20D]",02A,0,,0,,False
+ID-0035,Bomomani Airstrip,small_airport,Bomomani,Papua Tengah (Central Papua),Indonesia,-3.960942,135.939631,4966.0,no,,0,,,,0,,0,,False
+ID-0036,Borme Airstrip,small_airport,Borme,Papua Pegunungan (Highland Papua),Indonesia,-4.394362,140.436348,3270.0,no,,1,2099.0,"[05, 23]",05,0,,0,,False
+ID-0037,Kurid  Airstrip,small_airport,Buduk Kabul,Kalimantan Utara (North Kalimantan),Indonesia,3.798115,115.706339,3260.0,no,,0,,,,0,,0,,False
+ID-0038,Bugalaga Airstrip,small_airport,Bugalaga,Papua Tengah (Central Papua),Indonesia,-3.6235,136.5963,6360.0,no,,1,1375.0,"[06, 24]",06,0,,0,,False
+ID-0039,Calang Airstrip,small_airport,Calang,Aceh,Indonesia,4.612323,95.623534,32.0,no,,1,2625.0,"[13, 31]",13,0,,0,,False
+ID-0040,Comoro Airstrip,small_airport,Comoro,Papua Selatan (South Papua),Indonesia,-5.926349,138.631461,21.0,no,,1,1972.0,"[11, 29]",11,0,,0,,False
+ID-0041,Dagai Airport,small_airport,Dagai,Papua Tengah (Central Papua),Indonesia,-3.305757,137.94366,347.0,no,,0,,,,0,,0,,False
+ID-0042,Datah Dian Airstrip,small_airport,Pertamina Oil & Gas Corp.,Kalimantan Utara (North Kalimantan),Indonesia,2.006992,115.151588,1800.0,no,,1,1378.0,"[15, 33]",15,0,,0,,False
+ID-0043,Daufo Airfield,small_airport,Daufo,Papua Tengah (Central Papua),Indonesia,-3.1737,137.2544,500.0,no,,1,1440.0,"[09, 27]",09,0,,0,,False
+ID-0044,Derapos Airstrip,small_airport,Derapos,Papua Tengah (Central Papua),Indonesia,-2.9737,137.2234,433.0,no,,1,2707.0,"[12, 30]",12,0,,0,,False
+ID-0045,Dou Airstrip,small_airport,Dou,Papua,Indonesia,-3.262752,138.1484,299.0,no,,1,1980.0,"[09, 27]",09,0,,0,,False
+ID-0046,Doyo Baru Airport,small_airport,Doyo Baru,Papua,Indonesia,-2.538781,140.464293,385.0,no,,1,1620.0,"[10, 28]",10,0,,0,,False
+ID-0047,Eaopoto Airstrip,small_airport,Eaopoto,Papua Tengah (Central Papua),Indonesia,-3.9497,136.3383,5900.0,no,,1,1886.0,"[09, 27]",09,0,,0,,False
+ID-0048,Engkadik Airstrip,small_airport,Engkadik,Kalimantan Barat (West Kalimantan),Indonesia,0.9797,110.0282,2190.0,no,,0,,,,0,,0,,False
+ID-0049,Eri Airstrip,small_airport,Eri,Papua,Indonesia,-2.637412,138.101757,440.0,no,,1,1601.0,"[09, 27]",09,0,,0,,False
+ID-0050,Faowi Airstrip,small_airport,Faowi,Papua Tengah (Central Papua),Indonesia,-3.230632,137.726191,333.0,no,,1,2411.0,"[18, 36]",18,0,,0,,False
+ID-0051,Fef Airport,closed,Fef,Papua Barat (West Papua),Indonesia,-0.8103,132.4326,1406.0,no,,1,1751.0,"[13, 31]",13,0,,0,,False
+ID-0052,Foao Airstrip,small_airport,Foao,Papua,Indonesia,-3.066549,139.099195,241.0,no,,1,1601.0,"[18, 36]",18,0,,0,,False
+ID-0053,Fruata Airstrip,small_airport,Fruata,Papua Barat (West Papua),Indonesia,-2.9858,133.5001,192.0,no,,1,1650.0,"[01, 19]",01,0,,0,,False
+ID-0054,Geyarek Airstrip,small_airport,Geyarek,Papua Pegunungan (Highland Papua),Indonesia,-4.650391,138.752389,248.0,no,,1,1476.0,"[17, 35]",17,0,,0,,False
+ID-0055,Gilgal Airstrip,small_airport,Gilgal,Kalimantan Barat (West Kalimantan),Indonesia,0.458,111.0707,108.0,no,,1,1407.0,"[16, 34]",16,0,,0,,False
+ID-0056,Gusimawa Airstrip,small_airport,Gusimawa,Papua Barat (West Papua),Indonesia,-3.041994,133.878175,131.0,no,,1,1332.0,"[04, 22]",04,0,,0,,False
+ID-0057,Haya Airstrip,small_airport,Haya,Papua,Indonesia,-2.8156,138.1099,250.0,no,,1,1640.0,"[18, 36]",18,0,,0,,False
+ID-0058,Hing Airstrip,small_airport,Hing,Papua Barat (West Papua),Indonesia,-1.233,133.9478,6700.0,no,,1,1283.0,"[15, 33]",15,0,,0,,False
+ID-0059,Hitadipa Airport,small_airport,Hitadipa,Papua Tengah (Central Papua),Indonesia,-3.734325,137.116992,5061.0,no,,1,1801.0,"[07, 25]",07,0,,0,,False
+ID-0060,Holuwon Airstrip,small_airport,Holuwon,Papua Pegunungan (Highland Papua),Indonesia,-4.480541,139.273998,3770.0,no,,1,1329.0,"[13, 31]",13,0,,0,,False
+ID-0061,Hubliki Airstrip,small_airport,Hubliki,Papua Pegunungan (Highland Papua),Indonesia,-3.732237,139.286263,1970.0,no,,1,1469.0,"[04, 22]",04,0,,0,,False
+ID-0062,Hulu Atas Airstrip,small_airport,Hulu Atas,Papua,Indonesia,-3.6799,140.22955,568.0,no,,1,1640.0,"[16, 34]",16,0,,0,,False
+ID-0063,Ibele Airstrip,small_airport,Ibele,Papua Pegunungan (Highland Papua),Indonesia,-4.052,138.796,6320.0,no,,1,1453.0,"[09, 27]",09,0,,0,,False
+ID-0064,Kaiy Airstrip,small_airport,Kaiy,Papua,Indonesia,-2.9871,138.1062,195.0,no,,1,1800.0,"[10, 26]",10,0,,0,,False
+ID-0065,Kaesah Airstrip,closed,Kaesah,Papua Selatan (South Papua),Indonesia,-7.1088,140.1265,53.0,no,,1,2296.0,"[10, 28]",10,0,,0,,False
+ID-0066,Illaga III Airport,small_airport,Illaga,Papua Tengah (Central Papua),Indonesia,-3.9993,137.65317,7673.0,no,,1,2233.0,"[04, 22]",04,0,,0,,False
+ID-0067,Ilugwa/Antara Airport,small_airport,Ilugwa,Papua Pegunungan (Highland Papua),Indonesia,-3.835894,138.921683,6500.0,no,,1,1895.0,"[10, 28]",10,0,,0,,False
+ID-0068,Iratoi Airstrip,small_airport,Iratoi,Papua Tengah (Central Papua),Indonesia,-3.2389,137.3339,352.0,no,,1,1909.0,"[18, 36]",18,0,,0,,False
+ID-0069,Iray Airstrip,small_airport,Iray,Papua Barat (West Papua),Indonesia,-1.33034,133.91081,6464.0,no,,1,2789.0,"[03, 21]",03,0,,0,,False
+ID-0070,Iwur Airstrip,small_airport,Iwur,Papua Pegunungan (Highland Papua),Indonesia,-5.139139,140.717638,820.0,yes,,1,1632.0,"[06, 24]",06,0,,0,,False
+ID-0071,Jila Airstrip,small_airport,Jila,Papua Tengah (Central Papua),Indonesia,-4.24677,137.59563,4390.0,no,,1,1385.0,"[14, 32]",14,0,,0,,False
+ID-0072,Jita Airstrip,small_airport,Jita,Papua Tengah (Central Papua),Indonesia,-4.8564,137.7019,40.0,no,,1,1804.0,"[02, 20]",02,0,,0,,False
+ID-0073,Kanggime Airstrip,small_airport,Kanggime,Papua Pegunungan (Highland Papua),Indonesia,-3.665978,138.361559,4990.0,no,,1,2440.0,"[06, 24]",06,0,,0,,False
+ID-0074,Kasonaweja Airstrip,small_airport,Kasonaweja,Papua,Indonesia,-2.3007,138.0327,88.0,no,,1,1500.0,"[18, 36]",18,0,,0,,False
+ID-0075,Kaure  Airstrip,small_airport,Kaure,Papua,Indonesia,-3.469809,140.362085,700.0,no,,1,1450.0,"[17, 35]",17,0,,0,,False
+ID-0076,Kedembak Airstrip,small_airport,Kedembak,Kalimantan Barat (West Kalimantan),Indonesia,0.5906,111.302,170.0,no,,1,1310.0,"[02, 20]",02,0,,0,,False
+ID-0077,Kelansam Airstrip,small_airport,Kelansam,Kalimantan Barat (West Kalimantan),Indonesia,0.1228,111.4197,96.0,no,,1,1710.0,"[06, 24]",06,0,,0,,False
+ID-0078,Keneyan Airstrip,small_airport,Keneyan,Papua Pegunungan (Highland Papua),Indonesia,-4.5995,138.3844,449.0,no,,1,2087.0,"[04, 22]",04,0,,0,,False
+ID-0079,Kerapak Airstrip,small_airport,Kerapak,Kalimantan Barat (West Kalimantan),Indonesia,0.0939,111.9083,157.0,no,,1,1505.0,"[13, 31]",13,0,,0,,False
+ID-0080,Kiwi Airstrip,small_airport,Kiwi,Papua Pegunungan (Highland Papua),Indonesia,-4.697841,140.722425,5260.0,yes,,1,1335.0,"[10, 28]",10,0,,0,,False
+ID-0081,Kobagma Airport,small_airport,Kobagma,Papua Pegunungan (Highland Papua),Indonesia,-3.666539,139.058758,3195.0,no,,1,2329.0,"[09, 27]",09,0,,0,,False
+ID-0082,Komopa Airstrip,small_airport,Komopa,Papua Tengah (Central Papua),Indonesia,-3.7998,136.4775,5822.0,no,,1,1798.0,"[06, 24]",06,0,,0,,False
+ID-0083,Koropun Airstrip,small_airport,Koropun,Papua Pegunungan (Highland Papua),Indonesia,-4.479226,139.649894,5900.0,no,,1,1788.0,"[16, 34]",16,0,,0,,False
+ID-0084,Kuala Kurun Airport,small_airport,Kuala Kurun,Kalimantan Tengah (Central Kalimantan),Indonesia,-1.128903,113.873075,115.0,no,GXM,1,2958.0,"[05, 23]",05,0,,0,,False
+ID-0085,Kuala Randau Airstrip,small_airport,Semandang Hulu,Kalimantan Barat (West Kalimantan),Indonesia,-0.582399,110.472759,240.0,no,,1,1590.0,"[01, 19]",01,0,,0,,False
+ID-0086,Kustera Airstrip,small_airport,Kustera,Papua,Indonesia,-2.746014,137.919206,350.0,no,,1,1274.0,"[13, 31]",13,0,,0,,False
+ID-0087,Kwerba Airstrip,small_airport,Kwerba,Papua,Indonesia,-2.643549,138.40894,247.0,no,,1,1600.0,"[04, 22]",04,0,,0,,False
+ID-0088,Kwijawagi,small_airport,Kwijawagi,Papua Pegunungan (Highland Papua),Indonesia,-4.0256,138.2046,9288.0,no,,1,2349.0,"[05, 23]",05,0,,0,,False
+ID-0089,Lake Holmes Airstrip,small_airport,Danau Bira,Papua,Indonesia,-2.472221,137.988365,1300.0,no,,1,1903.0,"[03, 21]",03,0,,0,,False
+ID-0090,Landikma Airstrip,small_airport,Landikma,Papua Pegunungan (Highland Papua),Indonesia,-3.8212,139.2423,3345.0,no,,1,1415.0,"[13, 31]",13,0,,0,,False
+ID-0091,Langda Airstrip,small_airport,Langda,Papua Pegunungan (Highland Papua),Indonesia,-4.6785,139.9745,6480.0,no,,1,1463.0,"[16, 34]",16,0,,0,,False
+ID-0092,Lokok Airstrip,small_airport,Lokok,Kalimantan Barat (West Kalimantan),Indonesia,1.02159,110.050738,1855.0,no,,1,1350.0,"[14, 32]",14,0,,0,,False
+ID-0093,Long Alango Airstrip,small_airport,Long Alango,Kalimantan Utara (North Kalimantan),Indonesia,2.9304,115.8512,1292.0,no,,1,1312.0,"[18, 36]",18,0,,0,,False
+ID-0094,Long Rungan Airport,small_airport,Long Rungan,Kalimantan Utara (North Kalimantan),Indonesia,3.598904,115.840817,2880.0,yes,,1,1312.0,"[03, 21]",03,0,,0,,False
+ID-0095,Long Segar Airstrip,small_airport,Long Segar,Kalimantan Timur (East Kalimantan),Indonesia,0.7981,116.8157,120.0,no,,1,1476.0,"[14, 32]",14,0,,0,,False
+ID-0096,Luban Airstrip,small_airport,Luban,Papua Pegunungan (Highland Papua),Indonesia,-4.213917,140.559755,840.0,no,,0,,,,0,,0,,False
+ID-0097,Lumbis Airstrip,small_airport,Lumbis,Kalimantan Utara (North Kalimantan),Indonesia,4.3038,116.2175,575.0,no,,1,1595.0,"[04, 22]",04,0,,0,,False
+ID-0098,Madya Raya Airstrip,small_airport,Madya Raya,Kalimantan Barat (West Kalimantan),Indonesia,-0.865,111.6637,380.0,no,,1,1360.0,"[10, 28]",10,0,,0,,False
+ID-0099,Magoda Airstrip,small_airport,Magoda,Papua Tengah (Central Papua),Indonesia,-3.9906,135.8532,5260.0,no,,1,1411.0,"[03, 21]",03,0,,0,,False
+ID-0100,Oklip Airstrip,small_airport,Oklip,Papua Pegunungan (Highland Papua),Indonesia,-4.762095,140.780554,6300.0,yes,,1,1400.0,"[12, 30]",12,0,,0,,False
+ID-0101,Nalca Airstrip,small_airport,Kalca,Papua Pegunungan (Highland Papua),Indonesia,-4.3636,139.8351,5250.0,no,,1,1450.0,"[05D, 23A]",05D,0,,0,,False
+ID-0102,Nanga Labang Airstrip,small_airport,Nanga Labang,Kalimantan Barat (West Kalimantan),Indonesia,0.228,111.65084,83.0,no,,0,,,,0,,0,,False
+ID-0103,Nanga Mawong Airstrip,small_airport,Nanga Mawong,Kalimantan Barat (West Kalimantan),Indonesia,-0.4322,112.3271,286.0,no,,0,,,,0,,0,,False
+ID-0104,Nanga Merakai Airstrip,small_airport,Nanga Merakai,Kalimantan Barat (West Kalimantan),Indonesia,0.7024,111.5225,112.0,no,,1,1719.0,"[14, 32]",14,0,,0,,False
+ID-0105,Nanga Nyabu Airstrip,small_airport,Nanga Nyabu,Kalimantan Barat (West Kalimantan),Indonesia,1.013399,112.713643,146.0,no,,1,1585.0,"[01, 19]",01,0,,0,,False
+ID-0106,Nanga Ruan Airstrip,small_airport,Nanga Ruan,Kalimantan Barat (West Kalimantan),Indonesia,0.628052,113.175298,278.0,no,,1,1673.0,"[12, 30]",12,0,,0,,False
+ID-0107,Nenei Airstrip,small_airport,Nenei,Papua Barat (West Papua),Indonesia,-1.491906,133.99587,2864.0,no,,1,1378.0,"[06, 24]",06,0,,0,,False
+ID-0108,Nain Baru Airstrip,closed,Nian Baru,Kalimantan Utara (North Kalimantan),Indonesia,1.403182,115.327,1783.0,no,,1,1706.0,"[12, 30]",12,0,,0,,False
+ID-0109,Nania Airstrip,small_airport,Nania,Papua Pegunungan (Highland Papua),Indonesia,-4.362913,139.30244,7060.0,no,,1,1450.0,"[12, 30]",12,0,,0,,False
+ID-0110,Nipsan Airstrip,small_airport,Nipsan,Papua Pegunungan (Highland Papua),Indonesia,-4.116755,139.647303,6000.0,no,,1,1640.0,"[10, 28]",10,0,,0,,False
+ID-0111,Okyap Airstrip,small_airport,Okyap,Papua Pegunungan (Highland Papua),Indonesia,-4.743448,140.848267,4370.0,yes,,1,1427.0,"[02, 20]",02,0,,0,,False
+ID-0112,Omban Airstrip,small_airport,Omban,Papua Pegunungan (Highland Papua),Indonesia,-4.369376,140.392464,3078.0,no,,0,,,,0,,0,,False
+ID-0113,Onondowa/Rampi Airport,small_airport,Rampi,Sulawesi Selatan (South Sulawesi),Indonesia,-2.125992,120.297659,3229.0,no,,1,1612.0,"[12, 30]",12,0,,0,,False
+ID-0114,Pagai Lumber Airstrip,small_airport,Pulau Pagai-Selatan,Sumatera Barat (West Sumatra),Indonesia,-2.857831,100.214446,141.0,no,,1,1295.0,"[09, 27]",09,0,,0,,False
+ID-0115,Pagai Airstrip,small_airport,Pagai,Papua,Indonesia,-3.53756,139.78195,305.0,no,,0,,,,0,,0,,False
+ID-0116,Panggema/Hasan Airport,small_airport,Panggema,Papua Pegunungan (Highland Papua),Indonesia,-4.135396,139.377151,4860.0,no,,1,1550.0,"[06, 24]",06,0,,0,,False
+ID-0117,Papasena Airstrip,small_airport,Papasena,Papua,Indonesia,-2.915,138.5876,224.0,no,,1,1601.0,"[18, 36]",18,0,,0,,False
+ID-0118,Pass Valley Airstrip,small_airport,Pass Valley,Papua Pegunungan (Highland Papua),Indonesia,-3.85876,139.100268,6500.0,no,,1,2090.0,"[08, 26]",08,0,,0,,False
+ID-0119,Piramid Airstrip,small_airport,Piramid,Papua Pegunungan (Highland Papua),Indonesia,-3.901493,138.764276,5630.0,no,,1,2139.0,"[03, 21]",03,0,,0,,False
+ID-0120,Pit River Airstrip,small_airport,Pit,Papua Pegunungan (Highland Papua),Indonesia,-3.9819,138.5338,7090.0,no,,0,,,,0,,0,,False
+ID-0121,Pogapa Airstrip,small_airport,Pogapa,Papua Tengah (Central Papua),Indonesia,-3.752,136.8457,6460.0,no,,1,,"[15, 33]",15,1,ATS,0,,True
+ID-0122,Polimo Airstrip,small_airport,Polimo,Papua Pegunungan (Highland Papua),Indonesia,-4.219223,139.034607,5550.0,no,,0,,,,0,,0,,False
+ID-0123,Poga Airstrip,small_airport,Poga,Papua Pegunungan (Highland Papua),Indonesia,-3.801567,138.587449,7352.0,no,,0,,,,0,,0,,False
+ID-0124,Prongkoli Airstrip,small_airport,Prongkoli,Papua Pegunungan (Highland Papua),Indonesia,-4.188308,139.342232,6385.0,no,,1,1535.0,"[09, 27]",09,0,,0,,False
+ID-0125,Owi Airfield,closed,Owi Island,Papua,Indonesia,-1.2455,136.2091,83.0,no,,1,10980.0,"[05, 23]",05,0,,0,,False
+ID-0126,Puldamat Airport,small_airport,Puldama,Papua Pegunungan (Highland Papua),Indonesia,-4.3196,139.8704,5450.0,no,,1,1969.0,"[12, 30]",12,0,,0,,False
+ID-0128,Riam Sejawak Airstrip,small_airport,Riam Sejawak,Kalimantan Barat (West Kalimantan),Indonesia,0.971027,111.097823,140.0,no,,1,1170.0,"[05, 23]",05,0,,0,,False
+ID-0129,Ros Bori Airstrip,small_airport,Ros Bori - Yapen Island,Papua,Indonesia,-1.6586,136.102,67.0,no,,1,1640.0,"[18, 36]",18,0,,0,,False
+ID-0130,Samboka Airstrip,small_airport,Samboka,Papua Pegunungan (Highland Papua),Indonesia,-4.836839,139.714615,560.0,no,,1,1519.0,"[16, 34]",16,0,,0,,False
+ID-0131,Sape Airstrip,small_airport,Sape,Papua Pegunungan (Highland Papua),Indonesia,-4.7655,140.5054,6885.0,yes,,0,,,,0,,0,,False
+ID-0132,Tahuna Heliport,heliport,Tahuna,Sulawesi Utara (North Sulawesi),Indonesia,3.60957,125.50709,43.0,no,,0,,,,0,,0,,False
+ID-0133,Sela Airstrip,small_airport,Sela,Papua Pegunungan (Highland Papua),Indonesia,-4.550661,139.734453,6545.0,no,,0,,,,0,,0,,False
+ID-0134,Seradala Airstrip,small_airport,Seradala,Papua Pegunungan (Highland Papua),Indonesia,-4.979752,139.903489,452.0,no,,0,,,,0,,0,,False
+ID-0135,Serimbu Airstrip,small_airport,Serimbu,Kalimantan Barat (West Kalimantan),Indonesia,0.741,110.123,244.0,no,,0,,,,0,,0,,False
+ID-0136,Serukam,small_airport,Serukam,Kalimantan Barat (West Kalimantan),Indonesia,0.797,109.3317,190.0,no,,1,1405.0,"[09, 27]",09,0,,0,,False
+ID-0137,Sikari Airstrip,small_airport,Sikari,Papua,Indonesia,-2.761904,138.386229,217.0,no,,0,,,,0,,0,,False
+ID-0138,Silimo Airstrip,small_airport,Silimo,Papua Pegunungan (Highland Papua),Indonesia,-4.466012,138.943062,5760.0,no,,1,1400.0,"[05, 23]",05,0,,0,,False
+ID-0139,Syekh Hamzah Fansyuri Airport,small_airport,Singkil,Aceh,Indonesia,2.269614,97.967863,17.0,yes,FSH,1,2953.0,"[12, 30]",12,0,,0,,False
+ID-0140,Santosa Hospital Helipad,heliport,Bandung,Jawa Barat (West Java),Indonesia,-6.915161,107.600124,2430.0,no,,0,,,,0,,0,,False
+ID-0141,Siriwo Airstrip,small_airport,Siriwo,Papua Tengah (Central Papua),Indonesia,-3.5388,135.948971,533.0,no,,1,1312.0,"[16, 34]",16,0,,0,,False
+ID-0142,Soba Airstrip,small_airport,Soba,Papua Pegunungan (Highland Papua),Indonesia,-4.346147,139.178814,6125.0,no,,1,1738.0,"[03, 21]",03,0,,0,,False
+ID-0143,Sumo Airstrip,small_airport,Sumo,Papua Pegunungan (Highland Papua),Indonesia,-4.750469,139.353338,210.0,no,,1,1779.0,"[02, 20]",02,0,,0,,False
+ID-0144,Suntamon Airport,small_airport,Suntamon,Papua Pegunungan (Highland Papua),Indonesia,-4.8083,140.1715,4640.0,yes,,0,,,,0,,0,,False
+ID-0145,Sungai Tontang Airstrip,small_airport,Sungai Tontang,Kalimantan Barat (West Kalimantan),Indonesia,-0.731052,110.376967,145.0,no,,1,1312.0,"[08, 26]",08,0,,0,,False
+ID-0146,Suswa Airstrip [UNUSABLE],small_airport,Suswa,Papua Barat (West Papua),Indonesia,-0.942,132.298,583.0,no,,1,1624.0,"[09, 27]",09,0,,0,,False
+ID-0147,Synopi Airstrip,small_airport,Senopi,Papua Barat Daya (Southwest Papua),Indonesia,-0.842054,132.926191,1648.0,no,,1,1575.0,"[09, 27]",09,0,,0,,False
+ID-0148,Taige Airstrip,small_airport,Taige,Papua Barat (West Papua),Indonesia,-1.3105,133.8517,6248.0,no,,1,1877.0,"[06, 24]",06,0,,0,,False
+ID-0149,Taiyeve Airstrip,small_airport,Taiyeve,Papua,Indonesia,-3.233344,138.445848,176.0,no,,1,2198.0,"[06, 24]",06,0,,0,,False
+ID-0150,Takar Airstrip,small_airport,Takar,Papua,Indonesia,-2.0375,139.113,55.0,no,,1,2296.0,"[09, 27]",09,0,,0,,False
+ID-0151,Tangma Airstrip,small_airport,Tangma,Papua Pegunungan (Highland Papua),Indonesia,-4.25981,139.046631,5860.0,no,,1,1388.0,"[11, 29]",11,0,,0,,False
+ID-0152,Tanjung Maju Airstrip,small_airport,Tanjung Maju,Kalimantan Barat (West Kalimantan),Indonesia,-0.7102,110.4991,175.0,no,,1,1509.0,"[08, 26]",08,0,,0,,False
+ID-0153,Tayayi Airstrip,small_airport,Tayayi,Papua,Indonesia,-3.0447,137.6217,246.0,no,,1,1800.0,"[15, 33]",15,0,,0,,False
+ID-0154,Testega Airstrip,small_airport,Testega,Papua Barat (West Papua),Indonesia,-1.378076,133.594204,3750.0,no,,1,1374.0,"[05, 23]",05,0,,0,,False
+ID-0155,Timepa Airstrip,small_airport,Timepa,Papua Tengah (Central Papua),Indonesia,-4.0047,135.7872,4940.0,no,,0,,,,0,,0,,False
+ID-0156,Turmo Airstrip,small_airport,Turmo,Papua Tengah (Central Papua),Indonesia,-3.273581,137.558,286.0,no,,1,1865.0,"[09, 27]",09,0,,0,,False
+ID-0157,Waff Airstrip,small_airport,Waff,Papua,Indonesia,-2.3307,138.7489,255.0,no,,1,1100.0,"[15, 33]",15,0,,0,,False
+ID-0158,Walerek Airstrip,small_airport,Walerek,Papua Pegunungan (Highland Papua),Indonesia,-3.993361,139.491977,2420.0,no,,1,,"[11, 29]",11,0,,0,,False
+ID-0159,Walma Airstrip,small_airport,Walma,Papua Pegunungan (Highland Papua),Indonesia,-4.217782,139.393555,6400.0,no,,1,1319.0,"[06, 24]",06,0,,0,,False
+ID-0160,Wandama Airstrip,small_airport,Wandama,Papua Pegunungan (Highland Papua),Indonesia,-4.5472,138.55225,761.0,no,,0,,,,0,,0,,False
+ID-0161,Wanggemalu Airstrip,small_airport,Wanggemalu,Papua Selatan (South Papua),Indonesia,-5.4974,139.9783,219.0,no,,1,1621.0,"[12, 30]",12,0,,0,,False
+ID-0162,Wolo Airstrip,small_airport,Wolo,Papua Pegunungan (Highland Papua),Indonesia,-3.8505,138.8603,5870.0,no,,1,,"[16, 34]",16,0,,0,,False
+ID-0163,Wunin Airstrip,small_airport,Wunin,Papua Pegunungan (Highland Papua),Indonesia,-3.650771,138.554313,5385.0,no,,1,1642.0,"[10A, 28D]",10A,0,,0,,False
+ID-0164,Yaniruma Airstrip,small_airport,Yaniruma,Papua Selatan (South Papua),Indonesia,-5.4206,139.8197,155.0,no,,1,1911.0,"[10, 28]",10,0,,0,,False
+ID-0165,Yapil Airstrip,small_airport,Yapil,Papua Pegunungan (Highland Papua),Indonesia,-4.540447,140.565691,4470.0,yes,,1,1968.0,"[08, 26]",08,0,,0,,False
+ID-0166,Yigi Airstrip,small_airport,Yigi,Papua Pegunungan (Highland Papua),Indonesia,-4.228468,138.393778,6100.0,no,,1,1400.0,"[08, 26]",08,0,,0,,False
+ID-0167,Yogosem Airstrip,small_airport,Yogosem,Papua Pegunungan (Highland Papua),Indonesia,-4.247695,139.168977,8200.0,no,,1,1560.0,"[09, 27]",09,0,,0,,False
+ID-0168,Alama Airstrip,small_airport,Alama,Papua Pegunungan (Highland Papua),Indonesia,-4.2631,137.892387,3350.0,no,,0,,,,0,,0,,False
+ID-0169,Tamblang Dam Heliport,heliport,"Sawan, Buleleng",Bali,Indonesia,-8.12832,115.17807,676.0,no,,0,,,,0,,0,,False
+ID-0170,Kangean Island Airport (planned),closed,Arjasa,Jawa Timur (East Java),Indonesia,-6.86,115.299,,no,,0,,,,0,,0,,False
+ID-0171,Aideralma Airstrip,small_airport,Aideralma,Papua Pegunungan (Highland Papua),Indonesia,-4.3341,137.8316,2730.0,no,,1,,"[18, 36]",18,0,,0,,False
+ID-0172,Enggano Airport,small_airport,Enggano,Bengkulu,Indonesia,-5.305621,102.189546,36.0,no,ENG,0,,,,0,,0,,False
+ID-0173,Apouwo Airstrip,small_airport,Apouwo,Papua Tengah (Central Papua),Indonesia,-4.063248,135.560018,5250.0,no,,1,1132.0,"[05, 23]",05,0,,0,,False
+ID-0174,Aurimi Wzil Airstrip,small_airport,Aurimi Wzil,Papua,Indonesia,-2.182027,138.434418,290.0,no,,0,,,,0,,0,,False
+ID-0175,Bareri Airport,small_airport,Bareri,Papua,Indonesia,-2.981631,137.783613,300.0,no,,1,1378.0,"[07, 25]",07,0,,0,,False
+ID-0176,Bari Airport,small_airport,Bari,Papua Pegunungan (Highland Papua),Indonesia,-3.959166,139.901563,1660.0,no,,1,1450.0,"[08, 26]",08,1,ATS,0,,True
+ID-0177,Basiem Airport,small_airport,Basiem,Papua Selatan (South Papua),Indonesia,-6.058573,138.383542,49.0,no,,1,,"[14, 32]",14,0,,0,,False
+ID-0178,Awimbon Airstrip,small_airport,Awimbon,Papua Pegunungan (Highland Papua),Indonesia,-5.165884,140.381568,492.0,yes,,0,,,,0,,0,,False
+ID-0179,Anik Airstrip,small_airport,Anik,Kalimantan Barat (West Kalimantan),Indonesia,0.537465,109.742062,139.0,no,,1,,"[08, 26]",08,0,,0,,False
+ID-0180,Yaosakor Airstrip,small_airport,Yaosakor,Papua Selatan (South Papua),Indonesia,-5.603899,138.46525,10.0,no,,1,,"[03, 21]",03,0,,0,,False
+ID-0181,Weda Bay Airport,small_airport,Weda,Maluku Utara (North Maluku),Indonesia,0.467938,127.948242,11.0,no,WDB,1,,"[09, 27]",09,0,,0,,False
+ID-0182,Pemping Helipad,heliport,Batam City,Kepulauan Riau (Riau Islands),Indonesia,1.103007,103.797455,95.0,no,,0,,,,0,,0,,False
+ID-0183,Landasan Heliport,heliport,Serang,Banten,Indonesia,-6.14067,106.1983,89.0,no,,0,,,,0,,0,,False
+ID-0184,Arjasa Laok Heliport,heliport,Arjasa,Jawa Timur (East Java),Indonesia,-6.87013,115.2864,75.0,no,,0,,,,0,,0,,False
+ID-0185,Pertamina Heliport,heliport,Sapeken,Jawa Timur (East Java),Indonesia,-7.15784,115.78948,20.0,no,,0,,,,0,,0,,False
+ID-0186,Salakanagara Tanjun Lesung Airport,small_airport,Pandeglang,Banten,Indonesia,-6.49155,105.66967,20.0,no,,0,,,,0,,0,,False
+ID-0187,Amandaratu Heliport,heliport,Sukabumi,Jawa Barat (West Java),Indonesia,-7.37058,106.48564,112.0,no,,0,,,,0,,0,,False
+ID-0188,Aceh Indonesian National Police Headquarters Heliport,heliport,Banda Aceh,Aceh,Indonesia,5.57766,95.34874,16.0,no,,0,,,,0,,0,,False
+ID-0189,Takengon Indonesian National Police Heliport,heliport,Takengon,Aceh,Indonesia,4.624121,96.843241,4158.0,no,,0,,,,0,,0,,False
+ID-0190,Sorake Airport,small_airport,Teluk Dalam,Sumatera Utara (North Sumatra),Indonesia,0.58884,97.71899,125.0,no,,0,,,,0,,0,,False
+ID-0191,Tambling Airport,small_airport,Hutan,Lampung,Indonesia,-5.92113,104.55816,36.0,no,,0,,,,0,,0,,False
+ID-0192,Sorido Airfield,closed,Biak,Papua,Indonesia,-1.17363,136.05894,,no,,0,,,,0,,0,,False
+ID-0193,Kubibkop Airport,small_airport,Kubibkop,Papua Pegunungan (Highland Papua),Indonesia,-4.79436,140.69447,7470.0,yes,,0,,,,0,,0,,False
+ID-0194,Korowai Batu Danowage Airport,small_airport,Danowage,Papua Selatan (South Papua),Indonesia,-5.2127,140.017582,340.0,no,,0,,,,0,,0,,False
+ID-0195,Molding Airstrip,small_airport,Pegunungan Bintang,Papua Pegunungan (Highland Papua),Indonesia,-4.891004,140.74213,4100.0,yes,,0,,,,0,,0,,False
+ID-0196,Tarup Airstrip,small_airport,Tarup,Papua Pegunungan (Highland Papua),Indonesia,-5.097671,140.821627,2000.0,yes,,0,,,,0,,0,,False
+ID-0197,Tinibil Airstrip,small_airport,Pegunungan Bintang,Papua Pegunungan (Highland Papua),Indonesia,-4.824475,140.87378,5400.0,yes,,0,,,,0,,0,,False
+ID-0198,Denom Airstrip,small_airport,Denom,Papua Pegunungan (Highland Papua),Indonesia,-5.144915,140.967065,2200.0,no,,0,,,,0,,0,,False
+ID-0199,Okbab Airstrip,small_airport,Okbab,Papua Pegunungan (Highland Papua),Indonesia,-4.586015,140.499844,6000.0,yes,,0,,,,0,,0,,False
+ID-0200,Alemson Airstrip,small_airport,Alemson,Papua Pegunungan (Highland Papua),Indonesia,-4.816571,140.222819,5200.0,yes,,0,,,,0,,0,,False
+ID-0201,Kotyobakon Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-4.638376,140.654907,5100.0,yes,,0,,,,0,,0,,False
+ID-0202,Mipol Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-4.605771,140.634806,4800.0,yes,,0,,,,0,,0,,False
+ID-0203,Binban Airstrip,small_airport,Binban,Papua Pegunungan (Highland Papua),Indonesia,-4.585309,140.533962,5200.0,yes,,0,,,,0,,0,,False
+ID-0204,Kaklup Airstrip,small_airport,Kaklup,Papua Pegunungan (Highland Papua),Indonesia,-4.620771,140.531688,6500.0,yes,,0,,,,0,,0,,False
+ID-0205,Maksum Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-4.58066,140.515995,5500.0,yes,,0,,,,0,,0,,False
+ID-0206,Maksum Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-4.632613,140.497466,6900.0,no,,0,,,,0,,0,,False
+ID-0207,Pedam Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-4.539485,140.462018,6400.0,yes,,0,,,,0,,0,,False
+ID-0208,Dumpasik Airstrip,small_airport,Dumpasik,Papua Pegunungan (Highland Papua),Indonesia,-4.455194,140.508871,4200.0,yes,,0,,,,0,,0,,False
+ID-0209,Bordamban Airport,small_airport,Bordamban,Papua Pegunungan (Highland Papua),Indonesia,-4.439924,140.484527,3000.0,yes,,0,,,,0,,0,,False
+ID-0210,Kirimu Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-4.464786,140.393016,6400.0,yes,,0,,,,0,,0,,False
+ID-0211,Hangmata Airstrip,small_airport,Hangmata,Papua Pegunungan (Highland Papua),Indonesia,-4.49226,140.657322,3300.0,yes,,0,,,,0,,0,,False
+ID-0212,Arso Airport,closed,Arso,Papua,Indonesia,-2.933333,140.78334,208.0,no,,1,1800.0,"[17, 35]",17,0,,0,,False
+ID-0213,Biak Manuhua Airport,closed,Biak,Papua,Indonesia,-1.173038,136.081181,33.0,no,,0,,,,0,,0,,False
+ID-0214,Blangkejeren Airport,small_airport,Kabupaten Gayo Lues,Aceh,Indonesia,3.94548,97.35968,,no,GYO,0,,,,0,,0,,False
+ID-0215,Bobkamu Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-4.463818,140.262414,4685.0,no,,0,,,,0,,0,,False
+ID-0216,Weime Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-4.354141,140.260381,4888.0,no,,0,,,,0,,0,,False
+ID-0217,Tumdungbon Airstrip,small_airport,Pegunungan Bintang Regency,Papua Pegunungan (Highland Papua),Indonesia,-5.179406,140.520099,,no,,0,,,,0,,0,,False
+ID-0218,Kawor Airstrip,small_airport,Kawor,Papua Selatan (South Papua),Indonesia,-5.232712,140.519992,469.0,no,,0,,,,0,,0,,False
+ID-0219,Dewok Airport,small_airport,Boven Digoel Regency,Papua Selatan (South Papua),Indonesia,-5.278326,140.681963,,no,,0,,,,0,,0,,False
+ID-0220,Manggelum Airport,small_airport,Boven Digoel Regency,Papua Selatan (South Papua),Indonesia,-5.416371,140.436231,217.0,no,,0,,,,0,,0,,False
+ID-0221,Hollandia Airfield,closed,Sentani,Papua,Indonesia,-2.561139,140.479302,331.0,no,,0,,,,0,,0,,False
+ID-0222,Begowre Airstrip,small_airport,Begowre,Papua,Indonesia,-2.982106,140.925279,360.0,no,,0,,,,0,,0,,False
+ID-0223,Ideduna Airstrip,small_airport,Ideduna,Papua Tengah (Central Papua),Indonesia,-3.961954,135.482025,6001.0,no,,0,,,,0,,0,,False
+ID-0224,Bias Airstrip,small_airport,Bias,Papua Pegunungan (Highland Papua),Indonesia,-3.999569,140.82041,397.0,no,,0,,,,0,,0,,False
+ID-0225,Walibaru Airstrip,small_airport,Walibaru,Papua Selatan (South Papua),Indonesia,-5.39973,140.198652,154.0,no,,0,,,,0,,0,,False
+ID-0226,Taria Airstrip,small_airport,Taria,Papua,Indonesia,-3.410527,138.895308,348.0,no,,0,,,,0,,0,,False
+ID-0227,Dadou Airstrip,small_airport,Dadou,Papua Tengah (Central Papua),Indonesia,-3.686435,136.063217,4679.0,no,,0,,,,0,,0,,False
+ID-0228,Daboto Airstrip,small_airport,Daboto,Papua Tengah (Central Papua),Indonesia,-3.295335,136.408213,2575.0,no,,0,,,,0,,0,,False
+ID-0229,Zotadi Airstrip,small_airport,Zotadi,Papua Tengah (Central Papua),Indonesia,-3.67449,136.56833,5160.0,no,,0,,,,0,,0,,False
+ID-0230,Pagamba Airstrip,small_airport,Pagamba,Papua Tengah (Central Papua),Indonesia,-3.64307,136.67854,5690.0,no,,0,,,,0,,0,,False
+ID-0231,Kemayoran Airport,closed,Jakarta,Jakarta Raya,Indonesia,-6.147222,106.85,12.0,no,,0,,,,0,,0,,False
+ID-0232,Yeimu Airstrip,closed,Yeimu,Papua Pegunungan (Highland Papua),Indonesia,-4.551057,139.336805,2400.0,no,,1,951.0,"[07A, 25D]",07A,0,,0,,False
+ID-0233,Supugi Airstrip,small_airport,Supugi,Papua Pegunungan (Highland Papua),Indonesia,-4.328303,139.098995,,no,,1,,"[13D, 31A]",13D,0,,0,,False
+ID-0234,Unggulpalek Airstrip,closed,Unggulpalek,Papua Pegunungan (Highland Papua),Indonesia,-4.351211,139.158046,,no,,0,,,,0,,0,,False
+ID-0235,NA Air Service Helipad,heliport,Kota Pontianak,Kalimantan Barat (West Kalimantan),Indonesia,-0.02287,109.33571,4.0,no,,0,,,,0,,0,,False
+ID-0236,Tongas Heliport,heliport,Tongas,Jawa Timur (East Java),Indonesia,-7.75999,113.10563,,no,,0,,,,0,,0,,False
+ID-0237,Grati Airport,small_airport,"Lekok, Pasuruan",Jawa Timur (East Java),Indonesia,-7.67253,113.03682,187.0,no,,0,,,,0,,0,,False
+ID-0238,Pandanwangi Air Force Heliport,heliport,Lumajang,Jawa Timur (East Java),Indonesia,-8.263041,113.192074,,no,,0,,,,0,,0,,False
+ID-0239,Jatimulyo Air Force Heliport,heliport,Jatimulyo,Jawa Timur (East Java),Indonesia,-8.27823,113.2216,,no,,0,,,,0,,0,,False
+ID-0240,Pasirian Airfield,closed,"Kunir, Lumajang",Jawa Timur (East Java),Indonesia,-8.27881,113.21208,21.0,no,,0,,,,0,,0,,False
+ID-0241,Gorda Airfield,closed,Binuang,Banten,Indonesia,-6.14007,106.34389,,no,,0,,,,0,,0,,False
+ID-0242,Citeurup Paraglider Airport,small_airport,Citeurup,Jawa Barat (West Java),Indonesia,-6.50814,106.87836,,no,,0,,,,0,,0,,False
+ID-0243,Lido Airstrip,small_airport,Cigombong,Jawa Barat (West Java),Indonesia,-6.75333,106.81171,,no,,0,,,,0,,0,,False
+ID-0244,Cikembar Airport,small_airport,Cikembar,Jawa Barat (West Java),Indonesia,-6.96924,106.78866,,no,,0,,,,0,,0,,False
+ID-0245,Garongkong Heliport,heliport,Garongkong,Sulawesi Selatan (South Sulawesi),Indonesia,-4.37642,119.61364,,no,,0,,,,0,,0,,False
+ID-0246,Asua Airport,small_airport,Asua,Papua Pegunungan (Highland Papua),Indonesia,-4.686881,140.789845,,no,,0,,,,0,,0,,False
+ID-0247,Mewengde Airstrip,small_airport,Mewengde,Papua Pegunungan (Highland Papua),Indonesia,-4.820969,140.237545,,no,,0,,,,0,,0,,False
+ID-0248,Eragayam Airport,small_airport,Eragayam,Papua Pegunungan (Highland Papua),Indonesia,-3.733891,138.747881,,no,,0,,,,0,,0,,False
+ID-0249,Mamit Airstrip,small_airport,Mamit,Papua Pegunungan (Highland Papua),Indonesia,-3.589005,138.396857,4726.0,no,,0,,,,0,,0,,False
+ID-0250,Yobesorum Airstrip,small_airport,Yobesorum,Papua Pegunungan (Highland Papua),Indonesia,-4.285211,140.026433,3414.0,no,,1,1286.0,"[08D, 26A]",08D,0,,0,,False
+ID-0251,Bolakna Airstrip,small_airport,Bolakna,Papua Pegunungan (Highland Papua),Indonesia,-4.23424,140.000619,3435.0,no,,0,,,,0,,0,,False
+ID-0252,Manggar Airfield,closed,Balikpapan,Kalimantan Timur (East Kalimantan),Indonesia,-1.200426,116.97577,,no,,0,,,,0,,0,,False
+ID-0253,bontang selatan aerodrome,closed,Bontang selatan,Kalimantan Timur (East Kalimantan),Indonesia,0.034898,117.478783,,no,,0,,,,0,,0,,False
+ID-0254,Cyclops Airfield,closed,Sentani,Papua,Indonesia,-2.57347,140.52553,,no,,0,,,,0,,0,,False
+ID-0255,Baya Biru Airport,small_airport,Baya Biru,Papua Tengah (Central Papua),Indonesia,-3.618606,136.267033,2697.0,no,,0,,,,0,,0,,False
+ID-0256,Supleyu Airstrip,small_airport,Supleyu,Papua Pegunungan (Highland Papua),Indonesia,-4.43285,140.16682,5610.0,no,,0,,,,0,,0,,False
+ID-0257,Tanime Airstrip,small_airport,Tanime,Papua Pegunungan (Highland Papua),Indonesia,-4.45145,140.13042,5187.0,no,,0,,,,0,,0,,False
+ID-0258,Suaka Airstrip,small_airport,Suaka,Papua Pegunungan (Highland Papua),Indonesia,-4.464786,140.099008,5525.0,no,,0,,,,0,,0,,False
+ID-0259,Eipomek Airstrip,small_airport,Eipomek,Papua Pegunungan (Highland Papua),Indonesia,-4.45584,140.02531,6155.0,no,,0,,,,0,,0,,False
+ID-0260,Famek Airstrip,small_airport,Famek,Papua Pegunungan (Highland Papua),Indonesia,-4.425722,140.021954,6204.0,no,,0,,,,0,,0,,False
+ID-0261,Soya Airstrip,small_airport,Soya,Papua Pegunungan (Highland Papua),Indonesia,-4.37183,139.91673,6709.0,no,,0,,,,0,,0,,False
+ID-0262,Aksal Airstrip,small_airport,Aksal,Papua Pegunungan (Highland Papua),Indonesia,-4.34395,139.88754,5374.0,no,,0,,,,0,,0,,False
+ID-0263,Kalbok Airstrip,small_airport,Kalbok,Papua Pegunungan (Highland Papua),Indonesia,-4.30181,139.80474,6138.0,no,,0,,,,0,,0,,False
+ID-0264,Kono Airstrip,small_airport,Kono,Papua Pegunungan (Highland Papua),Indonesia,-4.275717,139.735893,6437.0,no,,0,,,,0,,0,,False
+ID-0265,Trison Airstrip,small_airport,Trison,Papua Pegunungan (Highland Papua),Indonesia,-4.26309,139.68456,7920.0,no,,0,,,,0,,0,,False
+ID-0266,Fenteheik Airstrip,small_airport,Muhumu,Papua Pegunungan (Highland Papua),Indonesia,-4.21977,139.41273,6119.0,no,,0,,,,0,,0,,False
+ID-0267,Pasikni Airstrip,small_airport,Waniyok,Papua Pegunungan (Highland Papua),Indonesia,-4.216844,139.424413,6440.0,no,,0,,,,0,,0,,False
+ID-0268,Asotipo Airstrip,small_airport,Asotipo,Papua Pegunungan (Highland Papua),Indonesia,-4.17695,138.99303,5778.0,no,,0,,,,0,,0,,False
+ID-0269,Basir Airstrip,small_airport,Basir,Papua Pegunungan (Highland Papua),Indonesia,-4.372814,140.69684,1079.0,no,,1,,"[02D, 20A]",02D,0,,0,,False
+ID-0270,Milki Airstrip,small_airport,Milki,Papua Pegunungan (Highland Papua),Indonesia,-4.097372,140.711331,1004.0,no,,0,,,,0,,0,,False
+ID-0271,Dulis Airstrip,small_airport,Dulis,Papua Pegunungan (Highland Papua),Indonesia,-4.077257,140.661553,860.0,no,,0,,,,0,,0,,False
+ID-0272,Sawan Airfield,closed,"Sawan, Buleleng",Bali,Indonesia,-8.13278,115.172997,680.0,no,,0,,,,0,,0,,False
+ID-0273,Marimoi Airport,small_airport,Modjid-Celebes Island,Maluku Utara (North Maluku),Indonesia,1.101312,127.702467,114.0,no,,1,3020.0,"[15, 33]",15,1,INFO,0,,True
+ID-0274,InterContinental Bali Heliport,heliport,"Kuta Selatan, Badung",Bali,Indonesia,-8.777655,115.168285,23.0,no,,0,,,,0,,0,,False
+ID-0275,balikpapan helipad,heliport,Balikpapan,Kalimantan Timur (East Kalimantan),Indonesia,-1.281721,116.814587,,no,,0,,,,0,,0,,False
+ID-0276,Kayuadi Airport,closed,Kayuadi,Sulawesi Selatan (South Sulawesi),Indonesia,-6.857407,120.797467,43.0,no,,0,,,,0,,0,,False
+ID-0277,Dhoho International Airport,medium_airport,Kediri,Jawa Timur (East Java),Indonesia,-7.749527,111.946831,380.0,yes,DHX,1,10827.0,"[14, 32]",14,4,"APP, ATIS, GND, TWR",0,,True
+ID-0278,Yabirik Airstripe,small_airport,Distrik Wusama,Papua Pegunungan (Highland Papua),Indonesia,-4.455186,138.823079,6151.0,no,,0,,,,0,,0,,False
+ID-0279,Helariki Airstrip,small_airport,Helariki,Papua Pegunungan (Highland Papua),Indonesia,-4.176059,139.439353,4900.0,no,,1,,"[13A, 31D]",13A,0,,0,,False
+ID-0280,Samenage Airstrip,small_airport,Samenage,Papua Pegunungan (Highland Papua),Indonesia,-4.395446,139.030167,7100.0,no,,1,984.0,"[07D, 29A]",07D,0,,0,,False
+ID-0281,Wakbisik Airstrip,small_airport,Wakbisek,Papua Pegunungan (Highland Papua),Indonesia,-4.349896,139.211615,7390.0,no,,1,1444.0,"[01, 19]",01,0,,0,,False
+ID-0282,Sobaham Airstrip,small_airport,Sobaham,Papua Pegunungan (Highland Papua),Indonesia,-4.314543,139.329624,8020.0,no,,0,,,,0,,0,,False
+ID-0283,Batam Police Heliport,heliport,Batam,Kepulauan Riau (Riau Islands),Indonesia,1.161152,104.121119,115.0,no,,0,,,,0,,0,,False
+ID-0284,Pusako Anak Nagariu Airport,small_airport,West Pasaman,Sumatera Barat (West Sumatra),Indonesia,0.076713,99.783846,76.0,no,,0,,,,0,,0,,False
+ID-0285,Tempuling Airport,small_airport,Tempuling,Riau,Indonesia,-0.427165,102.996126,23.0,no,,0,,,,0,,0,,False
+ID-0288,Siboru Airport,small_airport,Fakfak,Papua Barat (West Papua),Indonesia,-2.928056,132.089447,406.0,no,,0,,,,0,,0,,False
+ID-0290,Singkawang Airport,small_airport,Singkawang,Kalimantan Barat (West Kalimantan),Indonesia,0.789936,108.960395,55.0,no,SKJ,0,,,,0,,0,,False
+ID-0292,Bela Airstrip,small_airport,Mimika,Papua Tengah (Central Papua),Indonesia,-4.250278,137.850278,,no,,0,,,,0,,0,,False
+ID-0293,Amman Mineral Nusa Tenggara Airport (under construction),closed,Pototano,Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.592566,116.793819,33.0,no,,0,,,,0,,0,,False
+ID-0295,Sungai Nusa Airstrip,small_airport,Sukamandan,Kalimantan Tengah (Central Kalimantan),Indonesia,-2.09842,112.2532,,no,,0,,,,0,,0,,False
+ID-0296,Kantor Besar Lengadang Estate Airstrip,small_airport,Batu Ampar,Kalimantan Tengah (Central Kalimantan),Indonesia,-2.2618,112.11646,,no,,0,,,,0,,0,,False
+ID-0297,Nahiyang Estate Airstrip,small_airport,Batu Ampar,Kalimantan Tengah (Central Kalimantan),Indonesia,-2.26711,112.19835,,no,,0,,,,0,,0,,False
+ID-0298,Batu Manangis Airport,small_airport,Batu Manangis,Kalimantan Tengah (Central Kalimantan),Indonesia,-2.15009,112.26928,157.0,no,,0,,,,0,,0,,False
+ID-0299,Tembelina Airstrip,small_airport,Semayok Baru,Kalimantan Barat (West Kalimantan),Indonesia,-1.7484,110.47658,,no,,0,,,,0,,0,,False
+ID-0300,Manis Mata Airstrip,small_airport,Manis Mata,Kalimantan Barat (West Kalimantan),Indonesia,-2.46441,110.96529,,no,,0,,,,0,,0,,False
+ID-0301,South Bangka Police Station Heliport,heliport,Toboali,Bangka Belitung,Indonesia,-2.96808,106.47341,,no,,0,,,,0,,0,,False
+ID-0303,Mbugulo Airstrip,small_airport,Mapa,Papua,Indonesia,-3.70788,136.74285,6683.0,no,,0,,,,0,,0,,False
+ID-0304,Fly Bali Heliport,heliport,"Kuta Selatan, Badung",Bali,Indonesia,-8.83996,115.16181,367.0,no,,0,,,,0,,0,,False
+ID-0305,SGi Benoa Heliport,heliport,Denpasar,Bali,Indonesia,-8.72649,115.21595,7.0,no,,0,,,,0,,0,,False
+ID-0306,Balicopter Klapa Helicopter Landing Area,heliport,"Kuta Selatan, Badung",Bali,Indonesia,-8.80247,115.12569,157.0,no,,0,,,,0,,0,,False
+ID-0307,JAG Heliport,heliport,"Kuta Selatan, Badung",Bali,Indonesia,-8.83107,115.20812,210.0,no,,0,,,,0,,0,,False
+ID-0308,Peninsula Island Nusa Dua Heliport,heliport,"Kuta Selatan, Badung",Bali,Indonesia,-8.80159,115.23846,7.0,no,,0,,,,0,,0,,False
+ID-0309,Taro Elephant Safari Park Heliport,heliport,"Ubud, Gianyar",Bali,Indonesia,-8.39278,115.28513,1975.0,no,,0,,,,0,,0,,False
+ID-0310,Nusa Lembongan Heliport,heliport,"Nusa Penida, Klungkung",Bali,Indonesia,-8.68446,115.44672,200.0,no,,0,,,,0,,0,,False
+ID-0311,Menjangan Dynasty Resort Heliport,heliport,"Gerokgak, Buleleng",Bali,Indonesia,-8.13452,114.56342,49.0,no,,0,,,,0,,0,,False
+ID-0312,Joyo's Heliport,heliport,"Tegaldlimo, Banyuwangi",Jawa Timur (East Java),Indonesia,-8.73018,114.35113,17.0,no,,0,,,,0,,0,,False
+ID-0313,Mandalika International Circuit Heliport,heliport,"Pujut, Lombok Tengah",Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.89364,116.30298,41.0,no,,0,,,,0,,0,,False
+ID-0314,Lombok Lodge Heliport,heliport,"Tanjung, Lombok Utara",Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.36127,116.12436,23.0,no,,0,,,,0,,0,,False
+ID-0315,Sunset Yoga Helipad Gili Trawangan,heliport,"Pemanang, Lombok Utara",Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.36163,116.03464,3.0,no,,0,,,,0,,0,,False
+ID-0316,Palasari Heliport,heliport,"Melaya, Jembrana",Bali,Indonesia,-8.25544,114.54499,206.0,no,,0,,,,0,,0,,False
+ID-0317,Jati Papak Airstrip,small_airport,"Tegaldlimo, Banyuwangi",Jawa Timur (East Java),Indonesia,-8.54091,114.3755,39.0,no,,0,,,,0,,0,,False
+ID-0318,PT Bumi Suksesindo Heliport,heliport,"Pesanggaran, Banyuwangi",Jawa Timur (East Java),Indonesia,-8.60175,114.03169,39.0,no,,0,,,,0,,0,,False
+ID-0319,Selaparang Airport,closed,Mataram,Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.56056,116.095097,52.0,no,,1,6853.0,"[09, 27]",09,2,"APP, TWR",2,"GA, MTM",False
+ID-0320,Jefman Airport,closed,Jefman,Papua Barat (West Papua),Indonesia,-0.926358,131.121002,10.0,no,,0,,,,1,TWR,2,"SOG, ZO",False
+ID-0321,Keisah Airport,closed,Keisah,Papua Selatan (South Papua),Indonesia,-7.70226,140.512932,54.0,no,,0,,,,0,,0,,False
+ID-0322,Mangun Jaya Airport,closed,Mangun Jaya,Sumatera Selatan (South Sumatra),Indonesia,-2.73333,103.567001,76.0,no,,0,,,,0,,0,,False
+ID-0323,Muting Airport,closed,Muting,Papua Selatan (South Papua),Indonesia,-7.3147,140.5668,70.0,no,,1,2050.0,"[8, 26]",8,0,,0,,False
+ID-0324,Yuruf Airport [UNUSABLE],small_airport,Amgotro,Papua,Indonesia,-3.628919,140.953689,1844.0,no,RUF,0,,,,0,,0,,False
+ID-0325,Sangir Airport,closed,Sangir,Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.36667,118.333359,175.0,no,,0,,,,0,,0,,False
+ID-0326,Malili Airport,closed,Malili,Sulawesi Selatan (South Sulawesi),Indonesia,-2.62966,121.097102,19.0,no,,0,,,,0,,0,,False
+ID-0327,Punggaluku Airport,closed,Wawooru,Sulawesi Tenggara (Southeast Sulawesi),Indonesia,-4.316667,122.466667,43.0,no,,1,,"[07, 25]",07,0,,0,,False
+ID-0328,Sudjarwo Tjondronegoro Airport,closed,Serui,Papua,Indonesia,-1.87438,136.23946,50.0,no,,1,2133.0,"[18, 36]",18,1,AFIS,1,ZU,False
+ID-0329,Waris Airport,closed,Swach,Papua,Indonesia,-3.23337,140.985451,1500.0,no,,0,,,,0,,0,,False
+ID-0330,Ubrub Airport,closed,Ubrub,Papua,Indonesia,-3.675686,140.885067,1370.0,no,,1,1595.0,"[09, 27]",09,0,,0,,False
+ID-0331,Tentena Airport,closed,Tentena,Sulawesi Tengah (Central Sulawesi),Indonesia,-2.0,120.76667,1900.0,no,,0,,,,0,,0,,False
+ID-0332,Pelabuhan Ratu Airport,closed,Pelabuhan Ratu,Jawa Barat (West Java),Indonesia,-6.982321,106.540457,65.0,no,,0,,,,0,,0,,False
+ID-0333,Kisaran Airport,closed,Kisaran,Sumatera Utara (North Sumatra),Indonesia,2.97379,99.600998,96.0,no,,0,,,,0,,0,,False
+ID-0335,Keluang Airport,closed,Keluang,Sumatera Selatan (South Sumatra),Indonesia,-2.640962,103.914557,76.0,no,,0,,,,0,,0,,False
+ID-0336,Beringin Airport,closed,Murateweh,Kalimantan Tengah (Central Kalimantan),Indonesia,-0.942549,114.89399,126.0,no,,1,2953.0,"[13, 31]",13,0,,1,MW,False
+ID-0337,Kalabahi Airport,closed,Kalabahi,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.216667,124.566666,33.0,no,,0,,,,0,,0,,False
+ID-0338,Tanjung Perak Airport,closed,Surabaya,Jawa Timur (East Java),Indonesia,-7.217473,112.712343,9.0,no,,0,,,,0,,0,,False
+ID-0339,Old Nabire Airport,medium_airport,Nabire,Papua Tengah (Central Papua),Indonesia,-3.368586,135.496702,20.0,yes,,1,4593.0,"[16, 34]",16,2,"RDO, TWR",2,"NBR, ZR",True
+ID-0340,Tabing Airport,medium_airport,Padang,Sumatera Barat (West Sumatra),Indonesia,-0.874989,100.351997,9.0,yes,,1,7040.0,"[16, 34]",16,3,"APP, ATIS, TWR",2,"OQ, PDG",True
+ID-0341,Susilo Airport,medium_airport,Sintang,Kalimantan Barat (West Kalimantan),Indonesia,0.063851,111.473572,98.0,no,,1,4256.0,"[08, 26]",08,1,INFO,1,SG,True
+ID-0342,Helvetia Airport,small_airport,Medan,Sumatera Utara (North Sumatra),Indonesia,3.68306,98.644203,49.0,no,,0,,,,0,,0,,False
+ID-0343,Kota Mobagu/Mopait Airport,closed,Kota Mobagu,Sulawesi Utara (North Sulawesi),Indonesia,0.686111,124.273611,584.0,no,,1,2133.0,"[18, 36]",18,0,,0,,False
+ID-0345,Tebing Tinggi Airport,small_airport,Tabbing Tinggi-Sumatra Island,Sumatera Utara (North Sumatra),Indonesia,3.366667,99.116669,69.0,no,,0,,,,0,,0,,False
+ID-0346,Giliyang Heliport,heliport,Sumenep,Jawa Timur (East Java),Indonesia,-7.00218,114.17324,59.0,no,,0,,,,0,,0,,False
+ID-0347,PT Free Port Manyar Heliport,heliport,"Manyar, Gresik",Jawa Timur (East Java),Indonesia,-7.08359,112.60498,10.0,no,,0,,,,0,,0,,False
+ID-0348,Lamongan Shorebase Heliport,heliport,Lamongan,Jawa Timur (East Java),Indonesia,-6.86911,112.41675,141.0,no,,0,,,,0,,0,,False
+ID-0349,Holcim Tuban Heliport,heliport,Tuban,Jawa Timur (East Java),Indonesia,-6.81441,111.88536,105.0,no,,0,,,,0,,0,,False
+ID-0350,Pacitan Air Base,heliport,Pacitan,Jawa Timur (East Java),Indonesia,-8.21185,111.08605,23.0,no,,0,,,,0,,0,,False
+ID-0351,Sumbawa Barat Airport,small_airport,Sumbawa Barat,Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.99519,116.7444,33.0,no,,0,,,,0,,0,,False
+ID-0352,Bukit Mulia Airport,small_airport,"Kintap, Tanah Laut",Kalimantan Selatan (South Kalimantan),Indonesia,-3.79107,115.29557,82.0,no,,0,,,,0,,0,,False
+ID-0353,Kintap Airport,small_airport,"Kintap, Tanah Laut",Kalimantan Selatan (South Kalimantan),Indonesia,-3.8244,115.1825,66.0,no,,0,,,,0,,0,,False
+ID-0354,Lombok Private Villa Estate Heliport,heliport,"Gangga, Lombok Utara",Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.33523,116.18193,16.0,no,,0,,,,0,,0,,False
+ID-0355,Gudang Garam Heliport,heliport,"Paiton, Probolinggo",Jawa Timur (East Java),Indonesia,-7.71802,113.52407,33.0,no,,0,,,,0,,0,,False
+ID-0356,UMM Heliport,heliport,"Karang Ploso, Malang",Jawa Timur (East Java),Indonesia,-7.92155,112.59729,1778.0,no,,0,,,,0,,0,,False
+ID-0357,Office Tower PT Gudang Garam Tbk Kediri Heliport,heliport,Kediri,Jawa Timur (East Java),Indonesia,-7.80766,112.00982,,no,,0,,,,0,,0,,False
+ID-0358,Surya Air Gudang Garam Heliport,heliport,Kediri,Jawa Timur (East Java),Indonesia,-7.79019,112.01084,246.0,no,,0,,,,0,,0,,False
+ID-0359,Tomboki Airstrip,small_airport,Tomboki,Papua,Indonesia,-4.2295,139.45225,6558.0,no,,0,,,,0,,0,,False
+ID-0360,Nisikni Airstrip,small_airport,Nisikni,Papua,Indonesia,-4.24745,139.47418,7503.0,no,,0,,,,0,,0,,False
+ID-0361,Menou Airstrip,small_airport,Menou,Papua Tengah (Central Papua),Indonesia,-3.86487,135.51802,4741.0,no,,0,,,,0,,0,,False
+ID-0362,Apogomakida Airstrip,small_airport,Apogomakida,Papua Tengah (Central Papua),Indonesia,-4.00453,135.49515,5988.0,no,,0,,,,0,,0,,False
+ID-0363,Sagan Airfield,closed,Wasior,Papua Barat (West Papua),Indonesia,-2.78618,134.52473,69.0,no,,0,,,,0,,0,,False
+ID-0364,Uetangko Airstrip,small_airport,Ulubongka,Sulawesi Tengah (Central Sulawesi),Indonesia,-1.283333,121.8,1014.0,no,,0,,,,0,,0,,False
+ID-0369,Wari Airport,small_airport,Taiyeve,Papua Pegunungan (Highland Papua),Indonesia,-3.294914,138.462961,226.0,no,,0,,,,0,,0,,False
+ID-0370,Balinggama Airstrip,small_airport,Balinggama,Papua Pegunungan (Highland Papua),Indonesia,-4.348044,139.319022,7411.0,no,,0,,,,0,,0,,False
+ID-0371,Kweapbel Airstrip,small_airport,Korambirik,Papua Pegunungan (Highland Papua),Indonesia,-4.380903,138.684517,7247.0,no,,0,,,,0,,0,,False
+ID-0372,Gingginem Airstrip,small_airport,Nggingginem,Papua Pegunungan (Highland Papua),Indonesia,-4.41147,138.6815,5504.0,no,,0,,,,0,,0,,False
+ID-0373,Bikgunulingge Airstrip,small_airport,Bikgunulingge,Papua Pegunungan (Highland Papua),Indonesia,-4.431974,138.666689,6605.0,no,,0,,,,0,,0,,False
+ID-0374,Bina Airstrip,small_airport,Bina,Papua Tengah (Central Papua),Indonesia,-3.706185,137.728514,5265.0,no,,0,,,,0,,0,,False
+ID-0375,Ipdeheik Airstrip,small_airport,Ipdeheik,Papua Pegunungan (Highland Papua),Indonesia,-4.377306,139.319633,7897.0,no,,0,,,,0,,0,,False
+ID-0376,Eyub Airstrip,small_airport,Eyub,Papua Pegunungan (Highland Papua),Indonesia,-4.534076,139.766729,6751.0,no,,1,,"[12D, 30A]",12D,0,,0,,False
+ID-0377,Paima Airstrip,small_airport,Paima,Papua Pegunungan (Highland Papua),Indonesia,-4.456555,139.159859,5519.0,no,,1,,"[NEA, SWD]",NEA,0,,0,,False
+ID-0378,Amuma Airstrip,small_airport,Sarumugai,Papua Pegunungan (Highland Papua),Indonesia,-4.473639,138.986646,5798.0,no,,1,,"[EA, WD]",EA,0,,0,,False
+ID-0379,Lolat Airport,small_airport,Bimahak,Papua Pegunungan (Highland Papua),Indonesia,-4.487786,139.438915,6366.0,no,,2,1199.0,"[05, 23], [H]","05, H",0,,0,,False
+ID-0380,Aniek Airstrip,small_airport,Aniek,Papua Pegunungan (Highland Papua),Indonesia,-4.441464,139.309477,5659.0,no,,0,,,,0,,0,,False
+ID-0381,Molof Airstrip,small_airport,Molof,Papua,Indonesia,-3.41504,140.551965,653.0,no,,0,,,,0,,0,,False
+ID-0382,Wetar Island Airport,small_airport,Maluku Barar Daya,Maluku,Indonesia,-7.692954,126.305672,41.0,no,,0,,,,0,,0,,False
+ID-0383,Langsa Airstrip,small_airport,Kota Langsa,Aceh,Indonesia,4.529838,98.023752,10.0,no,,1,2625.0,"[05, 23]",05,0,,0,,False
+ID-0384,Helipad Koptu Legi,heliport,Tapaktuan,Aceh,Indonesia,3.256464,97.18706,30.0,no,,1,23.0,"[17, 35]",17,0,,0,,False
+ID-0385,Dagi Baru Airstrip,small_airport,,Papua Pegunungan (Highland Papua),Indonesia,-4.530773,139.627377,5523.0,no,,0,,,,0,,0,,False
+ID-0386,Hogio Airstrip,small_airport,Hogio,Papua Pegunungan (Highland Papua),Indonesia,-4.428133,139.135677,5945.0,no,,0,,,,0,,0,,False
+ID-0387,Kemligin Airstrip,small_airport,Kemligen,Papua Pegunungan (Highland Papua),Indonesia,-4.565714,139.662389,6700.0,no,,0,,,,0,,0,,False
+ID-0388,Duram Airport,small_airport,Duram,Papua Pegunungan (Highland Papua),Indonesia,-4.473184,139.618372,7360.0,no,,0,,,,0,,0,,False
+ID-0389,Scholuna Airstrip,small_airport,Scholuna,Papua Pegunungan (Highland Papua),Indonesia,-4.381769,139.41539,7758.0,no,,0,,,,0,,0,,False
+ID-0390,Bisek Airstrip,small_airport,Bisek,Papua Pegunungan (Highland Papua),Indonesia,-4.350767,139.249926,7374.0,no,,0,,,,0,,0,,False
+ID-0391,Una Airstrip,small_airport,Una,Papua Pegunungan (Highland Papua),Indonesia,-4.424223,139.299399,5880.0,no,,0,,,,0,,0,,False
+ID-0392,Liruk Airstrip,small_airport,Liruk,Papua Pegunungan (Highland Papua),Indonesia,-4.373789,139.280469,7884.0,no,,0,,,,0,,0,,False
+ID-0393,Kosorek Airport,small_airport,Kosorek,Papua Pegunungan (Highland Papua),Indonesia,-4.127259,139.531326,4722.0,no,,0,,,,0,,0,,False
+ID-0394,Burumeso Airstrip,small_airport,Burumeso,Papua,Indonesia,-2.353127,137.998064,193.0,no,,0,,,,0,,0,,False
+ID-0395,Beoga Airstrip,small_airport,,Papua Tengah (Central Papua),Indonesia,-3.019129,137.2844,,no,,0,,,,0,,0,,False
+ID-0396,Grosberg Mine Heliport,heliport,Tembagapura,Papua Tengah (Central Papua),Indonesia,-4.062167,137.146387,12913.0,no,,0,,,,0,,0,,False
+ID-0397,Kabare Airport,small_airport,Kabare,Papua Barat Daya (Southwest Papua),Indonesia,-0.05022,131.001631,41.0,no,,0,,,,0,,0,,False
+ID-0398,Felix Demin Heliport,heliport,Badung,Bali,Indonesia,-8.82103,115.12648,531.0,no,,0,,,,0,,0,,False
+ID-0399,Basarnas Heliport,heliport,"Kuta, Badung",Bali,Indonesia,-8.75546,115.16815,16.0,no,,0,,,,0,,0,,False
+ID-0400,Viceroy Bali Heliport,heliport,"Ubud, Gianyar",Bali,Indonesia,-8.49396,115.27707,853.0,no,,0,,,,0,,0,,False
+ID-0401,Mason Adventure Center Heliport,heliport,"Ubud, Gianyar",Bali,Indonesia,-8.47995,115.24714,958.0,no,,0,,,,0,,0,,False
+ID-0402,WRS Seminyak Heliport,heliport,"Seminyak, Badung",Bali,Indonesia,-8.6778,115.15064,,no,,0,,,,0,,0,,False
+ID-0403,Prof. dr. I.G.N.G. Ngoerah General Hospital Heliport,heliport,Denpasar,Bali,Indonesia,-8.67541,115.21304,,no,,0,,,,0,,0,,False
+ID-0404,Tsinga Airstrip,small_airport,Tsinga Mulu,Papua Tengah (Central Papua),Indonesia,-4.20282,137.230391,6906.0,no,,0,,,,0,,0,,False
+ID-0405,Mugi Airstrip,small_airport,Darakma,Papua Pegunungan (Highland Papua),Indonesia,-4.242607,138.331831,,no,,0,,,,0,,0,,False
+ID-0406,Teraplu Airport,small_airport,Terablu,Papua Pegunungan (Highland Papua),Indonesia,-3.991445,140.445024,791.0,no,,0,,,,0,,0,,False
+ID-0407,Kapiraya Airstrip,small_airport,,Papua Tengah (Central Papua),Indonesia,-4.411759,135.998729,161.0,no,,0,,,,0,,0,,False
+ID-0408,Kilmit Airstrip,small_airport,Kilmit,Papua Pegunungan (Highland Papua),Indonesia,-4.309575,138.122154,3291.0,no,,0,,,,0,,0,,False
+ID-0410,Byan Airport,small_airport,"Umaq Dian, Tabang, Kutai Kartanegara Regency",Kalimantan Timur (East Kalimantan),Indonesia,0.549769,116.101542,226.0,no,,1,5906.0,"[09, 27]",09,0,,0,,False
+ID-0411,Pasema Airstrip,small_airport,"Pasema, Yahukimo",Papua Pegunungan (Highland Papua),Indonesia,-4.376692,139.083463,4269.0,no,,0,,,,0,,0,,False
+ID-AAS,Apalapsili Airport,small_airport,Apalapsili,Papua Pegunungan (Highland Papua),Indonesia,-3.882495,139.310932,3100.0,no,AAS,1,,"[17, 35]",17,0,,0,,False
+ID-AGD,Anggi Airport,small_airport,Anggi-Papua Island,Papua Barat (West Papua),Indonesia,-1.3858,133.8737,6644.0,no,AGD,1,1590.0,"[08, 26]",08,0,,0,,False
+ID-AHI,Mina Wanam Airport,small_airport,Wanam,Papua Selatan (South Papua),Indonesia,-7.540726,139.110916,22.0,no,,1,3281.0,"[13, 31]",13,0,,0,,False
+ID-AKQ,Astra Ksetra Airport,small_airport,Menggala,Lampung,Indonesia,-4.611588,105.231968,99.0,no,AKQ,0,,,,0,,0,,False
+ID-BJG,Boalang Airport,small_airport,Boalang-Celebes Island,Sulawesi Tengah (Central Sulawesi),Indonesia,-0.972896,122.144997,146.0,no,,0,,,,0,,0,,False
+ID-ELR,Elelim Airport,small_airport,Elelim,Papua Pegunungan (Highland Papua),Indonesia,-3.785922,139.384497,1490.0,no,ELR,1,2227.0,"[02, 20]",02,0,,0,,False
+ID-EWE,Ewer Asmat Airport,small_airport,Agats,Papua Selatan (South Papua),Indonesia,-5.496185,138.078361,27.0,no,EWE,1,1969.0,"[06, 24]",06,0,,0,,False
+ID-GAV,Gag Island Airport,small_airport,Gag Island,Papua Barat (West Papua),Indonesia,-0.400556,129.895004,1.0,no,GAV,0,,,,0,,0,,False
+ID-IUL,Ilu Airport,small_airport,Ilu,Papua Tengah (Central Papua),Indonesia,-3.7051,138.2002,6408.0,no,IUL,1,2297.0,"[17, 35]",17,0,,0,,False
+ID-KOD,Kotabangun Airport,small_airport,Kotabangun-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,-0.266669988632,116.583335876,13.0,no,KOD,0,,,,0,,0,,False
+ID-KRC,Departi Parbo Airport,small_airport,Sungai Penuh,Jambi,Indonesia,-2.094042,101.47025,2600.0,yes,KRC,1,5906.0,"[12, 30]",12,0,,0,,False
+ID-LLN,Kelila Airport,small_airport,Kelila,Papua Pegunungan (Highland Papua),Indonesia,-3.728968,138.710117,9092.0,no,LLN,1,2530.0,"[03, 21]",03,0,,0,,False
+ID-MSI,Masalembo Airport,small_airport,Masalembo Island,Jawa Timur (East Java),Indonesia,-5.583330154418945,114.43299865722656,30.0,no,MSI,0,,,,0,,0,,False
+ID-NAF,Banaina Airport,small_airport,Banaina-Borneo Island,Kalimantan Utara (North Kalimantan),Indonesia,2.72305011749,117.125999451,60.0,no,NAF,0,,,,0,,0,,False
+ID-OBD,Obano Airport,small_airport,Obano,Papua Tengah (Central Papua),Indonesia,-3.9106,136.2306,5800.0,no,OBD,1,2503.0,"[08, 26]",08,0,,0,,False
+ID-PPJ,Unknown Airport,small_airport,Paritsialing-Sumatra Island,Riau,Indonesia,-0.63333,103.300003,33.0,no,,0,,,,0,,0,,False
+ID-PUM,Pomala Airport,small_airport,Kolaka,Sulawesi Tenggara (Southeast Sulawesi),Indonesia,-4.181013,121.614665,88.0,no,,1,3280.0,"[08, 26]",08,0,,0,,False
+ID-RKI,Mentawai Airport,small_airport,Sipura Island,Sumatera Barat (West Sumatra),Indonesia,-2.1001,99.7044,26.0,yes,RKI,1,4921.0,"[14, 32]",14,0,,0,,False
+ID-TMY,Tiom Airport,small_airport,Tiom-Papua Island,Papua Pegunungan (Highland Papua),Indonesia,-3.9256,138.4555,6931.0,no,TMY,1,2165.0,"[12, 30]",12,0,,0,,False
+ID-ZGP,Bilorai Airport,medium_airport,Bilogai,Papua Tengah (Central Papua),Indonesia,-3.739503,137.031183,7348.0,yes,UGU,1,1969.0,"[09, 27]",09,0,,0,,False
+JIO,Jos Orno Imsula Airport,small_airport,Tiakur,Maluku,Indonesia,-8.140683,127.909669,43.0,yes,JIO,0,,,,0,,0,,False
+KJX,Kuala Batu Airport,small_airport,Blangpidie,Aceh,Indonesia,3.735749,96.790109,3.0,no,KJX,0,,,,0,,0,,False
+KMM,Kimaam Airport,small_airport,Kimaam,Papua Selatan (South Papua),Indonesia,-7.97789,138.851776,26.0,no,KMM,1,1992.0,"[13, 31]",13,0,,0,,False
+MOH,Maleo Airport,small_airport,Morowali,Sulawesi Tengah (Central Sulawesi),Indonesia,-2.201143,121.662884,12.0,yes,MOH,1,6070.0,"[05, 23]",05,0,,0,,False
+NKD,Sinak Airport,small_airport,Sinak,Papua Tengah (Central Papua),Indonesia,-3.822249,137.839208,7299.0,no,NKD,1,2100.0,"[08, 26]",08,0,,0,,False
+WA1B,Aru Airport,small_airport,Fekfetal / Jerdera-Trangan Island,Maluku,Indonesia,-6.57342004776001,134.14700317382812,165.0,no,,1,5165.0,"[14, 32]",14,0,,0,,False
+WA44,Maranggo Airport,small_airport,Waha-Tomea Island,Sulawesi Tenggara (Southeast Sulawesi),Indonesia,-5.766423,123.918668,169.0,no,TQQ,1,3078.0,"[13, 31]",13,2,"AFIS, RDO",0,,True
+WAAA,Sultan Hasanuddin International Airport,large_airport,Makassar,Sulawesi Selatan (South Sulawesi),Indonesia,-5.075539,119.553702,47.0,yes,UPG,2,10171.0,"[03, 21], [13, 31]","03, 13",4,"APP, ATIS, INFO, TWR",2,"MKS, OJ",True
+WAAG,Malimpung Airport,small_airport,Malimpung,Sulawesi Selatan (South Sulawesi),Indonesia,-3.7382,119.7502,124.0,no,,0,,,,0,,0,,False
+WAAT,Makale Airport,small_airport,Makale-Celebes Island,Sulawesi Selatan (South Sulawesi),Indonesia,-3.10935997963,119.856002808,2711.0,no,,1,3500.0,"[12, 30]",12,0,,0,,False
+WABB,Frans Kaisiepo Airport,medium_airport,Biak,Papua,Indonesia,-1.19002,136.108002,46.0,yes,BIK,1,11715.0,"[11, 29]",11,4,"APP, ATIS, INFO, TWR",2,"BIK, ZM",True
+WABC,Akimuga Airstrip,small_airport,"Akimuga, Mimika",Papua Pegunungan (Highland Papua),Indonesia,-4.6043,137.6576,164.0,no,IMU,1,1804.0,"[05, 23]",05,0,,0,,False
+WABD,Moanamani Airport,small_airport,Moanamani,Papua Tengah (Central Papua),Indonesia,-4.00659,136.037704,5204.0,no,ONI,0,,,,0,,0,,False
+WABF,Kornasoren Airport,small_airport,Nomfor,Papua,Indonesia,-0.935745,134.872292,13.0,no,FOO,0,,,,0,,0,,False
+WABG,Deiyai / Waghete Baru Airport,small_airport,Tigi,Papua Tengah (Central Papua),Indonesia,-4.05916,136.281715,1779.0,no,WET,0,,,,0,,1,ZG,False
+WABI,Douw Aturure Airport,medium_airport,Nabire,Papua Tengah (Central Papua),Indonesia,-3.397973,135.393071,22.0,no,NBX,0,,,,0,,0,,False
+WABK,Karubaga Airport,small_airport,Karubaga,Papua Pegunungan (Highland Papua),Indonesia,-3.684615,138.479018,5200.0,no,KBF,1,2402.0,"[17, 35]",17,0,,0,,False
+WABL,Ilaga Airport,small_airport,Ilaga,Papua Tengah (Central Papua),Indonesia,-3.97648,137.6225,7989.0,no,ILA,1,1968.0,"[07, 25]",07,0,,0,,False
+WABN,Kokonao Airport,small_airport,Kokonao,Papua Tengah (Central Papua),Indonesia,-4.71075,136.43515,59.0,no,KOX,1,1969.0,"[13, 31]",13,0,,0,,False
+WABO,Stevanus Rumbewas Airport,medium_airport,Serui,Papua,Indonesia,-1.82842,136.062402,20.0,no,ZRI,0,,,,0,,0,,False
+WABP,Mozes Kilangin Airport,medium_airport,Timika,Papua Tengah (Central Papua),Indonesia,-4.52978,136.887388,103.0,yes,TIM,1,7841.0,"[12, 30]",12,2,"RDO, TWR",2,"TMK, ZF",True
+WABT,Enarotali Airport,small_airport,Enarotali,Papua Tengah (Central Papua),Indonesia,-3.925739,136.378634,5807.0,no,EWI,1,3585.0,"[08, 26]",08,0,,0,,False
+WABW,Waren Airport,small_airport,Momi-Papua Island,Papua Barat (West Papua),Indonesia,-1.6285300254822,134.12399291992,29.0,no,,1,1541.0,"[04, 22]",04,0,,0,,False
+WABY,Kebo Airstrip,small_airport,Kebo,Papua Tengah (Central Papua),Indonesia,-3.8248,136.385844,5845.0,no,,1,2440.0,"[01, 19]",01,0,,0,,False
+WADB,Sultan Muhammad Salahuddin Airport,medium_airport,Bima,Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.537184,118.685002,3.0,yes,BMU,1,5405.0,"[13, 31]",13,2,"RDO, TWR",2,"NMA, PO",True
+WADD,Denpasar I Gusti Ngurah Rai International Airport,large_airport,"Kuta, Badung",Bali,Indonesia,-8.748409,115.167123,14.0,yes,DPS,1,9790.0,"[09, 27]",09,6,"APP, ATIS, GND, INFO, TMA, TWR",2,"BLI, OR",True
+WADE,Lieutenant Colonel Wisnu Airfield,small_airport,"Gerokgak, Buleleng",Bali,Indonesia,-8.139292,114.615367,16.0,yes,,1,2233.0,"[14, 32]",14,2,"INFO, TWR",0,,True
+WADL,Lombok International Airport,large_airport,"Mataram (Pujut, Lombok Tengah)",Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.759962,116.278169,319.0,yes,LOP,1,10826.0,"[13, 31]",13,5,"APP, ATIS, CLD, GND, TWR",0,,True
+WADS,Sultan Muhammad Kaharuddin III Airport,small_airport,Sumbawa Besar,Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.48904,117.412003,16.0,yes,SWQ,1,5906.0,"[14, 32]",14,1,A/G,1,NQ,True
+WADT,Tambolaka Airport,small_airport,Radamata,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-9.409224,119.242558,161.0,yes,TMC,1,5905.0,"[10, 28]",10,1,RDO,1,WK,True
+WADU,Lunyuk Airport,small_airport,Lunyuk,Nusa Tenggara Barat (West Nusa Tenggara),Indonesia,-8.989931,117.216018,44.0,no,LYK,0,,,,0,,0,,False
+WADW,Umbu Mehang Kunda Airport,small_airport,Waingapu-Sumba Island,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-9.66922,120.302002,33.0,yes,WGP,1,5415.0,"[15, 33]",15,1,AFIS,1,NR,True
+WADY,Banyuwangi Airport,small_airport,"Rogojampi, Banyuwangi",Jawa Timur (East Java),Indonesia,-8.31015,114.3401,112.0,yes,BWX,1,4593.0,"[08, 26]",08,3,"GND, TWR, APP",0,,True
+WAEA,Mahak Baru Airport,small_airport,Dumu Mahak,Kalimantan Utara (North Kalimantan),Indonesia,1.405984,115.332459,1722.0,no,,0,,,,0,,0,,False
+WAEE,Sultan Babullah Airport,medium_airport,Ternate,Maluku Utara (North Maluku),Indonesia,0.831012,127.381611,49.0,yes,TTE,1,5875.0,"[14, 32]",14,2,"AFIS, RDO",1,TR,True
+WAEF,Lebone Airstrip,small_airport,Ulubongka,Sulawesi Tengah (Central Sulawesi),Indonesia,-1.333333,121.633333,1631.0,no,,0,,,,0,,0,,False
+WAES,Emalamo Airport,small_airport,Sanana,Maluku Utara (North Maluku),Indonesia,-2.100424,125.965838,11.0,no,SQN,0,,,,0,,1,AS,False
+WAEW,Pitu Airport,medium_airport,Gotalalamo-Morotai Island,Maluku Utara (North Maluku),Indonesia,2.04599,128.324997,49.0,no,OTI,1,7880.0,"[09, 27]",09,1,A/G,1,OX,True
+WAFB,Toraja Airport,medium_airport,Toraja,Sulawesi Selatan (South Sulawesi),Indonesia,-3.184359,119.919104,2884.0,yes,TRT,1,6562.0,"[04, 22]",04,2,"APP, TWR",0,,True
+WAFD,Bua - Palopo Lagaligo Airport,small_airport,Palopo,Sulawesi Selatan (South Sulawesi),Indonesia,-3.08227,120.244823,14.0,yes,LLO,1,4593.0,"[17, 35]",17,0,,0,,False
+WAFF,Mutiara - SIS Al-Jufrie Airport,medium_airport,Palu,Sulawesi Tengah (Central Sulawesi),Indonesia,-0.916462,119.908647,284.0,yes,PLW,1,6781.0,"[15, 33]",15,1,TWR,2,"OP, PAL",True
+WAFJ,Tampa Padang Airport,small_airport,Mamuju,Sulawesi Barat (West Sulawesi),Indonesia,-2.590017,119.025051,49.0,no,MJU,1,6398.0,"[05, 23]",05,0,,1,MU,False
+WAFL,Sultan Bantilan Airport,small_airport,Toli Toli-Celebes Island,Sulawesi Tengah (Central Sulawesi),Indonesia,1.123428,120.793658,17.0,yes,TLI,1,4593.0,"[11, 29]",11,0,,1,TO,False
+WAFM,Andi Jemma Airport,small_airport,Masamba,Sulawesi Selatan (South Sulawesi),Indonesia,-2.558031,120.324342,164.0,no,MXB,1,3133.0,"[02, 20]",02,1,INFO,1,MA,True
+WAFN,Seko Airport,small_airport,,Sulawesi Selatan (South Sulawesi),Indonesia,-2.271242,119.898205,3510.0,no,,0,,,,0,,0,,False
+WAFP,Kasiguncu Airport,medium_airport,Poso-Celebes Island,Sulawesi Tengah (Central Sulawesi),Indonesia,-1.414121,120.659241,174.0,no,PSJ,1,3650.0,"[03, 21]",03,1,A/G,1,DF,True
+WAFQ,Maulana Prins Mandapar Airstrip,small_airport,Kendek,Sulawesi Tengah (Central Sulawesi),Indonesia,-1.548841,123.554133,200.0,no,BQR,0,,,,0,,0,,False
+WAFS,Sumarorong Airport,small_airport,Sumarorong,Sulawesi Barat (West Sulawesi),Indonesia,-3.150399,119.302277,3033.0,no,,0,,,,0,,0,,False
+WAFU,Tanjung Api Airport,small_airport,Tojo Una-Una,Sulawesi Tengah (Central Sulawesi),Indonesia,-0.865437,121.628625,49.0,yes,OJU,1,6070.0,"[12, 30]",12,0,,0,,False
+WAFW,Syukuran Aminuddin Amir Airport,medium_airport,Luwok,Sulawesi Tengah (Central Sulawesi),Indonesia,-1.035893,122.773934,56.0,no,LUW,1,6070.0,"[03, 21]",03,1,A/G,1,LK,True
+WAFZ,Panua Pohuwato Airport,small_airport,Pohuwato,Gorontalo,Indonesia,0.461782,121.814668,,no,,1,3937.0,"[09, 27]",09,0,,0,,False
+WAGB,Haji Muhammad Sidik Airport,small_airport,Muara Teweh,Kalimantan Tengah (Central Kalimantan),Indonesia,-1.02581,114.92881,145.0,yes,HMS,0,,,,0,,0,,False
+WAGF,Seruyan Kuala Pembuang Airport,small_airport,Seruyan,Kalimantan Tengah (Central Kalimantan),Indonesia,-3.376062,112.536521,13.0,yes,KLP,0,,,,0,,0,,False
+WAGG,Tjilik Riwut Airport,medium_airport,Palangkaraya,Kalimantan Tengah (Central Kalimantan),Indonesia,-2.227146,113.943388,82.0,yes,PKY,1,8202.0,"[16, 34]",16,2,"ATIS, TWR",2,"FK, PKY",True
+WAGL,Long Apari Airport,small_airport,Long Apar,Kalimantan Timur (East Kalimantan),Indonesia,3.083333,116.433333,253.0,no,,1,1312.0,"[04, 22]",04,0,,0,,False
+WAGP,Purukcahu Airport,small_airport,,Kalimantan Tengah (Central Kalimantan),Indonesia,-0.688419,114.444829,442.0,no,,0,,,,0,,0,,False
+WAHI,Yogyakarta International Airport,large_airport,Yogyakarta,Yogyakarta,Indonesia,-7.905338,110.057264,24.0,yes,YIA,1,10663.0,"[11, 29]",11,5,"APP, ATIS, CLD, GND, TWR",0,,True
+WAHL,Tunggul Wulung Airport,medium_airport,Cilacap,Jawa Tengah (Central Java),Indonesia,-7.64506,109.033997,69.0,yes,CXP,1,4593.0,"[13, 31]",13,1,A/G,2,"CLP, CP",True
+WAHP,Jenderal Besar Soedirman Airport,small_airport,Purwokerto-Java Island,Jawa Tengah (Central Java),Indonesia,-7.461239,109.414124,225.0,no,PWL,1,5249.0,"[10, 28]",10,0,,0,,False
+WAHU,Dewadaru Airport,small_airport,Karimunjawa,Jawa Tengah (Central Java),Indonesia,-5.80091,110.47838,35.0,yes,KWB,1,3937.0,"[13, 31]",13,4,"NDB, SSB, VHF, VOR",0,,True
+WAJB,Bokondini Airport,small_airport,Bokondini,Papua Pegunungan (Highland Papua),Indonesia,-3.68455,138.677437,4550.0,yes,BUI,1,2798.0,"[10, 28]",10,0,,0,,False
+WAJC,Dabra Airport,small_airport,Dabra,Papua,Indonesia,-3.27061,138.613433,208.0,no,DRH,1,1870.0,"[06D, 24A]",06D,0,,0,,False
+WAJD,Wakde Airport,small_airport,Masi Masi Island,Papua,Indonesia,-1.93529,139.020004,3.0,no,,1,,"[10, 28]",10,0,,0,,False
+WAJG,Batom Airport,small_airport,Batom,Papua Pegunungan (Highland Papua),Indonesia,-4.442687,140.883565,396.0,no,BXM,1,2530.0,"[07, 25]",07,0,,0,,False
+WAJI,Mararena Sarmi Airport,small_airport,Sarmi,Papua,Indonesia,-1.873077,138.753275,10.0,no,ZRM,1,2451.0,"[13, 31]",13,0,,1,SI,False
+WAJJ,Dortheys Hiyo Eluay International Airport,large_airport,Sentani,Papua,Indonesia,-2.579627,140.519857,289.0,yes,DJJ,1,9842.0,"[12, 30]",12,4,"APP, ATIS, INFO, TWR",2,"JPA, ZN",True
+WAJK,Kiwirok Airstrip,small_airport,Kiwirok,Papua Pegunungan (Highland Papua),Indonesia,-4.713481,140.740271,5470.0,yes,,1,1448.0,"[07, 25]",07,0,,0,,False
+WAJL,Lereh Airport,small_airport,Lereh-Papua Island,Papua,Indonesia,-3.080046,139.952817,820.0,no,LHI,1,2016.0,"[12, 30]",12,0,,0,,False
+WAJM,Mulia Airport,small_airport,Mulia-Papua Island,Papua Tengah (Central Papua),Indonesia,-3.701938,137.957,5898.0,no,LII,1,2615.0,"[09, 27]",09,0,,0,,False
+WAJO,Oksibil Airport,medium_airport,Oksibil,Papua Pegunungan (Highland Papua),Indonesia,-4.9071,140.6277,4315.0,yes,OKL,2,2854.0,"[11, 29], [error, error]","11, error",0,,1,ZX,False
+WAJS,Senggeh Airport,small_airport,Senggeh,Papua,Indonesia,-3.442448,140.778079,914.0,no,SEH,0,,,,0,,0,,False
+WAJY,Werur Airport,small_airport,Mar,Papua Barat Daya (Southwest Papua),Indonesia,-0.420096,132.1886,35.0,no,,1,,"[06, 24]",06,0,,0,,False
+WAKD,Mindiptana Airport,small_airport,Mindiptana-Papua Island,Papua Selatan (South Papua),Indonesia,-5.876929,140.70946,121.0,no,MDP,0,,,,0,,0,,False
+WAKE,Bade Airport,small_airport,Bade,Papua Selatan (South Papua),Indonesia,-7.175902,139.58333,59.0,no,BXD,1,1969.0,"[02, 20]",02,0,,0,,False
+WAKG,Agats Airport,small_airport,Agats,Papua Selatan (South Papua),Indonesia,-5.543288,138.134911,17.0,no,,0,,,,0,,0,,False
+WAKK,Mopah International Airport,medium_airport,Merauke,Papua Selatan (South Papua),Indonesia,-8.523898,140.419693,10.0,yes,MKQ,1,6070.0,"[16, 34]",16,2,"FSS, TWR",2,"MKE, ZP",True
+WAKL,Bomakia Airport,small_airport,Bomakia,Papua Selatan (South Papua),Indonesia,-5.806483,139.867647,30.0,no,,0,,,,0,,0,,False
+WAKM,Kamur Airport,small_airport,Kamur,Papua Selatan (South Papua),Indonesia,-6.1851,138.6372,25.0,no,KCD,1,2130.0,"[09, 27]",09,0,,0,,False
+WAKO,Okaba Airport,small_airport,Okaba,Papua Selatan (South Papua),Indonesia,-8.0946,139.7233,23.0,no,OKQ,1,1968.0,"[08, 26]",08,0,,0,,False
+WAKP,Kepi Airport,small_airport,Kepi,Papua Selatan (South Papua),Indonesia,-6.54297,139.332401,67.0,no,KEI,1,2005.0,"[15, 33]",15,0,,0,,False
+WAKQ,Senggo Airport,small_airport,Senggo-Papua Island,Papua Selatan (South Papua),Indonesia,-5.690668,139.350414,52.0,no,ZEG,1,2154.0,"[09, 27]",09,0,,0,,False
+WAKT,Tanah Merah Airport,medium_airport,Tanah Merah,Papua Selatan (South Papua),Indonesia,-6.09669,140.303521,57.0,yes,TMH,0,,,,0,,0,,False
+WALE,Melalan Airport,small_airport,Melak-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,-0.203611,115.760002,330.0,no,GHS,1,2953.0,"[03, 21]",03,0,,0,,False
+WALG,Tanjung Harapan Airport,small_airport,Tanjung Selor-Borneo Island,Kalimantan Utara (North Kalimantan),Indonesia,2.838139,117.374584,20.0,yes,TJS,1,3773.0,"[03, 21]",03,1,INFO,1,GN,True
+WALJ,Datadawai Airport,small_airport,Datadawai-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,0.807028,114.529052,508.0,yes,DTD,1,2461.0,"[02, 20]",02,0,,1,TG,False
+WALK,Nusantara International Airport,medium_airport,Nusantara,Kalimantan Timur (East Kalimantan),Indonesia,-1.16053,116.71193,23.0,no,,0,,,,0,,0,,False
+WALL,Sultan Aji Muhammad Sulaiman Sepinggan International Airport,large_airport,Balikpapan,Kalimantan Timur (East Kalimantan),Indonesia,-1.268342,116.89452,12.0,yes,BPN,1,8202.0,"[07, 25]",07,4,"APP, ATIS, INFO, TWR",2,"BPN, OL",True
+WALQ,Muara Badak Pujangan Airport,small_airport,Muara Badak-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,-0.305999,117.415667,49.0,no,,1,3937.0,"[01, 19]",01,2,"INFO, RDO",1,BD,True
+WALR,Juwata International Airport / Suharnoko Harbani AFB,medium_airport,Tarakan,Kalimantan Utara (North Kalimantan),Indonesia,3.325145,117.564169,23.0,yes,TRK,1,7382.0,"[06, 24]",06,2,"APP, TWR",2,"OT, TRK",True
+WALS,Aji Pangeran Tumenggung Pranoto International Airport,medium_airport,Samarinda,Kalimantan Timur (East Kalimantan),Indonesia,-0.374478,117.250128,82.0,yes,AAP,1,7382.0,"[04, 22]",04,1,TWR,1,TG,True
+WALT,Tanjung Santan Airport,small_airport,Santan-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,-0.092633,117.439109,121.0,no,,1,4501.0,"[08, 26]",08,1,RDO,1,TT,True
+WALV,Bunyu Airport,small_airport,Bunju Island,Kalimantan Utara (North Kalimantan),Indonesia,3.45572,117.866997,118.0,no,,1,3281.0,"[04, 22]",04,2,"A/G, TWR",1,BU,True
+WALX,Mangkajang Airport,small_airport,Mangkajang-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,2.007244,117.748983,47.0,no,,1,5690.0,"[07, 25]",07,1,RDO,1,BE,True
+WAMA,Gamarmalamo Airport,small_airport,Galela,Maluku Utara (North Maluku),Indonesia,1.838134,127.786191,157.0,no,GLX,1,2460.0,"[04, 22]",04,0,,1,GL,False
+WAMD,Jailolo/Kuripasai Airport,small_airport,Kuripasai-Celebes Island,Maluku Utara (North Maluku),Indonesia,1.1169999837875366,127.48300170898438,50.0,no,,0,,,,0,,0,,False
+WAME,Buli Airport,small_airport,Pekaulang,Maluku Utara (North Maluku),Indonesia,0.917144,128.382116,7.0,no,PGQ,0,,,,0,,0,,False
+WAMG,Jalaluddin Airport,small_airport,Gorontalo,Gorontalo,Indonesia,0.637119,122.849998,105.0,yes,GTO,1,8202.0,"[09, 27]",09,2,"INFO, TWR",2,"GTL, NN",True
+WAMH,Naha Airport,medium_airport,"Tabukan Utara, Sangihe Islands",Sulawesi Utara (North Sulawesi),Indonesia,3.68478,125.527162,16.0,yes,NAH,1,3597.0,"[15, 33]",15,1,A/G,1,TA,True
+WAMI,Bolaang Mongondow Airport,small_airport,Lolak,Sulawesi Utara (North Sulawesi),Indonesia,0.88855,124.033634,28.0,yes,LKM,1,5249.0,"[11, 29]",11,0,,0,,False
+WAMJ,Gebe Airport,small_airport,Gebe Island,Maluku Utara (North Maluku),Indonesia,-0.078889,129.457993,125.0,no,GEB,1,2953.0,"[18, 36]",18,0,,0,,False
+WAMK,Kuabang Airport,small_airport,Kao,Maluku Utara (North Maluku),Indonesia,1.188608,127.896036,40.0,no,KAZ,1,2963.0,"[18, 36]",18,0,,1,KU,False
+WAMM,Sam Ratulangi International Airport,large_airport,Manado,Sulawesi Utara (North Sulawesi),Indonesia,1.548591,124.92625,264.0,yes,MDC,1,8693.0,"[18, 36]",18,4,"APP, ATIS, INFO, TWR",4,"MD, MNO, MWB, PN",True
+WAMN,Melangguane Airport,small_airport,Karakelong Island,Sulawesi Utara (North Sulawesi),Indonesia,4.010334,126.673192,3.0,no,MNA,1,4593.0,"[18, 36]",18,0,,1,MG,False
+WAMO,Siau/Sitaro Airport,small_airport,Balirangen,Sulawesi Utara (North Sulawesi),Indonesia,2.648591,125.423301,155.0,no,BRG,1,4625.0,"[02, 20]",02,0,,0,,False
+WAMP,Indonesia Morowali Industrial Park (IMIP) Airport,small_airport,Morowali,Sulawesi Tengah (Central Sulawesi),Indonesia,-2.799322,122.141385,24.0,no,MWS,1,6201.0,"[13, 31]",13,0,,0,,False
+WAMS,Miangas Airport,small_airport,Miangas,Sulawesi Utara (North Sulawesi),Indonesia,5.560419,126.580095,9.0,no,IAX,0,,,,0,,0,,False
+WAMU,Wuasa Airport,small_airport,Wuasa-Celebes Island,Sulawesi Tengah (Central Sulawesi),Indonesia,-1.425,120.316391,1.0,no,,0,,,,0,,0,,False
+WAMY,Buol - Pogogul Airport,small_airport,Buol,Sulawesi Tengah (Central Sulawesi),Indonesia,1.102318,121.413358,49.0,yes,UOL,1,2461.0,"[06, 24]",06,0,,0,,False
+WAOC,Bersujud Airport,small_airport,Batu Licin,Kalimantan Selatan (South Kalimantan),Indonesia,-3.41241,115.995003,3.0,yes,BTW,1,5930.0,"[09, 27]",09,0,,0,,False
+WAOG,Sebuku Airport,small_airport,"Sekapung, Kotabaru",Kalimantan Selatan (South Kalimantan),Indonesia,-3.626954,116.370352,7.0,no,,0,,,,0,,0,,False
+WAOH,Kota Baru Airport,small_airport,"Mekar Putih, Kotabaru",Kalimantan Selatan (South Kalimantan),Indonesia,-3.989646,116.101499,197.0,no,,1,4100.0,"[12, 30]",12,1,INFO,0,,True
+WAOI,Iskandar Airport,small_airport,Pangkalanbun,Kalimantan Tengah (Central Kalimantan),Indonesia,-2.7052,111.672997,75.0,yes,PKN,1,5415.0,"[13, 31]",13,1,TWR,2,"PKN, PN",True
+WAOK,Gusti Syamsir Alam Airport,small_airport,Stagen,Kalimantan Selatan (South Kalimantan),Indonesia,-3.294796,116.163815,4.0,yes,KBU,1,5413.0,"[15, 33]",15,0,,0,,False
+WAON,Warukin Airport,medium_airport,Tanta-Tabalong,Kalimantan Selatan (South Kalimantan),Indonesia,-2.21656,115.435997,197.0,yes,TJG,1,4601.0,"[06, 24]",06,1,AFIS,1,NY,True
+WAOO,Syamsudin Noor International Airport,large_airport,Banjarbaru,Kalimantan Selatan (South Kalimantan),Indonesia,-3.440112,114.761209,66.0,yes,BDJ,1,8202.0,"[10, 28]",10,4,"APP, ATIS, INFO, TWR",2,"BDM, OU",True
+WAOS,Sampit (H.Asan) Airport,small_airport,Sampit,Kalimantan Tengah (Central Kalimantan),Indonesia,-2.499198,112.974987,50.0,yes,SMQ,1,6060.0,"[13, 31]",13,1,A/G,1,SP,True
+WAOT,Teluk Kepayang Airport,small_airport,Teluk Kepayang,Kalimantan Selatan (South Kalimantan),Indonesia,-3.4203,115.6867,103.0,no,,1,1660.0,"[12, 30]",12,0,,0,,False
+WAOU,Sanggu Airport,small_airport,Buntok,Kalimantan Tengah (Central Kalimantan),Indonesia,-1.669533,114.899265,23.0,no,,0,,,,0,,1,BK,False
+WAOW,Tumbang Samba Airport,small_airport,Tumbang Samba-Borneo Island,Kalimantan Tengah (Central Kalimantan),Indonesia,-1.469024,113.080984,160.0,yes,TBM,1,2953.0,"[09, 27]",09,0,,0,,False
+WAPA,Amahai Airport,small_airport,Amahai,Maluku,Indonesia,-3.347851,128.927093,29.0,no,AHI,1,2460.0,"[13, 31]",13,0,,1,AM,False
+WAPB,Bula Airport,small_airport,Bula,Maluku,Indonesia,-3.10996,130.509995,10.0,no,,0,,,,0,,1,LA,False
+WAPC,Bandanaira Airport,small_airport,Bandanaira,Maluku,Indonesia,-4.5214,129.9054,59.0,no,NDA,1,,"[10, 28]",10,0,,1,BN,False
+WAPD,Rar Gwamar Airport,small_airport,Dobo-Warmar Island,Maluku,Indonesia,-5.773724,134.209245,61.0,no,DOB,1,2625.0,"[05, 23]",05,0,,1,DO,False
+WAPE,"Mangole Airport, Falabisahaya",small_airport,Mangole Island,Maluku Utara (North Maluku),Indonesia,-1.782255,125.482246,10.0,no,MAL,1,3600.0,,,0,,1,ME,False
+WAPF,Karel Sadsuitubun Airport,medium_airport,Langgur,Maluku,Indonesia,-5.760278,132.759444,78.0,yes,LUV,1,7710.0,"[13, 31]",13,2,"APP, TWR",0,,True
+WAPG,Namrole Airport,small_airport,Namrole,Maluku,Indonesia,-3.85522,126.700902,31.0,no,NRE,1,2953.0,"[06, 24]",06,0,,1,RE,False
+WAPH,Oesman Sadik Airport,small_airport,Labuha-Halmahera Island,Maluku Utara (North Maluku),Indonesia,-0.633764,127.505394,49.0,no,LAH,1,4300.0,"[04, 24]",04,0,,1,LH,False
+WAPI,Saumlaki/Olilit Airport,small_airport,Saumlaki-Yamdena Island,Maluku,Indonesia,-7.98861,131.306,218.0,no,,1,2953.0,"[12, 30]",12,0,,1,SM,False
+WAPK,Benjina Airport,small_airport,Maikoor Island,Maluku,Indonesia,-6.06613,134.273971,82.0,no,BJK,1,4265.0,"[04, 22]",04,1,RDO,0,,True
+WAPL,Dumatubin Airport,small_airport,Langgur,Maluku,Indonesia,-5.66162,132.731003,10.0,no,,1,4265.0,"[09, 27]",09,2,"INFO, RDO",1,TL,True
+WAPN,Namniwel Airport,medium_airport,Namniwel,Maluku,Indonesia,-3.143159,126.976469,7.0,yes,NAM,1,5249.0,"[11, 29]",11,0,,0,,False
+WAPO,Larat Airport,small_airport,Kepulauan Larat,Maluku,Indonesia,-7.1282,131.7673,108.0,no,,1,2645.0,"[09, 27]",09,0,,0,,False
+WAPP,Pattimura International Airport,large_airport,Ambon,Maluku,Indonesia,-3.71026,128.089005,33.0,yes,AMQ,1,8202.0,"[04, 22]",04,4,"APP, ATIS, INFO, TWR",3,"AMN, OH, PMA",True
+WAPR,Namlea Airport,small_airport,Namlea,Maluku,Indonesia,-3.236887,127.100215,41.0,no,,1,2460.0,"[15, 33]",15,0,,1,,False
+WAPT,Taliabu Island Airport,small_airport,Tikong-Taliabu Island,Maluku Utara (North Maluku),Indonesia,-1.6426299810409546,124.55899810791016,9.0,no,TAX,0,,,,0,,0,,False
+WAPU,Kufar Airport,small_airport,,Maluku,Indonesia,-3.462637,130.790593,19.0,no,,0,,,,0,,0,,False
+WAPV,Wahai Airport,small_airport,Wahai,Maluku,Indonesia,-2.8114,129.484,558.0,no,WBA,1,2461.0,"[05, 23]",05,0,,0,,False
+WAQC,Maratua Airport,small_airport,Maratua,Kalimantan Timur (East Kalimantan),Indonesia,2.19759,118.599361,43.0,no,RTU,0,,,,0,,0,,False
+WAQG,Binuang Airport,small_airport,Binuang,Kalimantan Utara (North Kalimantan),Indonesia,3.773936,115.855914,2523.0,no,,0,,,,0,,0,,False
+WAQM,Robert Atty Bessing,small_airport,Malinau,Kalimantan Utara (North Kalimantan),Indonesia,3.575256,116.619769,26.0,yes,LNU,0,,,,0,,0,,False
+WAQP,Long Pala Airstrip,small_airport,,Kalimantan Utara (North Kalimantan),Indonesia,4.043858,116.128937,1490.0,no,,0,,,,0,,0,,False
+WAQT,Kalimarau Airport,medium_airport,Tanjung Redeb - Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,2.14776,117.430705,59.0,yes,BEJ,1,4625.0,"[01, 19]",01,1,RDO,1,KM,True
+WAQU,Long Layu Airport,small_airport,Long Layu,Kalimantan Utara (North Kalimantan),Indonesia,3.611585,115.69921,2882.0,no,,0,,,,0,,0,,False
+WAQV,Long Pujungan Airstrip,small_airport,Long Pujungan,Kalimantan Utara (North Kalimantan),Indonesia,2.590605,115.79857,756.0,no,,0,,,,0,,0,,False
+WAQW,Long Sule Airstrip,small_airport,Long Pipa,Kalimantan Utara (North Kalimantan),Indonesia,1.384398,115.707323,2031.0,no,,0,,,,0,,0,,False
+WAQX,Pulau Sapi Airstrip,small_airport,Pulau Sapi,Kalimantan Utara (North Kalimantan),Indonesia,3.522768,116.517259,,no,,0,,,,0,,0,,False
+WARA,Abdul Rachman Saleh Airport,medium_airport,Malang,Jawa Timur (East Java),Indonesia,-7.929099,112.714233,1726.0,yes,MLG,2,8202.0,"[17, 35], [17L, 35R]","17, 17L",2,"APP, TWR",2,"LW, ML",True
+WARC,Ngloram Airport,small_airport,Blora,Jawa Tengah (Central Java),Indonesia,-7.195522,111.545287,131.0,no,CPF,1,2953.0,"[08, 26]",08,0,,2,"BA, CU",False
+WARE,Notohadinegoro Airport,small_airport,Jember,Jawa Timur (East Java),Indonesia,-8.242494,113.693476,281.0,yes,JBB,1,5594.0,"[02, 20]",02,2,"INFO, TWR",0,,True
+WARI,Iswahjudi Air Base,small_airport,Magetan,Jawa Timur (East Java),Indonesia,-7.61577,111.433998,361.0,no,,2,10030.0,"[17L, 35R], [17R, 35L]","17L, 17R",2,"APP, GND",2,"AR, IWY",True
+WARJ,Adisutjipto International Airport,medium_airport,Yogyakarta,Yogyakarta,Indonesia,-7.78818,110.431999,379.0,yes,JOG,2,7215.0,"[09, 27], [09R, 27L]","09, 09R",6,"APP, ATIS, GND, TWR",2,"JOG, OF",True
+WARP,Pagerungan Airport,small_airport,Sapeken,Jawa Timur (East Java),Indonesia,-6.956515,115.931107,13.0,no,,1,3009.0,"[12, 30]",12,1,RDO,1,PGN,True
+WARQ,Adisoemarmo International Airport,large_airport,Surakarta,Jawa Tengah (Central Java),Indonesia,-7.516044,110.757492,421.0,yes,SOC,1,8530.0,"[08, 26]",08,4,"APP, ATIS, TCA, TWR",2,"SLO, SO",True
+WARR,Juanda International Airport,large_airport,Surabaya,Jawa Timur (East Java),Indonesia,-7.37983,112.787003,9.0,yes,SUB,1,9843.0,"[10, 28]",10,8,"ATIS, DIR, SMC, TCA, TWR",3,"SB, SBR, WR",True
+WARS,Jenderal Ahmad Yani Airport,large_airport,Semarang,Jawa Tengah (Central Java),Indonesia,-6.970732,110.373244,10.0,yes,SRG,1,8399.0,"[13, 31]",13,3,"APP, ATIS, TWR",2,"ANY, OC",True
+WART,Trunojoyo Airport,small_airport,Sumenep,Jawa Timur (East Java),Indonesia,-7.022391,113.887699,10.0,no,SUP,1,5249.0,"[12, 30]",12,2,"INFO, TWR",1,MP,True
+WARW,Harun Thohir Airport,small_airport,Bawean,Jawa Timur (East Java),Indonesia,-5.723628,112.678889,93.0,no,BXW,0,,,,0,,0,,False
+WASA,Ayawasi Airport,small_airport,Ayawasi,Papua Barat Daya (Southwest Papua),Indonesia,-1.159779,132.464082,1560.0,no,AYW,1,,"[09, 27]",09,0,,0,,False
+WASB,Stenkol Airport,small_airport,Bintuni,Papua Barat (West Papua),Indonesia,-2.102572,133.515981,51.0,no,NTI,1,1969.0,"[13, 31]",13,0,,1,BI,False
+WASC,Abresso Airport,small_airport,Ransiki-Papua Island,Papua Barat (West Papua),Indonesia,-1.496667,134.1925,52.0,no,RSK,1,3445.0,"[12, 30]",12,0,,0,,False
+WASE,Kebar Airport,small_airport,Kebar,Papua Barat Daya (Southwest Papua),Indonesia,-0.810418,133.054937,1878.0,no,KEQ,0,,,,0,,0,,False
+WASF,Fakfak Airport,medium_airport,Fakfak,Papua Barat (West Papua),Indonesia,-2.920508,132.267011,462.0,yes,FKQ,1,3415.0,"[10, 28]",10,1,A/G,1,FA,True
+WASI,Inanwatan Airport,small_airport,Inanwatan,Papua Barat Daya (Southwest Papua),Indonesia,-2.127447,132.160056,9.0,no,INX,1,1969.0,"[08, 26]",08,0,,0,,False
+WASK,Utarom Airport,medium_airport,Kaimana,Papua Barat (West Papua),Indonesia,-3.6446,133.695116,19.0,yes,KNG,1,5249.0,"[01, 19]",01,2,"INFO, RDO",1,ZV,True
+WASM,Merdey Airport,small_airport,Merdei-Papua Island,Papua Barat (West Papua),Indonesia,-1.591154,133.295867,385.0,no,RDE,0,,,,0,,0,,False
+WASN,Marinda Airport,small_airport,Waisai,Papua Barat Daya (Southwest Papua),Indonesia,-0.424969,130.773535,9.0,yes,RJM,1,4396.0,"[18, 36]",18,0,,0,,False
+WASO,Babo Airport,medium_airport,Babo,Papua Barat (West Papua),Indonesia,-2.53224,133.438995,10.0,no,BXB,1,4280.0,"[02, 20]",02,1,INFO,0,,True
+WASR,Rendani Airport,medium_airport,Manokwari,Papua Barat (West Papua),Indonesia,-0.891833,134.048996,23.0,yes,MKW,1,6562.0,"[17, 35]",17,1,AFIS,1,ZQ,True
+WASS,Domine Eduard Osok Airport,medium_airport,Sorong,Papua Barat (West Papua),Indonesia,-0.894,131.287,10.0,yes,SOQ,1,6070.0,"[09, 27]",09,4,"APP, ATIS, GND, TWR",0,,True
+WAST,Teminabuan Airport,small_airport,Atinjoe,Papua Barat Daya (Southwest Papua),Indonesia,-1.44545,132.021139,141.0,no,TXM,1,1929.0,"[12, 30]",12,0,,1,ZI,False
+WASU,Kambuaya Airport,small_airport,Kambuaya-Papua Island,Papua Barat Daya (Southwest Papua),Indonesia,-1.316815,132.286987,1422.0,no,KBX,1,1810.0,"[06, 24]",06,0,,0,,False
+WASW,Wasior Airport,small_airport,Wasior,Papua Barat (West Papua),Indonesia,-2.720434,134.505902,49.0,no,WSR,1,1755.0,"[17, 35]",17,0,,0,,False
+WATA,AA Bere Tallo (Haliwen) Airport,small_airport,Atambua,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-9.074841,124.903285,1027.0,yes,ABU,1,3937.0,"[08, 26]",08,0,,0,,False
+WATB,Bajawa Soa (Turelelo) Airport,small_airport,"Soa, Ngada",Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.70777,121.058243,4326.0,no,BJW,1,4588.0,"[10, 28]",10,0,,1,BW,False
+WATC,Frans Xavier Seda Airport,small_airport,Waioti,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.639514,122.238135,115.0,yes,MOF,1,5980.0,"[05, 23]",05,1,AFIS,2,"MOF, NO",True
+WATE,H. Hasan Aroeboesman (Ende) Airport,small_airport,Ende,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.849114,121.66101,49.0,yes,ENE,1,5440.0,"[09, 27]",09,1,RDO,1,ED,True
+WATG,Frans Sales Lega Airport,small_airport,"Satar Tacik, Manggarai",Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.596171,120.478177,3510.0,yes,RTG,1,4186.0,"[09, 27]",09,2,"A/G, RDO",1,RG,True
+WATL,Larantuka Gewayentana Airport,small_airport,Tiwatobi,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.274424,123.002,63.0,yes,LKA,1,2953.0,"[10, 28]",10,0,,0,,False
+WATM,Alor Island - Mali Airport,small_airport,Kabola,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.13234,124.597,10.0,yes,ARD,1,4586.0,"[03, 21]",03,1,INFO,1,MI,True
+WATO,Komodo Airport,small_airport,"Labuan Bajo, Manggarai Barat",Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.480694,119.888306,66.0,yes,LBJ,1,7381.0,"[17, 35]",17,2,"A/G, INFO",1,LB,True
+WATQ,John Becker Airport,small_airport,Pur-Pura,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.015716,127.200179,6.0,no,,1,2789.0,"[11, 29]",11,0,,1,IR,False
+WATR,David Constantijn Saudale Airport,small_airport,Ba'a - Rote Island,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-10.765834,123.076046,470.0,yes,RTI,1,5413.0,"[03, 21]",03,0,,0,,False
+WATS,Sabu-Tardanu Airport,small_airport,Sabu-Sawu Island,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-10.4924,121.8482,71.0,no,SAU,1,2577.0,"[07, 25]",07,0,,0,,False
+WATT,El Tari Airport,medium_airport,Kupang,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-10.1716,123.670998,335.0,yes,KOE,2,8202.0,"[07, 25], [12, 30]","07, 12",2,"INFO, TWR",2,"KPG, OK",True
+WATW,Wonopito Airport,small_airport,Lewoleba,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-8.361805,123.438554,25.0,no,LWE,1,2953.0,"[02, 20]",02,0,,0,,False
+WAVV,Wamena Airport,medium_airport,Wamena,Papua Pegunungan (Highland Papua),Indonesia,-4.097324,138.952417,5435.0,yes,WMX,1,7135.0,"[15, 33]",15,3,"AFIS, ATIS, TWR",1,ZW,True
+WAWB,Betoambari Airport,small_airport,Bau Bau,Sulawesi Tenggara (Southeast Sulawesi),Indonesia,-5.486037,122.569823,164.0,no,BUW,1,5905.0,"[04, 22]",04,1,INFO,0,,True
+WAWD,Matahora Airport,medium_airport,Wangi-wangi Island,Sulawesi Tenggara (Southeast Sulawesi),Indonesia,-5.292123,123.636233,88.0,yes,WNI,1,6959.0,"[04, 22]",04,2,"APP, TWR",0,,True
+WAWH,Selayar - Haji Aroeppala Airport,small_airport,Benteng,Sulawesi Selatan (South Sulawesi),Indonesia,-6.17921,120.437479,13.0,yes,KSR,0,,,,0,,0,,False
+WAWN,Arung Palakka Airport,small_airport,Bone,Sulawesi Selatan (South Sulawesi),Indonesia,-4.459582,120.310436,130.0,no,APD,0,,,,0,,0,,False
+WAWP,Sangia Nibandera Airport,medium_airport,Kolaka,Sulawesi Tenggara (Southeast Sulawesi),Indonesia,-4.338158,121.524047,40.0,yes,KXB,1,6070.0,"[18, 36]",18,0,,0,,False
+WAWR,Sugimanuru Airport,small_airport,Raha,Sulawesi Tenggara (Southeast Sulawesi),Indonesia,-4.763298,122.566352,132.0,no,RAQ,1,5249.0,"[08, 26]",08,0,,0,,False
+WAWS,Soroako Airport,small_airport,Soroako,Sulawesi Selatan (South Sulawesi),Indonesia,-2.530582,121.356096,1388.0,no,SQR,1,3340.0,"[12, 30]",12,1,A/G,1,SA,True
+WAWT,Pongtiku Airport,small_airport,Makale,Sulawesi Selatan (South Sulawesi),Indonesia,-3.04474,119.821999,2884.0,no,TTR,1,3440.0,"[12, 30]",12,1,AFIS,1,MK,True
+WAWW,Haluoleo Airport,small_airport,Kendari,Sulawesi Tenggara (Southeast Sulawesi),Indonesia,-4.08161,122.417999,538.0,yes,KDI,1,6890.0,"[08, 26]",08,1,TWR,2,"KDI, NI",True
+WAYH,Mapenduma Airstrip,small_airport,Mapenduma,Papua Pegunungan (Highland Papua),Indonesia,-4.30893,138.246504,3313.0,no,,0,,,,0,,0,,False
+WAYI,Bilai Airstrip,small_airport,Bilai,Papua Tengah (Central Papua),Indonesia,-3.741405,136.859239,5656.0,no,,0,,,,0,,0,,False
+WAYP,Potowai Buru Airstrip,small_airport,Potowai Buru,Papua Tengah (Central Papua),Indonesia,-4.283533,134.974353,160.0,no,,0,,,,0,,0,,False
+WAYQ,Paro Airstrip,small_airport,Paro,Papua Pegunungan (Highland Papua),Indonesia,-4.388644,138.233939,1685.0,no,,0,,,,0,,0,,False
+WAYU,Wangbe Airstrip,small_airport,Wangbe,Papua Tengah (Central Papua),Indonesia,-3.868616,137.468316,7645.0,no,,0,,,,0,,0,,False
+WAYW,Waren Airstrip,small_airport,Sawara Jaya,Papua,Indonesia,-2.264493,136.384144,36.0,no,,0,,,,0,,0,,False
+WI1B,Suparlan Batujajar Airport,small_airport,Bandung,Jawa Barat (West Java),Indonesia,-6.903611,107.475556,2150.0,no,,1,5420.0,"[11, 29]",11,0,,0,,False
+WI1C,Rumpin Airport,small_airport,Rumpin,Jawa Barat (West Java),Indonesia,-6.371861,106.621861,223.0,no,,1,3360.0,"[14, 32]",14,0,,0,,False
+WI1G,Gading Wonosari Airport,small_airport,Gunung Kidul,Yogyakarta,Indonesia,-7.916865,110.565354,702.0,no,,1,3965.0,"[10, 28]",10,0,,0,,False
+WIAC,Balai Sepuak Airstrip,small_airport,Balai Sepuak,Kalimantan Barat (West Kalimantan),Indonesia,0.450209,111.217012,51.0,no,,0,,,,0,,0,,False
+WIAG,Menggala Airport,small_airport,Menggala-Sumatra Island,Lampung,Indonesia,-4.48943996429,105.217002869,98.0,no,,0,,,,0,,1,AK,False
+WIAJ,Atang Senjaya Airport,small_airport,Bogor,Jawa Barat (West Java),Indonesia,-6.538819,106.755466,538.0,no,,1,,"[02, 20]",02,0,,0,,False
+WIAK,Sulaiman Airport,small_airport,Margahayu,Jawa Barat (West Java),Indonesia,-6.98278,107.572998,2184.0,no,,1,,"[13, 31]",13,0,,0,,False
+WIBB,Sultan Syarif Kasim II International Airport / Roesmin Nurjadin AFB,medium_airport,Pekanbaru,Riau,Indonesia,0.458647,101.444321,102.0,yes,PKU,1,7360.0,"[18, 36]",18,2,"APP, TWR",2,"NW, PKU",True
+WIBD,Pinang Kampai Airport,medium_airport,Dumai,Riau,Indonesia,1.609026,101.433493,55.0,yes,DUM,1,5905.0,"[03, 21]",03,1,RDO,1,DM,True
+WIBI,Pulai Airport,small_airport,Pelangiran,Riau,Indonesia,0.218532,103.163037,21.0,no,,0,,,,0,,0,,False
+WIBJ,Japura Airport,medium_airport,Rengat-Sumatra Island,Riau,Indonesia,-0.352808,102.334999,62.0,no,RGT,1,4265.0,"[10, 28]",10,2,"A/G, AFIS",1,AD,True
+WIBL,Sultan Syarif Haroen Setia Negara Airport,small_airport,Pangkalan Kerinci,Riau,Indonesia,0.499262,101.923391,42.0,no,,1,,"[18, 36]",18,0,,0,,False
+WIBS,Sungai Pakning Bengkalis Airport,small_airport,Bengkalis-Sumatra Island,Riau,Indonesia,1.37,102.139999,3.0,no,SEQ,1,2626.0,"[18, 36]",18,0,,1,SP,False
+WIBT,Raja Haji Abdullah Airport,small_airport,Tanjung Balai-Karinmunbesar Island,Kepulauan Riau (Riau Islands),Indonesia,1.05287,103.391517,16.0,no,TJB,1,5578.0,"[09, 27]",09,0,,1,TG,False
+WICA,Kertajati International Airport,medium_airport,Kertajati,Jawa Barat (West Java),Indonesia,-6.647384,108.165561,134.0,yes,KJT,1,9843.0,"[14, 32]",14,5,"APP, ATIS, CLD, GND, TWR",0,,True
+WICB,Budiarto Airport,small_airport,Tangerang-Java Island,Banten,Indonesia,-6.293171,106.57,151.0,no,RTO,2,6562.0,"[04, 22], [12, 30]","04, 12",2,"GRD, TWR",2,"BTO, TN",True
+WICC,Husein Sastranegara International Airport,medium_airport,Bandung,Jawa Barat (West Java),Indonesia,-6.90063,107.575996,2436.0,yes,BDO,1,7381.0,"[11, 29]",11,2,"APP, TWR",2,"BND, OY",True
+WICD,Cakrabhuwana  Airport,small_airport,Cirebon-Java Island,Jawa Barat (West Java),Indonesia,-6.757,108.538849,89.0,no,CBN,1,4131.0,"[04, 22]",04,1,A/G,2,"CA, PG",True
+WICM,Wiriadinata Airport,small_airport,"Cibeureum, Tasikmalaya-Java Island",Jawa Barat (West Java),Indonesia,-7.347967,108.246998,1148.0,no,TSY,1,3590.0,"[15, 33]",15,1,TWR,0,,True
+WICN,Nusawiru Airport,small_airport,Cijulang,Jawa Barat (West Java),Indonesia,-7.719895,108.488995,16.0,yes,CJN,1,4549.0,"[07, 25]",07,1,RDO,1,NW,True
+WIDB,Tambelan Airport,small_airport,Tambelan,Kepulauan Riau (Riau Islands),Indonesia,0.979922,107.564658,19.0,no,TBX,0,,,,0,,0,,False
+WIDD,Hang Nadim International Airport,large_airport,Batam,Kepulauan Riau (Riau Islands),Indonesia,1.12103,104.119003,126.0,yes,BTH,1,13218.0,"[04, 22]",04,6,"ACC, APP, ATIS, GND, TWR",2,"BM, BTM",True
+WIDE,Tuanku Tambusai Airport,small_airport,Pasir Pengarayan,Riau,Indonesia,0.845431,100.370154,151.0,no,PPR,1,4240.0,"[18, 36]",18,1,A/G,1,PP,True
+WIDL,Letung Airport,small_airport,Bukit Padi,Kepulauan Riau (Riau Islands),Indonesia,2.96447,105.75484,33.0,no,LMU,0,,,,0,,0,,False
+WIDM,Matak Airport,small_airport,Palmatak,Kepulauan Riau (Riau Islands),Indonesia,3.34812,106.258003,10.0,no,MWK,1,3905.0,"[18, 36]",18,2,"INFO, RDO",1,MK,True
+WIDN,Raja Haji Fisabilillah International Airport,medium_airport,Tanjung Pinang-Bintan Island,Kepulauan Riau (Riau Islands),Indonesia,0.92397,104.53341,52.0,yes,TNJ,1,7380.0,"[04, 22]",04,3,"ACC, APP, TWR",2,"TI, TPG",True
+WIDS,Dabo Airport,small_airport,Pasirkuning-Singkep Island,Kepulauan Riau (Riau Islands),Indonesia,-0.479611,104.579498,95.0,no,SIQ,1,3839.0,"[14, 32]",14,1,INFO,1,NE,True
+WIFL,Riam Batu Airstrip.,small_airport,Riam Batu,Kalimantan Barat (West Kalimantan),Indonesia,-1.497363,110.674943,216.0,no,,0,,,,0,,0,,False
+WIGM,Muko Muko Airport,small_airport,Muko Muko,Bengkulu,Indonesia,-2.541058,101.087651,24.0,yes,MPC,0,,,,0,,1,MO,False
+WIHC,Wiladatika Airport,small_airport,,Jakarta Raya,Indonesia,-6.35643,106.900796,210.0,no,,0,,,,0,,0,,False
+WIHF,Pabelokan Heliport,heliport,Pabelokan Island,Jawa Barat (West Java),Indonesia,-5.477868,106.394934,27.0,no,,0,,,,0,,0,,False
+WIHH,Halim Perdanakusuma International Airport,large_airport,Jakarta,Jakarta Raya,Indonesia,-6.266989,106.890318,84.0,yes,HLP,1,9843.0,"[06, 24]",06,6,"APP, ARR, ATIS, DIR, TWR",2,"AL, HLM",True
+WIHP,Pondok Cabe Air Base,small_airport,Jakarta,Jakarta Raya,Indonesia,-6.3369598388671875,106.76499938964844,200.0,no,PCB,1,6516.0,"[18, 36]",18,1,INFO,1,CB,True
+WIII,Soekarno-Hatta International Airport,large_airport,Jakarta,Banten,Indonesia,-6.12557,106.655998,34.0,yes,CGK,3,12008.0,"[06, 24], [07L, 25R], [07R, 25L]","06, 07L, 07R",8,"APP, ARR, ATIS, CLD, FSS, GND, INFO, TWR",2,"CKG, DKI",True
+WIIK,Kalijati Airport,small_airport,Kalijati-Java Island,Jawa Barat (West Java),Indonesia,-6.53139019012,107.658996582,361.0,no,,1,,"[09, 27]",09,0,,0,,False
+WILG,Gunung Batin Airport,small_airport,Gunung Batin,Lampung,Indonesia,-4.706449,105.26393,92.0,no,,0,,,,0,,0,,False
+WILL,Radin Inten II International Airport,medium_airport,Bandar Lampung,Lampung,Indonesia,-5.246803,105.182531,282.0,yes,TKG,1,9088.0,"[14, 32]",14,1,TWR,2,"TF, TKG",True
+WILP,Muhammad Taufiq Kiemas Airport,small_airport,Krui,Lampung,Indonesia,-5.211562,103.936501,118.0,no,TFY,1,4300.0,"[12, 30]",12,0,,0,,False
+WILW,Way Jepara Airport,small_airport,Sukadana,Lampung,Indonesia,-5.051246,105.655461,103.0,no,,0,,,,0,,0,,False
+WIMA,Malikus Saleh Airport,small_airport,Lhok Seumawe-Sumatra Island,Aceh,Indonesia,5.22668,96.950302,90.0,yes,LSW,1,6070.0,"[06, 24]",06,1,INFO,1,LW,True
+WIMB,Binaka Airport,medium_airport,Gunungsitoli,Sumatera Utara (North Sumatra),Indonesia,1.166275,97.705196,20.0,yes,GNS,1,4445.0,"[09, 27]",09,1,A/G,2,"GI, NIS",True
+WIME,Aek Godang Airport,medium_airport,Padang Sidempuan,Sumatera Utara (North Sumatra),Indonesia,1.4001,99.430496,922.0,no,AEG,1,4580.0,"[11, 29]",11,1,A/G,1,AG,True
+WIMF,Jenderal Besar Abdul Haris Nasution Airport,small_airport,Mandailing,Sumatera Selatan (South Sumatra),Indonesia,0.943995,99.534093,1051.0,no,JHN,0,,,,0,,0,,False
+WIMK,Soewondo Air Force Base,medium_airport,Medan,Sumatera Utara (North Sumatra),Indonesia,3.558425,98.672275,114.0,no,MES,1,9514.0,"[05, 23]",05,3,"APP, ATIS, TWR",2,"MDN, ON",True
+WIMM,Kualanamu International Airport,large_airport,Beringin,Sumatera Utara (North Sumatra),Indonesia,3.637847,98.870566,23.0,yes,KNO,1,12303.0,"[05, 23]",05,2,"ATIS, TWR",0,,True
+WIMN,Silangit Airport,small_airport,Siborong-Borong,Sumatera Utara (North Sumatra),Indonesia,2.25973,98.991898,4700.0,yes,DTB,1,7875.0,"[09, 27]",09,1,INFO,0,,True
+WIMP,Sibisa Airport,small_airport,Parapat-Sumatra Island,Sumatera Utara (North Sumatra),Indonesia,2.601967,98.962381,4234.0,no,SIW,0,,,,0,,0,,False
+WIMS,Dr. Ferdinand Lumban Tobing Airport,medium_airport,Sibolga (Pinangsori),Sumatera Utara (North Sumatra),Indonesia,1.557127,98.887145,33.0,yes,FLZ,1,5655.0,"[12, 30]",12,1,A/G,2,"SIX, SK",True
+WIMU,Alas Leuser Airport,medium_airport,Kutacane,Aceh,Indonesia,3.391456,97.863726,419.0,yes,LSR,1,5358.0,"[15, 33]",15,0,,0,,False
+WIOB,Bengkayang Airport,small_airport,Bengkayang-Borneo Island,Kalimantan Barat (West Kalimantan),Indonesia,0.8333330154418945,109.48332977294922,294.0,no,,0,,,,0,,0,,False
+WIOD,H A S Hanandjoeddin International Airport,small_airport,Tanjung Pandan,Bangka Belitung,Indonesia,-2.744109,107.754535,164.0,yes,TJQ,1,8202.0,"[18, 36]",18,1,TWR,2,"ND, TPN",True
+WIOG,Nanga Pinoh Airport,medium_airport,Nanga Pinoh-Borneo Island,Kalimantan Barat (West Kalimantan),Indonesia,-0.34864,111.746155,123.0,yes,NPO,1,3272.0,"[10, 28]",10,2,"AFIS, RDO",1,NH,True
+WIOH,Liku Airport,small_airport,Paloh,Kalimantan Barat (West Kalimantan),Indonesia,1.737455,109.324002,25.0,no,,1,,"[05, 23]",05,0,,0,,False
+WIOI,Singkawang Airport,small_airport,Sinkawang-Borneo Island,Kalimantan Barat (West Kalimantan),Indonesia,1.0756800174713137,109.68800354003906,276.0,no,,1,2953.0,"[01, 19]",01,0,,1,NF,False
+WIOK,Rahadi Osman Airport,medium_airport,Ketapang,Kalimantan Barat (West Kalimantan),Indonesia,-1.817165,109.963469,46.0,yes,KTG,1,4585.0,"[17, 35]",17,1,INFO,2,"KP, KTP",True
+WION,Ranai Airport,medium_airport,Ranai-Natuna Besar Island,Kepulauan Riau (Riau Islands),Indonesia,3.90871,108.388,7.0,yes,NTX,1,8410.0,"[18, 36]",18,1,INFO,1,RN,True
+WIOO,Supadio International Airport,large_airport,Pontianak,Kalimantan Barat (West Kalimantan),Indonesia,-0.152258,109.404493,10.0,yes,PNK,1,7380.0,"[15, 33]",15,4,"APP, ATIS, INFO, TWR",2,"AT, PNK",True
+WIOP,Pangsuma Airport,medium_airport,Putussibau-Borneo Island,Kalimantan Barat (West Kalimantan),Indonesia,0.834579,112.940217,297.0,yes,PSU,1,3294.0,"[10, 28]",10,1,A/G,1,PB,True
+WIOS,Tebelian Airport,medium_airport,Sintang,Kalimantan Barat (West Kalimantan),Indonesia,-0.045214,111.458049,97.0,yes,SQG,0,,,,0,,0,,False
+WIOV,Babang Airstrip,small_airport,Jagoi,Kalimantan Barat (West Kalimantan),Indonesia,1.340038,109.911081,135.0,no,,0,,,,0,,0,,False
+WIPA,Sultan Thaha Airport,small_airport,Jambi,Jambi,Indonesia,-1.638685,103.645063,82.0,yes,DJB,1,8537.0,"[13, 31]",13,1,TWR,2,"JMB, NX",True
+WIPB,Silampari Airport,small_airport,Lubuk Linggau,Sumatera Selatan (South Sumatra),Indonesia,-3.288165,102.91449,371.0,no,LLJ,1,4428.0,"[02, 20]",02,0,,0,,False
+WIPD,Banding Agung Airport,small_airport,Pasar Bandingagung,Sumatera Selatan (South Sumatra),Indonesia,-4.78702,103.932999,2100.0,no,,1,3302.0,"[15, 33]",15,0,,0,,False
+WIPF,Kuala Tungkal Airport,closed,Kuala Tungkal-Sumatra Island,Jambi,Indonesia,-0.816667,103.466667,12.0,no,,0,,,,0,,0,,False
+WIPI,Muara Bungo Airport,small_airport,Muara Bungo,Jambi,Indonesia,-1.541635,102.181613,192.0,yes,BUU,1,4430.0,"[13, 31]",13,0,,0,,False
+WIPK,Depati Amir Airport,medium_airport,Pangkal Pinang,Bangka Belitung,Indonesia,-2.1622,106.139,109.0,yes,PGK,1,7382.0,"[16, 34]",16,2,"APP, TWR",2,"OI, PKP",True
+WIPL,Fatmawati Soekarno Airport,medium_airport,Bengkulu,Bengkulu,Indonesia,-3.8637,102.338997,50.0,yes,BKS,1,7345.0,"[13, 31]",13,1,TWR,2,"BKL, PB",True
+WIPO,Gatot Subrato Airport,small_airport,Batu Raja-Sumatra Island,Lampung,Indonesia,-4.39177,104.401001,450.0,no,,1,6890.0,"[03, 21]",03,1,AFIS,1,BR,True
+WIPP,Sultan Mahmud Badaruddin II Airport,medium_airport,Palembang,Sumatera Selatan (South Sumatra),Indonesia,-2.897653,104.698147,49.0,yes,PLM,1,8202.0,"[11, 29]",11,4,"APP, ATIS, INFO, TWR",3,"OW, PLB, WW",True
+WIPQ,Pendopo Airport,medium_airport,Talang Gudang-Sumatra Island,Sumatera Selatan (South Sumatra),Indonesia,-3.2860701084136963,103.87999725341795,184.0,yes,PDO,1,4265.0,"[03, 21]",03,1,RDO,1,PD,True
+WIPT,Minangkabau International Airport,large_airport,Padang (Katapiang),Sumatera Barat (West Sumatra),Indonesia,-0.785964,100.280384,18.0,yes,PDG,1,9843.0,"[15, 33]",15,3,"APP, ATIS, TWR",1,MKB,True
+WIPY,Atung Bungsu Airport,small_airport,Bentayan,Sumatera Selatan (South Sumatra),Indonesia,-4.0225,103.379167,40.0,no,PXA,0,,,,0,,0,,False
+WIQD,Teratai Airstrip,small_airport,Terati,Kalimantan Barat (West Kalimantan),Indonesia,0.4,110.75,197.0,no,,0,,,,0,,0,,False
+WIQE,Ulak Muid Aistrip,small_airport,Tanah Pinoh Barat,Kalimantan Barat (West Kalimantan),Indonesia,-0.676667,111.526111,348.0,no,,0,,,,0,,0,,False
+WISA,Smart Semelagi Airport,small_airport,,Kalimantan Barat (West Kalimantan),Indonesia,0.998107,109.051913,10.0,no,,0,,,,0,,0,,False
+WITA,Teuku Cut Ali Airport,small_airport,Tapaktuan,Aceh,Indonesia,3.16904,97.288299,17.0,no,TPK,1,4170.0,"[14, 32]",14,1,FIS,1,TP,True
+WITC,Cut Nyak Dhien Airport,medium_airport,Kuala Pesisir,Aceh,Indonesia,4.040998,96.253312,10.0,yes,MEQ,0,,,,0,,1,MH,False
+WITG,Lasikin Airport,small_airport,Lubang,Aceh,Indonesia,2.411328,96.327722,19.0,yes,LKI,0,,,,0,,1,SG,False
+WITK,Rembele Airport,medium_airport,Takengon,Aceh,Indonesia,4.72113,96.851943,4648.0,yes,TXE,1,3837.0,"[09, 27]",09,0,,0,,False
+WITL,Lhok Sukon Airport,medium_airport,Lhok Sukon-Sumatra Island,Aceh,Indonesia,5.06951,97.259201,28.0,no,LSX,1,3675.0,"[16, 34]",16,1,A/G,1,LS,True
+WITN,Maimun Saleh Airport,small_airport,Sabang,Aceh,Indonesia,5.874668,95.33967,393.0,no,SBG,1,6050.0,"[10, 28]",10,1,INFO,0,,True
+WITS,Seumayam Airport,small_airport,Seumayam-Sumatra Island,Aceh,Indonesia,3.75,96.63333129882812,53.0,no,,0,,,,0,,0,,False
+WITT,Sultan Iskandar Muda International Airport,large_airport,Banda Aceh,Aceh,Indonesia,5.525087,95.41997,65.0,yes,BTJ,1,9843.0,"[17, 35]",17,2,"AFIS, RDO",2,"BAC, NZ",True
+WPAS,Mathilda Batlayeri Airport,small_airport,Saumlaki-Yamdena Island,Maluku,Indonesia,-7.848354,131.337068,446.0,yes,SXK,1,6562.0,"[11, 29]",11,0,,0,,False
+WRBU,Buntok Airport,small_airport,Buntok-Borneo Island,Kalimantan Tengah (Central Kalimantan),Indonesia,-1.73250997066,114.838996887,59.0,no,,0,,,,0,,0,,False
+WREP,Yugwa Airstrip,small_airport,Gamelia,Papua Pegunungan (Highland Papua),Indonesia,-3.878464,138.663223,7080.0,no,,0,,,,0,,0,,False
+WRFC,Endomen Airstrip,small_airport,Endomen,Papua Pegunungan (Highland Papua),Indonesia,-4.224099,139.881753,3609.0,no,,0,,,,0,,0,,False
+WRFE,Proyam Airstrip,small_airport,Erageam,Papua Pegunungan (Highland Papua),Indonesia,-3.716667,138.733333,4928.0,no,,0,,,,0,,0,,False
+WRGS,Kwelamdua Airstrip,small_airport,Kwelamdua,Papua Pegunungan (Highland Papua),Indonesia,-4.690176,139.755245,5285.0,no,,0,,,,0,,0,,False
+WRHC,Makki Airstrip,small_airport,Makki,Papua Pegunungan (Highland Papua),Indonesia,-3.969521,138.629268,6747.0,no,,0,,,,0,,0,,False
+WRHD,Mbuwa Airstrip,small_airport,Mbuwa,Papua Pegunungan (Highland Papua),Indonesia,-4.23834,138.465659,6810.0,no,,0,,,,0,,0,,False
+WRIQ,Somanente Airstrip,small_airport,Somanente,Papua,Indonesia,-2.201166,138.86909,133.0,no,,0,,,,0,,0,,False
+WRJG,Ures Airstrip,small_airport,Kaureh,Papua,Indonesia,-2.955556,139.621111,525.0,no,,0,,,,0,,0,,False
+WRKJ,Mena Airport,small_airport,Mena-Timor Island,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-9.183889389038086,124.58916473388672,320.0,no,,0,,,,0,,0,,False
+WRKN,Naikliu Airport,small_airport,Naikliu-Timor Island,Nusa Tenggara Timur (East Nusa Tenggara),Indonesia,-9.49547004699707,123.79499816894533,60.0,no,,0,,,,0,,0,,False
+WRLA,Sangkimah Airport,small_airport,Sanggata,Kalimantan Timur (East Kalimantan),Indonesia,0.384421,117.542832,60.0,no,SGQ,1,2585.0,"[02, 20]",02,0,,0,,False
+WRLB,Yuvai Semaring Airport,small_airport,Long Bawan,Kalimantan Utara (North Kalimantan),Indonesia,3.900495,115.690089,2540.0,yes,LBW,1,2953.0,"[04, 22]",04,0,,1,LN,False
+WRLC,LNG Badak Airport,small_airport,Bontang-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,0.121656,117.476558,49.0,yes,BXT,1,3350.0,"[04, 22]",04,0,,0,,False
+WRLF,Nunukan Airport,small_airport,Nunukan-Nunukan Island,Kalimantan Utara (North Kalimantan),Indonesia,4.134001,117.669546,59.0,no,NNX,1,3609.0,"[13, 31]",13,2,NUNUKAN INFO,0,,True
+WRLH,Tanah Grogot Airport,small_airport,Tanah Grogot,Kalimantan Timur (East Kalimantan),Indonesia,-1.885541,116.256809,17.0,no,TNB,0,,,,0,,1,SG,False
+WRLJ,Tanjung Bara Airport,small_airport,Sangata,Kalimantan Timur (East Kalimantan),Indonesia,0.5605,117.64435,48.0,no,,2,2381.0,"[04, 22], [H]","04, H",0,,0,,False
+WRLM,Kegata Airstrip,small_airport,Kegata,Papua Tengah (Central Papua),Indonesia,-4.045488,135.558913,4947.0,no,,0,,,,0,,0,,False
+WRLN,Long Mawang Airport,small_airport,Long Mawang-Borneo Island,Kalimantan Utara (North Kalimantan),Indonesia,1.7992,114.9043,1976.0,no,,1,1444.0,"[18, 36]",18,0,,0,,False
+WRLP,Long Apung Airport,small_airport,Long Apung-Borneo Island,Kalimantan Utara (North Kalimantan),Indonesia,1.706932,114.969934,2437.0,yes,LPU,1,2620.0,"[17, 35]",17,0,,0,,False
+WRLR,Modio Airstrip,small_airport,Modio,Papua Tengah (Central Papua),Indonesia,-4.066384,135.790291,4618.0,no,,0,,,,0,,0,,False
+WRLS,Obogwy Airstrip,small_airport,Obogwy,Papua,Indonesia,-2.835037,137.972235,294.0,no,,0,,,,0,,0,,False
+WRLU,Sangkulirang Airport,small_airport,Sangkulirang-Borneo Island,Kalimantan Timur (East Kalimantan),Indonesia,1.00089,117.996002,34.0,no,,0,,,,0,,0,,False
+WRLV,Wapoga Airstrip,small_airport,Syewa Merare,Papua,Indonesia,-3.040179,136.377255,3327.0,no,,0,,,,0,,0,,False
+WRLW,Muara Wahau Airport,small_airport,Miau Baru,Kalimantan Timur (East Kalimantan),Indonesia,1.193225,116.955886,205.0,no,,1,2297.0,"[10, 28]",10,0,,0,,False
+WRLX,Tigi Airstrip,small_airport,Tigi Timur,Papua Tengah (Central Papua),Indonesia,-4.025408,136.21185,5607.0,no,,0,,,,0,,0,,False
+WRLY,Senipah Heliport,heliport,Senipah,Kalimantan Timur (East Kalimantan),Indonesia,-0.975679,117.147701,38.0,no,,0,,,,0,,0,,False
+WRMH,Miaro Airstrip,small_airport,Miaro,Papua Selatan (South Papua),Indonesia,-6.197837,139.008001,33.0,no,,0,,,,0,,0,,False
+WRNB,Weri Airstrip,small_airport,Weri,Papua Tengah (Central Papua),Indonesia,-3.289248,137.831717,320.0,no,,0,,,,0,,0,,False
+WRRP,Mayado Airstrip,small_airport,Meyado,Papua Barat (West Papua),Indonesia,-1.909542,133.157418,213.0,no,,0,,,,0,,0,,False

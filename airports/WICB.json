@@ -1,0 +1,171 @@
+{
+  "icao": "WICB",
+  "iata": null,
+  "name": "Budiarto Airport",
+  "city": "Curug, Tangerang",
+  "elevation_ft": 151,
+  "latitude": -6.28919,
+  "longitude": 106.568,
+  "profile": "VFR_LOCAL",
+  "runways": [
+    {
+      "pair": ["12", "30"],
+      "designator": "12",
+      "reciprocal": "30",
+      "length_ft": 6562,
+      "width_ft": 148,
+      "surface": "ASP",
+      "heading_degT": 119.6,
+      "ils_available": true,
+      "holdingPoints": ["A1", "G1", "D1", "H1"],
+      "_source": "Kemenhub UPBU Budiarto Sisi Udara 2026 (2.000m x 45m)"
+    },
+    {
+      "pair": ["04", "22"],
+      "designator": "04",
+      "reciprocal": "22",
+      "length_ft": 5249,
+      "width_ft": 148,
+      "surface": "ASP",
+      "heading_degT": 43.6,
+      "ils_available": false,
+      "holdingPoints": ["B1", "C1", "L1"],
+      "_source": "Kemenhub UPBU Budiarto Sisi Udara 2026 (1.600m x 45m)"
+    }
+  ],
+  "units": {
+    "delivery": null,
+    "apron": null,
+    "ground": {
+      "callsign": "Budiarto Ground",
+      "frequency": "118.500",
+      "_source": "AIP WICB AD 2.18 / Kemenhub",
+      "_status": "verified"
+    },
+    "tower": {
+      "callsign": "Budiarto Tower",
+      "frequency": "122.400",
+      "_source": "AIP WICB AD 2.18 / Kemenhub",
+      "_status": "verified"
+    },
+    "approach": {
+      "callsign": "Jakarta Director",
+      "frequency": "123.400",
+      "_source": "Jakarta TMA Sector Budiarto Control",
+      "_status": "verified"
+    },
+    "departure": null,
+    "center": {
+      "callsign": "Jakarta Control",
+      "frequency": "127.900",
+      "_source": "AIP Indonesia"
+    },
+    "atis": null
+  },
+  "taxiways": [
+    { "id": "Alpha", "spoken": "Alfa", "dimension": "210m x 18m", "description": "Connects Apron A to RWY 12-30" },
+    { "id": "Bravo", "spoken": "Bravo", "dimension": "400m x 18m", "description": "Connects Apron A/C to RWY 04-22" },
+    { "id": "Charlie", "spoken": "Charlie", "dimension": "150m x 23m", "description": "Connector taxiway" },
+    { "id": "Delta", "spoken": "Delta", "dimension": "1132m x 18m", "description": "Parallel taxiway southern sector" },
+    { "id": "Echo", "spoken": "Echo", "dimension": "150m x 20m", "description": "Taxiway connector" },
+    { "id": "Foxtrot", "spoken": "Foxtrot", "dimension": "150m x 20m", "description": "Taxiway connector" },
+    { "id": "Golf", "spoken": "Golf", "dimension": "580m x 22m", "description": "Connects RWY 12 threshold to parallel taxiway" },
+    { "id": "Hotel", "spoken": "Hotel", "dimension": "325m x 23m", "description": "Connects RWY 30 threshold to Apron D/Hanggar" },
+    { "id": "India", "spoken": "India", "dimension": "150m x 23m", "description": "Apron connector" },
+    { "id": "Lima", "spoken": "Lima", "dimension": "150m x 23m", "description": "Connects Apron B training fleet" }
+  ],
+  "stands": [
+    { "id": "A1", "spoken": "Stand Alfa One", "type": "TRAINING", "apron": "Apron A Main" },
+    { "id": "A2", "spoken": "Stand Alfa Two", "type": "TRAINING", "apron": "Apron A Main" },
+    { "id": "A3", "spoken": "Stand Alfa Three", "type": "TRAINING", "apron": "Apron A Main" },
+    { "id": "A4", "spoken": "Stand Alfa Four", "type": "TRAINING", "apron": "Apron A Main" },
+    { "id": "B1", "spoken": "Stand Bravo One", "type": "GA", "apron": "Apron B West" },
+    { "id": "B2", "spoken": "Stand Bravo Two", "type": "GA", "apron": "Apron B West" },
+    { "id": "C1", "spoken": "Stand Charlie One", "type": "MAINTENANCE", "apron": "Apron C East" },
+    { "id": "D1", "spoken": "Stand Delta One", "type": "TRAINING", "apron": "Apron D Hanggar" }
+  ],
+  "trainingAreas": [
+    {
+      "id": "Alpha",
+      "spoken": "Area Alfa",
+      "sector": "North / Mauk",
+      "radial": 350,
+      "distance_nm": "10-15",
+      "altitude_ft_min": 1500,
+      "altitude_ft_max": 3000
+    },
+    {
+      "id": "Bravo",
+      "spoken": "Area Bravo",
+      "sector": "South / Rangkasbitung",
+      "radial": 210,
+      "distance_nm": "12-20",
+      "altitude_ft_min": 2500,
+      "altitude_ft_max": 4500
+    }
+  ],
+  "procedures": {
+    "sids": [],
+    "stars": [],
+    "approaches": [
+      {
+        "id": "VIS12",
+        "type": "VISUAL",
+        "runway": "12",
+        "pattern": "standard left-hand circuit",
+        "circuit_alt_ft": 1000
+      },
+      {
+        "id": "VIS30",
+        "type": "VISUAL",
+        "runway": "30",
+        "pattern": "standard left-hand circuit",
+        "circuit_alt_ft": 1000
+      },
+      {
+        "id": "VIS04",
+        "type": "VISUAL",
+        "runway": "04",
+        "pattern": "standard left-hand circuit",
+        "circuit_alt_ft": 1000
+      },
+      {
+        "id": "VIS22",
+        "type": "VISUAL",
+        "runway": "22",
+        "pattern": "standard left-hand circuit",
+        "circuit_alt_ft": 1000
+      },
+      {
+        "id": "ILS30",
+        "type": "ILS",
+        "runway": "30",
+        "finalApproachFix": "CURUG",
+        "fafAltFt": 2000,
+        "da_mda_ft": 350,
+        "missedApproachAltFt": 2500,
+        "missedApproachHeading": 300
+      }
+    ],
+    "holdings": [
+      {
+        "fix": "CR NDB",
+        "inboundTrack": 120,
+        "turns": "right",
+        "altFt": 2500,
+        "published": true
+      }
+    ]
+  },
+  "_meta": {
+    "datasetCycle": "2026-KEMENHUB-UPBU",
+    "status": "verified",
+    "notes": [
+      "Data sisi udara diverifikasi langsung dari Ditjen Hubud Kemenhub UPBU Budiarto (Oktober 2026).",
+      "Pangkalan latih utama Politeknik Penerbangan Indonesia Curug (PPI Curug / eks STPI).",
+      "Memiliki 2 runway aktif terverifikasi: RWY 12-30 (2000m x 45m) dan RWY 04-22 (1600m x 45m).",
+      "10 jaringan taxiway resmi: A, B, C, D, E, F, G, H, I, L.",
+      "3 apron aktif: Apron A (25.404 m²), Apron B (10.176 m²), Apron C (20.000 m²)."
+    ]
+  }
+}

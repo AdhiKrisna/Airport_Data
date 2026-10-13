@@ -1,0 +1,123 @@
+ident,name,type,municipality,province_name,runway_count,max_runway_length_ft,runway_pairs,frequency_count,frequency_types
+WIII,Soekarno-Hatta International Airport,large_airport,Jakarta,Banten,3,12008.0,"[06, 24], [07L, 25R], [07R, 25L]",8,"APP, ARR, ATIS, CLD, FSS, GND, INFO, TWR"
+WARR,Juanda International Airport,large_airport,Surabaya,Jawa Timur (East Java),1,9843.0,"[10, 28]",8,"ATIS, DIR, SMC, TCA, TWR"
+WIDD,Hang Nadim International Airport,large_airport,Batam,Kepulauan Riau (Riau Islands),1,13218.0,"[04, 22]",6,"ACC, APP, ATIS, GND, TWR"
+WIHH,Halim Perdanakusuma International Airport,large_airport,Jakarta,Jakarta Raya,1,9843.0,"[06, 24]",6,"APP, ARR, ATIS, DIR, TWR"
+WADD,Denpasar I Gusti Ngurah Rai International Airport,large_airport,"Kuta, Badung",Bali,1,9790.0,"[09, 27]",6,"APP, ATIS, GND, INFO, TMA, TWR"
+WARJ,Adisutjipto International Airport,medium_airport,Yogyakarta,Yogyakarta,2,7215.0,"[09, 27], [09R, 27L]",6,"APP, ATIS, GND, TWR"
+WADL,Lombok International Airport,large_airport,"Mataram (Pujut, Lombok Tengah)",Nusa Tenggara Barat (West Nusa Tenggara),1,10826.0,"[13, 31]",5,"APP, ATIS, CLD, GND, TWR"
+WAHI,Yogyakarta International Airport,large_airport,Yogyakarta,Yogyakarta,1,10663.0,"[11, 29]",5,"APP, ATIS, CLD, GND, TWR"
+WICA,Kertajati International Airport,medium_airport,Kertajati,Jawa Barat (West Java),1,9843.0,"[14, 32]",5,"APP, ATIS, CLD, GND, TWR"
+WABB,Frans Kaisiepo Airport,medium_airport,Biak,Papua,1,11715.0,"[11, 29]",4,"APP, ATIS, INFO, TWR"
+ID-0277,Dhoho International Airport,medium_airport,Kediri,Jawa Timur (East Java),1,10827.0,"[14, 32]",4,"APP, ATIS, GND, TWR"
+WAAA,Sultan Hasanuddin International Airport,large_airport,Makassar,Sulawesi Selatan (South Sulawesi),2,10171.0,"[03, 21], [13, 31]",4,"APP, ATIS, INFO, TWR"
+WAJJ,Dortheys Hiyo Eluay International Airport,large_airport,Sentani,Papua,1,9842.0,"[12, 30]",4,"APP, ATIS, INFO, TWR"
+WAMM,Sam Ratulangi International Airport,large_airport,Manado,Sulawesi Utara (North Sulawesi),1,8693.0,"[18, 36]",4,"APP, ATIS, INFO, TWR"
+WARQ,Adisoemarmo International Airport,large_airport,Surakarta,Jawa Tengah (Central Java),1,8530.0,"[08, 26]",4,"APP, ATIS, TCA, TWR"
+WALL,Sultan Aji Muhammad Sulaiman Sepinggan International Airport,large_airport,Balikpapan,Kalimantan Timur (East Kalimantan),1,8202.0,"[07, 25]",4,"APP, ATIS, INFO, TWR"
+WAOO,Syamsudin Noor International Airport,large_airport,Banjarbaru,Kalimantan Selatan (South Kalimantan),1,8202.0,"[10, 28]",4,"APP, ATIS, INFO, TWR"
+WAPP,Pattimura International Airport,large_airport,Ambon,Maluku,1,8202.0,"[04, 22]",4,"APP, ATIS, INFO, TWR"
+WIPP,Sultan Mahmud Badaruddin II Airport,medium_airport,Palembang,Sumatera Selatan (South Sumatra),1,8202.0,"[11, 29]",4,"APP, ATIS, INFO, TWR"
+WIOO,Supadio International Airport,large_airport,Pontianak,Kalimantan Barat (West Kalimantan),1,7380.0,"[15, 33]",4,"APP, ATIS, INFO, TWR"
+WASS,Domine Eduard Osok Airport,medium_airport,Sorong,Papua Barat (West Papua),1,6070.0,"[09, 27]",4,"APP, ATIS, GND, TWR"
+WAHU,Dewadaru Airport,small_airport,Karimunjawa,Jawa Tengah (Central Java),1,3937.0,"[13, 31]",4,"NDB, SSB, VHF, VOR"
+WIPT,Minangkabau International Airport,large_airport,Padang (Katapiang),Sumatera Barat (West Sumatra),1,9843.0,"[15, 33]",3,"APP, ATIS, TWR"
+WIMK,Soewondo Air Force Base,medium_airport,Medan,Sumatera Utara (North Sumatra),1,9514.0,"[05, 23]",3,"APP, ATIS, TWR"
+WARS,Jenderal Ahmad Yani Airport,large_airport,Semarang,Jawa Tengah (Central Java),1,8399.0,"[13, 31]",3,"APP, ATIS, TWR"
+WIDN,Raja Haji Fisabilillah International Airport,medium_airport,Tanjung Pinang-Bintan Island,Kepulauan Riau (Riau Islands),1,7380.0,"[04, 22]",3,"ACC, APP, TWR"
+WAVV,Wamena Airport,medium_airport,Wamena,Papua Pegunungan (Highland Papua),1,7135.0,"[15, 33]",3,"AFIS, ATIS, TWR"
+ID-0340,Tabing Airport,medium_airport,Padang,Sumatera Barat (West Sumatra),1,7040.0,"[16, 34]",3,"APP, ATIS, TWR"
+WADY,Banyuwangi Airport,small_airport,"Rogojampi, Banyuwangi",Jawa Timur (East Java),1,4593.0,"[08, 26]",3,"GND, TWR, APP"
+WIMM,Kualanamu International Airport,large_airport,Beringin,Sumatera Utara (North Sumatra),1,12303.0,"[05, 23]",2,"ATIS, TWR"
+WARI,Iswahjudi Air Base,small_airport,Magetan,Jawa Timur (East Java),2,10030.0,"[17L, 35R], [17R, 35L]",2,"APP, GND"
+WITT,Sultan Iskandar Muda International Airport,large_airport,Banda Aceh,Aceh,1,9843.0,"[17, 35]",2,"AFIS, RDO"
+WAGG,Tjilik Riwut Airport,medium_airport,Palangkaraya,Kalimantan Tengah (Central Kalimantan),1,8202.0,"[16, 34]",2,"ATIS, TWR"
+WAMG,Jalaluddin Airport,small_airport,Gorontalo,Gorontalo,1,8202.0,"[09, 27]",2,"INFO, TWR"
+WARA,Abdul Rachman Saleh Airport,medium_airport,Malang,Jawa Timur (East Java),2,8202.0,"[17, 35], [17L, 35R]",2,"APP, TWR"
+WATT,El Tari Airport,medium_airport,Kupang,Nusa Tenggara Timur (East Nusa Tenggara),2,8202.0,"[07, 25], [12, 30]",2,"INFO, TWR"
+WABP,Mozes Kilangin Airport,medium_airport,Timika,Papua Tengah (Central Papua),1,7841.0,"[12, 30]",2,"RDO, TWR"
+WAPF,Karel Sadsuitubun Airport,medium_airport,Langgur,Maluku,1,7710.0,"[13, 31]",2,"APP, TWR"
+WALR,Juwata International Airport / Suharnoko Harbani AFB,medium_airport,Tarakan,Kalimantan Utara (North Kalimantan),1,7382.0,"[06, 24]",2,"APP, TWR"
+WIPK,Depati Amir Airport,medium_airport,Pangkal Pinang,Bangka Belitung,1,7382.0,"[16, 34]",2,"APP, TWR"
+WATO,Komodo Airport,small_airport,"Labuan Bajo, Manggarai Barat",Nusa Tenggara Timur (East Nusa Tenggara),1,7381.0,"[17, 35]",2,"A/G, INFO"
+WICC,Husein Sastranegara International Airport,medium_airport,Bandung,Jawa Barat (West Java),1,7381.0,"[11, 29]",2,"APP, TWR"
+WIBB,Sultan Syarif Kasim II International Airport / Roesmin Nurjadin AFB,medium_airport,Pekanbaru,Riau,1,7360.0,"[18, 36]",2,"APP, TWR"
+WAWD,Matahora Airport,medium_airport,Wangi-wangi Island,Sulawesi Tenggara (Southeast Sulawesi),1,6959.0,"[04, 22]",2,"APP, TWR"
+WAFB,Toraja Airport,medium_airport,Toraja,Sulawesi Selatan (South Sulawesi),1,6562.0,"[04, 22]",2,"APP, TWR"
+WICB,Budiarto Airport,small_airport,Tangerang-Java Island,Banten,2,6562.0,"[04, 22], [12, 30]",2,"GRD, TWR"
+WAKK,Mopah International Airport,medium_airport,Merauke,Papua Selatan (South Papua),1,6070.0,"[16, 34]",2,"FSS, TWR"
+WAEE,Sultan Babullah Airport,medium_airport,Ternate,Maluku Utara (North Maluku),1,5875.0,"[14, 32]",2,"AFIS, RDO"
+WARE,Notohadinegoro Airport,small_airport,Jember,Jawa Timur (East Java),1,5594.0,"[02, 20]",2,"INFO, TWR"
+WADB,Sultan Muhammad Salahuddin Airport,medium_airport,Bima,Nusa Tenggara Barat (West Nusa Tenggara),1,5405.0,"[13, 31]",2,"RDO, TWR"
+WART,Trunojoyo Airport,small_airport,Sumenep,Jawa Timur (East Java),1,5249.0,"[12, 30]",2,"INFO, TWR"
+WASK,Utarom Airport,medium_airport,Kaimana,Papua Barat (West Papua),1,5249.0,"[01, 19]",2,"INFO, RDO"
+ID-0339,Old Nabire Airport,medium_airport,Nabire,Papua Tengah (Central Papua),1,4593.0,"[16, 34]",2,"RDO, TWR"
+WAPL,Dumatubin Airport,small_airport,Langgur,Maluku,1,4265.0,"[09, 27]",2,"INFO, RDO"
+WIBJ,Japura Airport,medium_airport,Rengat-Sumatra Island,Riau,1,4265.0,"[10, 28]",2,"A/G, AFIS"
+WATG,Frans Sales Lega Airport,small_airport,"Satar Tacik, Manggarai",Nusa Tenggara Timur (East Nusa Tenggara),1,4186.0,"[09, 27]",2,"A/G, RDO"
+WALQ,Muara Badak Pujangan Airport,small_airport,Muara Badak-Borneo Island,Kalimantan Timur (East Kalimantan),1,3937.0,"[01, 19]",2,"INFO, RDO"
+WIDM,Matak Airport,small_airport,Palmatak,Kepulauan Riau (Riau Islands),1,3905.0,"[18, 36]",2,"INFO, RDO"
+WRLF,Nunukan Airport,small_airport,Nunukan-Nunukan Island,Kalimantan Utara (North Kalimantan),1,3609.0,"[13, 31]",2,NUNUKAN INFO
+WALV,Bunyu Airport,small_airport,Bunju Island,Kalimantan Utara (North Kalimantan),1,3281.0,"[04, 22]",2,"A/G, TWR"
+WIOG,Nanga Pinoh Airport,medium_airport,Nanga Pinoh-Borneo Island,Kalimantan Barat (West Kalimantan),1,3272.0,"[10, 28]",2,"AFIS, RDO"
+WA44,Maranggo Airport,small_airport,Waha-Tomea Island,Sulawesi Tenggara (Southeast Sulawesi),1,3078.0,"[13, 31]",2,"AFIS, RDO"
+WADE,Lieutenant Colonel Wisnu Airfield,small_airport,"Gerokgak, Buleleng",Bali,1,2233.0,"[14, 32]",2,"INFO, TWR"
+WILL,Radin Inten II International Airport,medium_airport,Bandar Lampung,Lampung,1,9088.0,"[14, 32]",1,TWR
+WIPA,Sultan Thaha Airport,small_airport,Jambi,Jambi,1,8537.0,"[13, 31]",1,TWR
+WION,Ranai Airport,medium_airport,Ranai-Natuna Besar Island,Kepulauan Riau (Riau Islands),1,8410.0,"[18, 36]",1,INFO
+WIOD,H A S Hanandjoeddin International Airport,small_airport,Tanjung Pandan,Bangka Belitung,1,8202.0,"[18, 36]",1,TWR
+WAEW,Pitu Airport,medium_airport,Gotalalamo-Morotai Island,Maluku Utara (North Maluku),1,7880.0,"[09, 27]",1,A/G
+WIMN,Silangit Airport,small_airport,Siborong-Borong,Sumatera Utara (North Sumatra),1,7875.0,"[09, 27]",1,INFO
+WALS,Aji Pangeran Tumenggung Pranoto International Airport,medium_airport,Samarinda,Kalimantan Timur (East Kalimantan),1,7382.0,"[04, 22]",1,TWR
+WIPL,Fatmawati Soekarno Airport,medium_airport,Bengkulu,Bengkulu,1,7345.0,"[13, 31]",1,TWR
+WAWW,Haluoleo Airport,small_airport,Kendari,Sulawesi Tenggara (Southeast Sulawesi),1,6890.0,"[08, 26]",1,TWR
+WIPO,Gatot Subrato Airport,small_airport,Batu Raja-Sumatra Island,Lampung,1,6890.0,"[03, 21]",1,AFIS
+WAFF,Mutiara - SIS Al-Jufrie Airport,medium_airport,Palu,Sulawesi Tengah (Central Sulawesi),1,6781.0,"[15, 33]",1,TWR
+WASR,Rendani Airport,medium_airport,Manokwari,Papua Barat (West Papua),1,6562.0,"[17, 35]",1,AFIS
+WIHP,Pondok Cabe Air Base,small_airport,Jakarta,Jakarta Raya,1,6516.0,"[18, 36]",1,INFO
+WAFW,Syukuran Aminuddin Amir Airport,medium_airport,Luwok,Sulawesi Tengah (Central Sulawesi),1,6070.0,"[03, 21]",1,A/G
+WIMA,Malikus Saleh Airport,small_airport,Lhok Seumawe-Sumatra Island,Aceh,1,6070.0,"[06, 24]",1,INFO
+WAOS,Sampit (H.Asan) Airport,small_airport,Sampit,Kalimantan Tengah (Central Kalimantan),1,6060.0,"[13, 31]",1,A/G
+WITN,Maimun Saleh Airport,small_airport,Sabang,Aceh,1,6050.0,"[10, 28]",1,INFO
+WATC,Frans Xavier Seda Airport,small_airport,Waioti,Nusa Tenggara Timur (East Nusa Tenggara),1,5980.0,"[05, 23]",1,AFIS
+WADS,Sultan Muhammad Kaharuddin III Airport,small_airport,Sumbawa Besar,Nusa Tenggara Barat (West Nusa Tenggara),1,5906.0,"[14, 32]",1,A/G
+WADT,Tambolaka Airport,small_airport,Radamata,Nusa Tenggara Timur (East Nusa Tenggara),1,5905.0,"[10, 28]",1,RDO
+WAWB,Betoambari Airport,small_airport,Bau Bau,Sulawesi Tenggara (Southeast Sulawesi),1,5905.0,"[04, 22]",1,INFO
+WIBD,Pinang Kampai Airport,medium_airport,Dumai,Riau,1,5905.0,"[03, 21]",1,RDO
+WALX,Mangkajang Airport,small_airport,Mangkajang-Borneo Island,Kalimantan Timur (East Kalimantan),1,5690.0,"[07, 25]",1,RDO
+WIMS,Dr. Ferdinand Lumban Tobing Airport,medium_airport,Sibolga (Pinangsori),Sumatera Utara (North Sumatra),1,5655.0,"[12, 30]",1,A/G
+WATE,H. Hasan Aroeboesman (Ende) Airport,small_airport,Ende,Nusa Tenggara Timur (East Nusa Tenggara),1,5440.0,"[09, 27]",1,RDO
+WADW,Umbu Mehang Kunda Airport,small_airport,Waingapu-Sumba Island,Nusa Tenggara Timur (East Nusa Tenggara),1,5415.0,"[15, 33]",1,AFIS
+WAOI,Iskandar Airport,small_airport,Pangkalanbun,Kalimantan Tengah (Central Kalimantan),1,5415.0,"[13, 31]",1,TWR
+WAQT,Kalimarau Airport,medium_airport,Tanjung Redeb - Borneo Island,Kalimantan Timur (East Kalimantan),1,4625.0,"[01, 19]",1,RDO
+WAON,Warukin Airport,medium_airport,Tanta-Tabalong,Kalimantan Selatan (South Kalimantan),1,4601.0,"[06, 24]",1,AFIS
+WAHL,Tunggul Wulung Airport,medium_airport,Cilacap,Jawa Tengah (Central Java),1,4593.0,"[13, 31]",1,A/G
+WATM,Alor Island - Mali Airport,small_airport,Kabola,Nusa Tenggara Timur (East Nusa Tenggara),1,4586.0,"[03, 21]",1,INFO
+WIOK,Rahadi Osman Airport,medium_airport,Ketapang,Kalimantan Barat (West Kalimantan),1,4585.0,"[17, 35]",1,INFO
+WIME,Aek Godang Airport,medium_airport,Padang Sidempuan,Sumatera Utara (North Sumatra),1,4580.0,"[11, 29]",1,A/G
+WICN,Nusawiru Airport,small_airport,Cijulang,Jawa Barat (West Java),1,4549.0,"[07, 25]",1,RDO
+WALT,Tanjung Santan Airport,small_airport,Santan-Borneo Island,Kalimantan Timur (East Kalimantan),1,4501.0,"[08, 26]",1,RDO
+WIMB,Binaka Airport,medium_airport,Gunungsitoli,Sumatera Utara (North Sumatra),1,4445.0,"[09, 27]",1,A/G
+WASO,Babo Airport,medium_airport,Babo,Papua Barat (West Papua),1,4280.0,"[02, 20]",1,INFO
+WAPK,Benjina Airport,small_airport,Maikoor Island,Maluku,1,4265.0,"[04, 22]",1,RDO
+WIPQ,Pendopo Airport,medium_airport,Talang Gudang-Sumatra Island,Sumatera Selatan (South Sumatra),1,4265.0,"[03, 21]",1,RDO
+ID-0341,Susilo Airport,medium_airport,Sintang,Kalimantan Barat (West Kalimantan),1,4256.0,"[08, 26]",1,INFO
+WIDE,Tuanku Tambusai Airport,small_airport,Pasir Pengarayan,Riau,1,4240.0,"[18, 36]",1,A/G
+WITA,Teuku Cut Ali Airport,small_airport,Tapaktuan,Aceh,1,4170.0,"[14, 32]",1,FIS
+WICD,Cakrabhuwana  Airport,small_airport,Cirebon-Java Island,Jawa Barat (West Java),1,4131.0,"[04, 22]",1,A/G
+WAOH,Kota Baru Airport,small_airport,"Mekar Putih, Kotabaru",Kalimantan Selatan (South Kalimantan),1,4100.0,"[12, 30]",1,INFO
+WIDS,Dabo Airport,small_airport,Pasirkuning-Singkep Island,Kepulauan Riau (Riau Islands),1,3839.0,"[14, 32]",1,INFO
+WALG,Tanjung Harapan Airport,small_airport,Tanjung Selor-Borneo Island,Kalimantan Utara (North Kalimantan),1,3773.0,"[03, 21]",1,INFO
+WITL,Lhok Sukon Airport,medium_airport,Lhok Sukon-Sumatra Island,Aceh,1,3675.0,"[16, 34]",1,A/G
+WAFP,Kasiguncu Airport,medium_airport,Poso-Celebes Island,Sulawesi Tengah (Central Sulawesi),1,3650.0,"[03, 21]",1,A/G
+WAMH,Naha Airport,medium_airport,"Tabukan Utara, Sangihe Islands",Sulawesi Utara (North Sulawesi),1,3597.0,"[15, 33]",1,A/G
+WICM,Wiriadinata Airport,small_airport,"Cibeureum, Tasikmalaya-Java Island",Jawa Barat (West Java),1,3590.0,"[15, 33]",1,TWR
+WAWT,Pongtiku Airport,small_airport,Makale,Sulawesi Selatan (South Sulawesi),1,3440.0,"[12, 30]",1,AFIS
+WASF,Fakfak Airport,medium_airport,Fakfak,Papua Barat (West Papua),1,3415.0,"[10, 28]",1,A/G
+WAWS,Soroako Airport,small_airport,Soroako,Sulawesi Selatan (South Sulawesi),1,3340.0,"[12, 30]",1,A/G
+WIOP,Pangsuma Airport,medium_airport,Putussibau-Borneo Island,Kalimantan Barat (West Kalimantan),1,3294.0,"[10, 28]",1,A/G
+WAFM,Andi Jemma Airport,small_airport,Masamba,Sulawesi Selatan (South Sulawesi),1,3133.0,"[02, 20]",1,INFO
+ID-0273,Marimoi Airport,small_airport,Modjid-Celebes Island,Maluku Utara (North Maluku),1,3020.0,"[15, 33]",1,INFO
+WARP,Pagerungan Airport,small_airport,Sapeken,Jawa Timur (East Java),1,3009.0,"[12, 30]",1,RDO
+ID-0176,Bari Airport,small_airport,Bari,Papua Pegunungan (Highland Papua),1,1450.0,"[08, 26]",1,ATS
+ID-0121,Pogapa Airstrip,small_airport,Pogapa,Papua Tengah (Central Papua),1,,"[15, 33]",1,ATS

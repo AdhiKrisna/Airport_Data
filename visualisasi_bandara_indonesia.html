@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Visualisasi & Master Directory Bandara Indonesia (RTF Simulator Pool)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 20px; background: #0f172a; color: #f8fafc; }
+  .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; padding-bottom: 16px; margin-bottom: 20px; }
+  h1 { margin: 0; font-size: 22px; color: #38bdf8; }
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 24px; }
+  .stat-card { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 14px; text-align: center; }
+  .stat-num { font-size: 28px; font-weight: 800; color: #facc15; margin-bottom: 4px; }
+  .stat-label { font-size: 11px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px; }
+  
+  .insight-box { background: #1e293b; border-left: 4px solid #38bdf8; padding: 14px 18px; border-radius: 6px; margin-bottom: 24px; font-size: 13px; line-height: 1.5; color: #cbd5e1; }
+  .insight-box b { color: #f8fafc; }
+
+  table { width: 100%; border-collapse: collapse; background: #1e293b; border-radius: 10px; overflow: hidden; font-size: 12px; }
+  th { background: #0284c7; color: #ffffff; text-align: left; padding: 10px 12px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid #334155; }
+  tr:hover { background: #334155; }
+  .code { font-family: ui-monospace, monospace; background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px; color: #facc15; font-weight: 700; }
+  .pair-pill { font-family: ui-monospace, monospace; background: rgba(14, 165, 233, 0.2); color: #38bdf8; padding: 2px 6px; border-radius: 4px; font-weight: 700; border: 1px solid rgba(14, 165, 233, 0.4); }
+  .badge-large { background: #059669; color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+  .badge-med { background: #d97706; color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+  .badge-small { background: #64748b; color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>Visualisasi & Master Directory Bandara Indonesia</h1>
+    <div style="font-size: 12px; color: #94a3b8; margin-top: 4px;">Dataset 6 CSV OurAirports dengan Runway Pairing [Base, Reciprocal]</div>
+  </div>
+  <div style="font-size: 11px; background: #0369a1; padding: 6px 12px; border-radius: 6px; font-weight: 700;">HERMES SCRIPT GENERATOR POOL</div>
+</div>
+
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="stat-num">731</div>
+    <div class="stat-label">Total Bandara ID di Database</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-num">122</div>
+    <div class="stat-label">Bandara Viable RTF (Rwy + Freq ATC)</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-num">19</div>
+    <div class="stat-label">Bandara Kelas Besar (Large)</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-num">64</div>
+    <div class="stat-label">Bandara Kelas Menengah (Medium)</div>
+  </div>
+</div>
+
+<div class="insight-box">
+  <b>💡 Runway Pairing Standard [Base (Kiri), Reciprocal (Kanan)]:</b><br>
+  Setiap runway ditampilkan dalam bentuk pasangan dua arah: <code>[le_ident (Database), he_ident (Partner)]</code>.<br>
+  Contoh: Bali (WADD) = <code>[09, 27]</code>, Jakarta (WIII) = <code>[06, 24], [07L, 25R], [07R, 25L]</code>, Surabaya (WARR) = <code>[10, 28]</code>.
+</div>
+
+<h2>Daftar 122 Bandara Siap Pakai untuk Pool Skenario RTF</h2>
+
+<div style="display:flex; gap:12px; margin-bottom:16px; align-items:center;">
+  <input type="text" id="searchInput" placeholder="🔍 Cari kode ICAO, nama bandara, kota, atau provinsi..." style="flex:1; padding:10px 14px; background:#1e293b; border:1px solid #334155; border-radius:8px; color:#f8fafc; font-size:13px; outline:none;">
+  <select id="typeFilter" style="padding:10px 14px; background:#1e293b; border:1px solid #334155; border-radius:8px; color:#f8fafc; font-size:13px; outline:none;">
+    <option value="">Semua Kategori</option>
+    <option value="LARGE">Large Airport (19)</option>
+    <option value="MEDIUM">Medium Airport</option>
+    <option value="SMALL">Small Airport</option>
+  </select>
+  <div id="counterBadge" style="font-size:12px; color:#94a3b8; font-weight:600; white-space:nowrap;">Menampilkan 122 bandara</div>
+</div>
+
+<table id="airportTable">
+  <thead>
+    <tr>
+      <th>ICAO</th>
+      <th>Nama Bandara</th>
+      <th>Tipe</th>
+      <th>Kota / Wilayah</th>
+      <th>Provinsi</th>
+      <th>Runway Pairing [Base, Partner]</th>
+      <th>Panjang Rwy</th>
+      <th>Freq</th>
+      <th>Daftar Frekuensi ATC</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td><span class="code">WIII</span></td>
+      <td><b>Soekarno-Hatta International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Jakarta</td>
+      <td>Banten</td>
+      <td><span class="pair-pill">[06, 24], [07L, 25R], [07R, 25L]</span></td>
+      <td>12008 ft</td>
+      <td style="text-align:center; font-weight:700;">8</td>
+      <td style="color:#38bdf8;">APP, ARR, ATIS, CLD, FSS, GND, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WARR</span></td>
+      <td><b>Juanda International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Surabaya</td>
+      <td>Jawa Timur (East Java)</td>
+      <td><span class="pair-pill">[10, 28]</span></td>
+      <td>9843 ft</td>
+      <td style="text-align:center; font-weight:700;">8</td>
+      <td style="color:#38bdf8;">ATIS, DIR, SMC, TCA, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIDD</span></td>
+      <td><b>Hang Nadim International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Batam</td>
+      <td>Kepulauan Riau (Riau Islands)</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>13218 ft</td>
+      <td style="text-align:center; font-weight:700;">6</td>
+      <td style="color:#38bdf8;">ACC, APP, ATIS, GND, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIHH</span></td>
+      <td><b>Halim Perdanakusuma International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Jakarta</td>
+      <td>Jakarta Raya</td>
+      <td><span class="pair-pill">[06, 24]</span></td>
+      <td>9843 ft</td>
+      <td style="text-align:center; font-weight:700;">6</td>
+      <td style="color:#38bdf8;">APP, ARR, ATIS, DIR, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WADD</span></td>
+      <td><b>Denpasar I Gusti Ngurah Rai International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Kuta, Badung</td>
+      <td>Bali</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>9790 ft</td>
+      <td style="text-align:center; font-weight:700;">6</td>
+      <td style="color:#38bdf8;">APP, ATIS, GND, INFO, TMA, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WARJ</span></td>
+      <td><b>Adisutjipto International Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Yogyakarta</td>
+      <td>Yogyakarta</td>
+      <td><span class="pair-pill">[09, 27], [09R, 27L]</span></td>
+      <td>7215 ft</td>
+      <td style="text-align:center; font-weight:700;">6</td>
+      <td style="color:#38bdf8;">APP, ATIS, GND, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WADL</span></td>
+      <td><b>Lombok International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Mataram (Pujut, Lombok Tengah)</td>
+      <td>Nusa Tenggara Barat (West Nusa Tenggara)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>10826 ft</td>
+      <td style="text-align:center; font-weight:700;">5</td>
+      <td style="color:#38bdf8;">APP, ATIS, CLD, GND, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAHI</span></td>
+      <td><b>Yogyakarta International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Yogyakarta</td>
+      <td>Yogyakarta</td>
+      <td><span class="pair-pill">[11, 29]</span></td>
+      <td>10663 ft</td>
+      <td style="text-align:center; font-weight:700;">5</td>
+      <td style="color:#38bdf8;">APP, ATIS, CLD, GND, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WICA</span></td>
+      <td><b>Kertajati International Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Kertajati</td>
+      <td>Jawa Barat (West Java)</td>
+      <td><span class="pair-pill">[14, 32]</span></td>
+      <td>9843 ft</td>
+      <td style="text-align:center; font-weight:700;">5</td>
+      <td style="color:#38bdf8;">APP, ATIS, CLD, GND, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WABB</span></td>
+      <td><b>Frans Kaisiepo Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Biak</td>
+      <td>Papua</td>
+      <td><span class="pair-pill">[11, 29]</span></td>
+      <td>11715 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">ID-0277</span></td>
+      <td><b>Dhoho International Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Kediri</td>
+      <td>Jawa Timur (East Java)</td>
+      <td><span class="pair-pill">[14, 32]</span></td>
+      <td>10827 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, GND, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAAA</span></td>
+      <td><b>Sultan Hasanuddin International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Makassar</td>
+      <td>Sulawesi Selatan (South Sulawesi)</td>
+      <td><span class="pair-pill">[03, 21], [13, 31]</span></td>
+      <td>10171 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAJJ</span></td>
+      <td><b>Dortheys Hiyo Eluay International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Sentani</td>
+      <td>Papua</td>
+      <td><span class="pair-pill">[12, 30]</span></td>
+      <td>9842 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAMM</span></td>
+      <td><b>Sam Ratulangi International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Manado</td>
+      <td>Sulawesi Utara (North Sulawesi)</td>
+      <td><span class="pair-pill">[18, 36]</span></td>
+      <td>8693 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WARQ</span></td>
+      <td><b>Adisoemarmo International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Surakarta</td>
+      <td>Jawa Tengah (Central Java)</td>
+      <td><span class="pair-pill">[08, 26]</span></td>
+      <td>8530 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, TCA, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WALL</span></td>
+      <td><b>Sultan Aji Muhammad Sulaiman Sepinggan International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Balikpapan</td>
+      <td>Kalimantan Timur (East Kalimantan)</td>
+      <td><span class="pair-pill">[07, 25]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAOO</span></td>
+      <td><b>Syamsudin Noor International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Banjarbaru</td>
+      <td>Kalimantan Selatan (South Kalimantan)</td>
+      <td><span class="pair-pill">[10, 28]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAPP</span></td>
+      <td><b>Pattimura International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Ambon</td>
+      <td>Maluku</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIPP</span></td>
+      <td><b>Sultan Mahmud Badaruddin II Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Palembang</td>
+      <td>Sumatera Selatan (South Sumatra)</td>
+      <td><span class="pair-pill">[11, 29]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIOO</span></td>
+      <td><b>Supadio International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Pontianak</td>
+      <td>Kalimantan Barat (West Kalimantan)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>7380 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WASS</span></td>
+      <td><b>Domine Eduard Osok Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Sorong</td>
+      <td>Papua Barat (West Papua)</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>6070 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">APP, ATIS, GND, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAHU</span></td>
+      <td><b>Dewadaru Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Karimunjawa</td>
+      <td>Jawa Tengah (Central Java)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>3937 ft</td>
+      <td style="text-align:center; font-weight:700;">4</td>
+      <td style="color:#38bdf8;">NDB, SSB, VHF, VOR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIPT</span></td>
+      <td><b>Minangkabau International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Padang (Katapiang)</td>
+      <td>Sumatera Barat (West Sumatra)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>9843 ft</td>
+      <td style="text-align:center; font-weight:700;">3</td>
+      <td style="color:#38bdf8;">APP, ATIS, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIMK</span></td>
+      <td><b>Soewondo Air Force Base</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Medan</td>
+      <td>Sumatera Utara (North Sumatra)</td>
+      <td><span class="pair-pill">[05, 23]</span></td>
+      <td>9514 ft</td>
+      <td style="text-align:center; font-weight:700;">3</td>
+      <td style="color:#38bdf8;">APP, ATIS, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WARS</span></td>
+      <td><b>Jenderal Ahmad Yani Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Semarang</td>
+      <td>Jawa Tengah (Central Java)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>8399 ft</td>
+      <td style="text-align:center; font-weight:700;">3</td>
+      <td style="color:#38bdf8;">APP, ATIS, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIDN</span></td>
+      <td><b>Raja Haji Fisabilillah International Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Tanjung Pinang-Bintan Island</td>
+      <td>Kepulauan Riau (Riau Islands)</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>7380 ft</td>
+      <td style="text-align:center; font-weight:700;">3</td>
+      <td style="color:#38bdf8;">ACC, APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAVV</span></td>
+      <td><b>Wamena Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Wamena</td>
+      <td>Papua Pegunungan (Highland Papua)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>7135 ft</td>
+      <td style="text-align:center; font-weight:700;">3</td>
+      <td style="color:#38bdf8;">AFIS, ATIS, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">ID-0340</span></td>
+      <td><b>Tabing Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Padang</td>
+      <td>Sumatera Barat (West Sumatra)</td>
+      <td><span class="pair-pill">[16, 34]</span></td>
+      <td>7040 ft</td>
+      <td style="text-align:center; font-weight:700;">3</td>
+      <td style="color:#38bdf8;">APP, ATIS, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WADY</span></td>
+      <td><b>Banyuwangi Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Rogojampi, Banyuwangi</td>
+      <td>Jawa Timur (East Java)</td>
+      <td><span class="pair-pill">[08, 26]</span></td>
+      <td>4593 ft</td>
+      <td style="text-align:center; font-weight:700;">3</td>
+      <td style="color:#38bdf8;">GND, TWR, APP</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIMM</span></td>
+      <td><b>Kualanamu International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Beringin</td>
+      <td>Sumatera Utara (North Sumatra)</td>
+      <td><span class="pair-pill">[05, 23]</span></td>
+      <td>12303 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">ATIS, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WARI</span></td>
+      <td><b>Iswahjudi Air Base</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Magetan</td>
+      <td>Jawa Timur (East Java)</td>
+      <td><span class="pair-pill">[17L, 35R], [17R, 35L]</span></td>
+      <td>10030 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, GND</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WITT</span></td>
+      <td><b>Sultan Iskandar Muda International Airport</b></td>
+      <td><span class="badge-large">LARGE</span></td>
+      <td>Banda Aceh</td>
+      <td>Aceh</td>
+      <td><span class="pair-pill">[17, 35]</span></td>
+      <td>9843 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">AFIS, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAGG</span></td>
+      <td><b>Tjilik Riwut Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Palangkaraya</td>
+      <td>Kalimantan Tengah (Central Kalimantan)</td>
+      <td><span class="pair-pill">[16, 34]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">ATIS, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAMG</span></td>
+      <td><b>Jalaluddin Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Gorontalo</td>
+      <td>Gorontalo</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WARA</span></td>
+      <td><b>Abdul Rachman Saleh Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Malang</td>
+      <td>Jawa Timur (East Java)</td>
+      <td><span class="pair-pill">[17, 35], [17L, 35R]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WATT</span></td>
+      <td><b>El Tari Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Kupang</td>
+      <td>Nusa Tenggara Timur (East Nusa Tenggara)</td>
+      <td><span class="pair-pill">[07, 25], [12, 30]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WABP</span></td>
+      <td><b>Mozes Kilangin Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Timika</td>
+      <td>Papua Tengah (Central Papua)</td>
+      <td><span class="pair-pill">[12, 30]</span></td>
+      <td>7841 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">RDO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAPF</span></td>
+      <td><b>Karel Sadsuitubun Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Langgur</td>
+      <td>Maluku</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>7710 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WALR</span></td>
+      <td><b>Juwata International Airport / Suharnoko Harbani AFB</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Tarakan</td>
+      <td>Kalimantan Utara (North Kalimantan)</td>
+      <td><span class="pair-pill">[06, 24]</span></td>
+      <td>7382 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIPK</span></td>
+      <td><b>Depati Amir Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Pangkal Pinang</td>
+      <td>Bangka Belitung</td>
+      <td><span class="pair-pill">[16, 34]</span></td>
+      <td>7382 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WATO</span></td>
+      <td><b>Komodo Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Labuan Bajo, Manggarai Barat</td>
+      <td>Nusa Tenggara Timur (East Nusa Tenggara)</td>
+      <td><span class="pair-pill">[17, 35]</span></td>
+      <td>7381 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">A/G, INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WICC</span></td>
+      <td><b>Husein Sastranegara International Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Bandung</td>
+      <td>Jawa Barat (West Java)</td>
+      <td><span class="pair-pill">[11, 29]</span></td>
+      <td>7381 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIBB</span></td>
+      <td><b>Sultan Syarif Kasim II International Airport / Roesmin Nurjadin AFB</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Pekanbaru</td>
+      <td>Riau</td>
+      <td><span class="pair-pill">[18, 36]</span></td>
+      <td>7360 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAWD</span></td>
+      <td><b>Matahora Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Wangi-wangi Island</td>
+      <td>Sulawesi Tenggara (Southeast Sulawesi)</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>6959 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAFB</span></td>
+      <td><b>Toraja Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Toraja</td>
+      <td>Sulawesi Selatan (South Sulawesi)</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>6562 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">APP, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WICB</span></td>
+      <td><b>Budiarto Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Tangerang-Java Island</td>
+      <td>Banten</td>
+      <td><span class="pair-pill">[04, 22], [12, 30]</span></td>
+      <td>6562 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">GRD, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAKK</span></td>
+      <td><b>Mopah International Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Merauke</td>
+      <td>Papua Selatan (South Papua)</td>
+      <td><span class="pair-pill">[16, 34]</span></td>
+      <td>6070 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">FSS, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAEE</span></td>
+      <td><b>Sultan Babullah Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Ternate</td>
+      <td>Maluku Utara (North Maluku)</td>
+      <td><span class="pair-pill">[14, 32]</span></td>
+      <td>5875 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">AFIS, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WARE</span></td>
+      <td><b>Notohadinegoro Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Jember</td>
+      <td>Jawa Timur (East Java)</td>
+      <td><span class="pair-pill">[02, 20]</span></td>
+      <td>5594 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WADB</span></td>
+      <td><b>Sultan Muhammad Salahuddin Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Bima</td>
+      <td>Nusa Tenggara Barat (West Nusa Tenggara)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>5405 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">RDO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WART</span></td>
+      <td><b>Trunojoyo Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Sumenep</td>
+      <td>Jawa Timur (East Java)</td>
+      <td><span class="pair-pill">[12, 30]</span></td>
+      <td>5249 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WASK</span></td>
+      <td><b>Utarom Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Kaimana</td>
+      <td>Papua Barat (West Papua)</td>
+      <td><span class="pair-pill">[01, 19]</span></td>
+      <td>5249 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">ID-0339</span></td>
+      <td><b>Old Nabire Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Nabire</td>
+      <td>Papua Tengah (Central Papua)</td>
+      <td><span class="pair-pill">[16, 34]</span></td>
+      <td>4593 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">RDO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAPL</span></td>
+      <td><b>Dumatubin Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Langgur</td>
+      <td>Maluku</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>4265 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIBJ</span></td>
+      <td><b>Japura Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Rengat-Sumatra Island</td>
+      <td>Riau</td>
+      <td><span class="pair-pill">[10, 28]</span></td>
+      <td>4265 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">A/G, AFIS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WATG</span></td>
+      <td><b>Frans Sales Lega Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Satar Tacik, Manggarai</td>
+      <td>Nusa Tenggara Timur (East Nusa Tenggara)</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>4186 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">A/G, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WALQ</span></td>
+      <td><b>Muara Badak Pujangan Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Muara Badak-Borneo Island</td>
+      <td>Kalimantan Timur (East Kalimantan)</td>
+      <td><span class="pair-pill">[01, 19]</span></td>
+      <td>3937 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIDM</span></td>
+      <td><b>Matak Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Palmatak</td>
+      <td>Kepulauan Riau (Riau Islands)</td>
+      <td><span class="pair-pill">[18, 36]</span></td>
+      <td>3905 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WRLF</span></td>
+      <td><b>Nunukan Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Nunukan-Nunukan Island</td>
+      <td>Kalimantan Utara (North Kalimantan)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>3609 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">NUNUKAN INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WALV</span></td>
+      <td><b>Bunyu Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Bunju Island</td>
+      <td>Kalimantan Utara (North Kalimantan)</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>3281 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">A/G, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIOG</span></td>
+      <td><b>Nanga Pinoh Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Nanga Pinoh-Borneo Island</td>
+      <td>Kalimantan Barat (West Kalimantan)</td>
+      <td><span class="pair-pill">[10, 28]</span></td>
+      <td>3272 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">AFIS, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WA44</span></td>
+      <td><b>Maranggo Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Waha-Tomea Island</td>
+      <td>Sulawesi Tenggara (Southeast Sulawesi)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>3078 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">AFIS, RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WADE</span></td>
+      <td><b>Lieutenant Colonel Wisnu Airfield</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Gerokgak, Buleleng</td>
+      <td>Bali</td>
+      <td><span class="pair-pill">[14, 32]</span></td>
+      <td>2233 ft</td>
+      <td style="text-align:center; font-weight:700;">2</td>
+      <td style="color:#38bdf8;">INFO, TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WILL</span></td>
+      <td><b>Radin Inten II International Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Bandar Lampung</td>
+      <td>Lampung</td>
+      <td><span class="pair-pill">[14, 32]</span></td>
+      <td>9088 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIPA</span></td>
+      <td><b>Sultan Thaha Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Jambi</td>
+      <td>Jambi</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>8537 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WION</span></td>
+      <td><b>Ranai Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Ranai-Natuna Besar Island</td>
+      <td>Kepulauan Riau (Riau Islands)</td>
+      <td><span class="pair-pill">[18, 36]</span></td>
+      <td>8410 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIOD</span></td>
+      <td><b>H A S Hanandjoeddin International Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Tanjung Pandan</td>
+      <td>Bangka Belitung</td>
+      <td><span class="pair-pill">[18, 36]</span></td>
+      <td>8202 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAEW</span></td>
+      <td><b>Pitu Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Gotalalamo-Morotai Island</td>
+      <td>Maluku Utara (North Maluku)</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>7880 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIMN</span></td>
+      <td><b>Silangit Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Siborong-Borong</td>
+      <td>Sumatera Utara (North Sumatra)</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>7875 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WALS</span></td>
+      <td><b>Aji Pangeran Tumenggung Pranoto International Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Samarinda</td>
+      <td>Kalimantan Timur (East Kalimantan)</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>7382 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIPL</span></td>
+      <td><b>Fatmawati Soekarno Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Bengkulu</td>
+      <td>Bengkulu</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>7345 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAWW</span></td>
+      <td><b>Haluoleo Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Kendari</td>
+      <td>Sulawesi Tenggara (Southeast Sulawesi)</td>
+      <td><span class="pair-pill">[08, 26]</span></td>
+      <td>6890 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIPO</span></td>
+      <td><b>Gatot Subrato Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Batu Raja-Sumatra Island</td>
+      <td>Lampung</td>
+      <td><span class="pair-pill">[03, 21]</span></td>
+      <td>6890 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">AFIS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAFF</span></td>
+      <td><b>Mutiara - SIS Al-Jufrie Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Palu</td>
+      <td>Sulawesi Tengah (Central Sulawesi)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>6781 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WASR</span></td>
+      <td><b>Rendani Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Manokwari</td>
+      <td>Papua Barat (West Papua)</td>
+      <td><span class="pair-pill">[17, 35]</span></td>
+      <td>6562 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">AFIS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIHP</span></td>
+      <td><b>Pondok Cabe Air Base</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Jakarta</td>
+      <td>Jakarta Raya</td>
+      <td><span class="pair-pill">[18, 36]</span></td>
+      <td>6516 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAFW</span></td>
+      <td><b>Syukuran Aminuddin Amir Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Luwok</td>
+      <td>Sulawesi Tengah (Central Sulawesi)</td>
+      <td><span class="pair-pill">[03, 21]</span></td>
+      <td>6070 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIMA</span></td>
+      <td><b>Malikus Saleh Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Lhok Seumawe-Sumatra Island</td>
+      <td>Aceh</td>
+      <td><span class="pair-pill">[06, 24]</span></td>
+      <td>6070 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAOS</span></td>
+      <td><b>Sampit (H.Asan) Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Sampit</td>
+      <td>Kalimantan Tengah (Central Kalimantan)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>6060 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WITN</span></td>
+      <td><b>Maimun Saleh Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Sabang</td>
+      <td>Aceh</td>
+      <td><span class="pair-pill">[10, 28]</span></td>
+      <td>6050 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WATC</span></td>
+      <td><b>Frans Xavier Seda Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Waioti</td>
+      <td>Nusa Tenggara Timur (East Nusa Tenggara)</td>
+      <td><span class="pair-pill">[05, 23]</span></td>
+      <td>5980 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">AFIS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WADS</span></td>
+      <td><b>Sultan Muhammad Kaharuddin III Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Sumbawa Besar</td>
+      <td>Nusa Tenggara Barat (West Nusa Tenggara)</td>
+      <td><span class="pair-pill">[14, 32]</span></td>
+      <td>5906 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WADT</span></td>
+      <td><b>Tambolaka Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Radamata</td>
+      <td>Nusa Tenggara Timur (East Nusa Tenggara)</td>
+      <td><span class="pair-pill">[10, 28]</span></td>
+      <td>5905 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAWB</span></td>
+      <td><b>Betoambari Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Bau Bau</td>
+      <td>Sulawesi Tenggara (Southeast Sulawesi)</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>5905 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIBD</span></td>
+      <td><b>Pinang Kampai Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Dumai</td>
+      <td>Riau</td>
+      <td><span class="pair-pill">[03, 21]</span></td>
+      <td>5905 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WALX</span></td>
+      <td><b>Mangkajang Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Mangkajang-Borneo Island</td>
+      <td>Kalimantan Timur (East Kalimantan)</td>
+      <td><span class="pair-pill">[07, 25]</span></td>
+      <td>5690 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIMS</span></td>
+      <td><b>Dr. Ferdinand Lumban Tobing Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Sibolga (Pinangsori)</td>
+      <td>Sumatera Utara (North Sumatra)</td>
+      <td><span class="pair-pill">[12, 30]</span></td>
+      <td>5655 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WATE</span></td>
+      <td><b>H. Hasan Aroeboesman (Ende) Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Ende</td>
+      <td>Nusa Tenggara Timur (East Nusa Tenggara)</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>5440 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WADW</span></td>
+      <td><b>Umbu Mehang Kunda Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Waingapu-Sumba Island</td>
+      <td>Nusa Tenggara Timur (East Nusa Tenggara)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>5415 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">AFIS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAOI</span></td>
+      <td><b>Iskandar Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Pangkalanbun</td>
+      <td>Kalimantan Tengah (Central Kalimantan)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>5415 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAQT</span></td>
+      <td><b>Kalimarau Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Tanjung Redeb - Borneo Island</td>
+      <td>Kalimantan Timur (East Kalimantan)</td>
+      <td><span class="pair-pill">[01, 19]</span></td>
+      <td>4625 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAON</span></td>
+      <td><b>Warukin Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Tanta-Tabalong</td>
+      <td>Kalimantan Selatan (South Kalimantan)</td>
+      <td><span class="pair-pill">[06, 24]</span></td>
+      <td>4601 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">AFIS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAHL</span></td>
+      <td><b>Tunggul Wulung Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Cilacap</td>
+      <td>Jawa Tengah (Central Java)</td>
+      <td><span class="pair-pill">[13, 31]</span></td>
+      <td>4593 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WATM</span></td>
+      <td><b>Alor Island - Mali Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Kabola</td>
+      <td>Nusa Tenggara Timur (East Nusa Tenggara)</td>
+      <td><span class="pair-pill">[03, 21]</span></td>
+      <td>4586 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIOK</span></td>
+      <td><b>Rahadi Osman Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Ketapang</td>
+      <td>Kalimantan Barat (West Kalimantan)</td>
+      <td><span class="pair-pill">[17, 35]</span></td>
+      <td>4585 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIME</span></td>
+      <td><b>Aek Godang Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Padang Sidempuan</td>
+      <td>Sumatera Utara (North Sumatra)</td>
+      <td><span class="pair-pill">[11, 29]</span></td>
+      <td>4580 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WICN</span></td>
+      <td><b>Nusawiru Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Cijulang</td>
+      <td>Jawa Barat (West Java)</td>
+      <td><span class="pair-pill">[07, 25]</span></td>
+      <td>4549 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WALT</span></td>
+      <td><b>Tanjung Santan Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Santan-Borneo Island</td>
+      <td>Kalimantan Timur (East Kalimantan)</td>
+      <td><span class="pair-pill">[08, 26]</span></td>
+      <td>4501 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIMB</span></td>
+      <td><b>Binaka Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Gunungsitoli</td>
+      <td>Sumatera Utara (North Sumatra)</td>
+      <td><span class="pair-pill">[09, 27]</span></td>
+      <td>4445 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WASO</span></td>
+      <td><b>Babo Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Babo</td>
+      <td>Papua Barat (West Papua)</td>
+      <td><span class="pair-pill">[02, 20]</span></td>
+      <td>4280 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAPK</span></td>
+      <td><b>Benjina Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Maikoor Island</td>
+      <td>Maluku</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>4265 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIPQ</span></td>
+      <td><b>Pendopo Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Talang Gudang-Sumatra Island</td>
+      <td>Sumatera Selatan (South Sumatra)</td>
+      <td><span class="pair-pill">[03, 21]</span></td>
+      <td>4265 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">ID-0341</span></td>
+      <td><b>Susilo Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Sintang</td>
+      <td>Kalimantan Barat (West Kalimantan)</td>
+      <td><span class="pair-pill">[08, 26]</span></td>
+      <td>4256 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIDE</span></td>
+      <td><b>Tuanku Tambusai Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Pasir Pengarayan</td>
+      <td>Riau</td>
+      <td><span class="pair-pill">[18, 36]</span></td>
+      <td>4240 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WITA</span></td>
+      <td><b>Teuku Cut Ali Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Tapaktuan</td>
+      <td>Aceh</td>
+      <td><span class="pair-pill">[14, 32]</span></td>
+      <td>4170 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">FIS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WICD</span></td>
+      <td><b>Cakrabhuwana  Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Cirebon-Java Island</td>
+      <td>Jawa Barat (West Java)</td>
+      <td><span class="pair-pill">[04, 22]</span></td>
+      <td>4131 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAOH</span></td>
+      <td><b>Kota Baru Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Mekar Putih, Kotabaru</td>
+      <td>Kalimantan Selatan (South Kalimantan)</td>
+      <td><span class="pair-pill">[12, 30]</span></td>
+      <td>4100 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIDS</span></td>
+      <td><b>Dabo Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Pasirkuning-Singkep Island</td>
+      <td>Kepulauan Riau (Riau Islands)</td>
+      <td><span class="pair-pill">[14, 32]</span></td>
+      <td>3839 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WALG</span></td>
+      <td><b>Tanjung Harapan Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Tanjung Selor-Borneo Island</td>
+      <td>Kalimantan Utara (North Kalimantan)</td>
+      <td><span class="pair-pill">[03, 21]</span></td>
+      <td>3773 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WITL</span></td>
+      <td><b>Lhok Sukon Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Lhok Sukon-Sumatra Island</td>
+      <td>Aceh</td>
+      <td><span class="pair-pill">[16, 34]</span></td>
+      <td>3675 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAFP</span></td>
+      <td><b>Kasiguncu Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Poso-Celebes Island</td>
+      <td>Sulawesi Tengah (Central Sulawesi)</td>
+      <td><span class="pair-pill">[03, 21]</span></td>
+      <td>3650 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAMH</span></td>
+      <td><b>Naha Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Tabukan Utara, Sangihe Islands</td>
+      <td>Sulawesi Utara (North Sulawesi)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>3597 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WICM</span></td>
+      <td><b>Wiriadinata Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Cibeureum, Tasikmalaya-Java Island</td>
+      <td>Jawa Barat (West Java)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>3590 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">TWR</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAWT</span></td>
+      <td><b>Pongtiku Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Makale</td>
+      <td>Sulawesi Selatan (South Sulawesi)</td>
+      <td><span class="pair-pill">[12, 30]</span></td>
+      <td>3440 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">AFIS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WASF</span></td>
+      <td><b>Fakfak Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Fakfak</td>
+      <td>Papua Barat (West Papua)</td>
+      <td><span class="pair-pill">[10, 28]</span></td>
+      <td>3415 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAWS</span></td>
+      <td><b>Soroako Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Soroako</td>
+      <td>Sulawesi Selatan (South Sulawesi)</td>
+      <td><span class="pair-pill">[12, 30]</span></td>
+      <td>3340 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WIOP</span></td>
+      <td><b>Pangsuma Airport</b></td>
+      <td><span class="badge-med">MEDIUM</span></td>
+      <td>Putussibau-Borneo Island</td>
+      <td>Kalimantan Barat (West Kalimantan)</td>
+      <td><span class="pair-pill">[10, 28]</span></td>
+      <td>3294 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">A/G</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WAFM</span></td>
+      <td><b>Andi Jemma Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Masamba</td>
+      <td>Sulawesi Selatan (South Sulawesi)</td>
+      <td><span class="pair-pill">[02, 20]</span></td>
+      <td>3133 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">ID-0273</span></td>
+      <td><b>Marimoi Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Modjid-Celebes Island</td>
+      <td>Maluku Utara (North Maluku)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>3020 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">INFO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">WARP</span></td>
+      <td><b>Pagerungan Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Sapeken</td>
+      <td>Jawa Timur (East Java)</td>
+      <td><span class="pair-pill">[12, 30]</span></td>
+      <td>3009 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">RDO</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">ID-0176</span></td>
+      <td><b>Bari Airport</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Bari</td>
+      <td>Papua Pegunungan (Highland Papua)</td>
+      <td><span class="pair-pill">[08, 26]</span></td>
+      <td>1450 ft</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">ATS</td>
+    </tr>
+
+    <tr>
+      <td><span class="code">ID-0121</span></td>
+      <td><b>Pogapa Airstrip</b></td>
+      <td><span class="badge-small">SMALL</span></td>
+      <td>Pogapa</td>
+      <td>Papua Tengah (Central Papua)</td>
+      <td><span class="pair-pill">[15, 33]</span></td>
+      <td>-</td>
+      <td style="text-align:center; font-weight:700;">1</td>
+      <td style="color:#38bdf8;">ATS</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<script>
+  const searchInput = document.getElementById('searchInput');
+  const typeFilter = document.getElementById('typeFilter');
+  const counterBadge = document.getElementById('counterBadge');
+  const rows = document.querySelectorAll('tbody tr');
+
+  function filterTable() {
+    const q = searchInput.value.toLowerCase().trim();
+    const t = typeFilter.value.toUpperCase();
+    let visible = 0;
+    rows.forEach(row => {
+      const text = row.innerText.toLowerCase();
+      const matchSearch = !q || text.includes(q);
+      const matchType = !t || row.innerText.includes(t);
+      if (matchSearch && matchType) {
+        row.style.display = '';
+        visible++;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+    counterBadge.textContent = `Menampilkan ${visible} dari ${rows.length} bandara`;
+  }
+  searchInput.addEventListener('input', filterTable);
+  typeFilter.addEventListener('change', filterTable);
+</script>
+
+</body>
+</html>

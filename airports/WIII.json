@@ -1,0 +1,154 @@
+{
+  "icao": "WIII",
+  "iata": "CGK",
+  "name": "Soekarno-Hatta International",
+  "city": "Tangerang / Jakarta",
+  "elevation_ft": 34,
+  "latitude": -6.1256,
+  "longitude": 106.6558,
+  "profile": "IFR_COMMERCIAL",
+  "runways": [
+    {
+      "pair": ["07L", "25R"],
+      "designator": "25R",
+      "reciprocal": "07L",
+      "length_ft": 12008,
+      "width_ft": 148,
+      "surface": "ASP",
+      "heading_degT": 254,
+      "ils_available": true,
+      "holdingPoints": ["N1", "N2"],
+      "_source": "NEEDS AIP WIII AD 2.12 verification"
+    },
+    {
+      "pair": ["07R", "25L"],
+      "designator": "25L",
+      "reciprocal": "07R",
+      "length_ft": 12008,
+      "width_ft": 148,
+      "surface": "ASP",
+      "heading_degT": 254,
+      "ils_available": true,
+      "holdingPoints": ["S1", "S2"],
+      "_source": "NEEDS AIP WIII AD 2.12 verification"
+    }
+  ],
+  "units": {
+    "delivery": {
+      "callsign": "Jakarta Delivery",
+      "frequency": "121.650",
+      "_source": "NEEDS AIP WIII AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "apron": {
+      "callsign": "Jakarta Apron",
+      "frequency": "121.900",
+      "_source": "NEEDS AIP WIII AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "ground": {
+      "callsign": "Jakarta Ground",
+      "frequency": "121.900",
+      "_source": "NEEDS AIP WIII AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "tower": {
+      "callsign": "Jakarta Tower",
+      "frequency": "118.750",
+      "_source": "NEEDS AIP WIII AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "approach": {
+      "callsign": "Jakarta Approach",
+      "frequency": "119.100",
+      "_source": "NEEDS AIP WIII AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "departure": {
+      "callsign": "Jakarta Departure",
+      "frequency": "119.550",
+      "_source": "NEEDS AIP WIII AD 2.18 verification",
+      "_status": "training-approx"
+    },
+    "center": {
+      "callsign": "Jakarta Control",
+      "frequency": "127.900",
+      "_source": "NEEDS AIP ENR verification",
+      "_status": "training-approx"
+    },
+    "atis": {
+      "callsign": "Jakarta Information",
+      "frequency": "126.800",
+      "_source": "NEEDS AIP WIII AD 2.18 verification",
+      "_status": "training-approx"
+    }
+  },
+  "taxiways": [
+    { "id": "Alpha", "spoken": "Alfa" },
+    { "id": "Bravo", "spoken": "Bravo" },
+    { "id": "Charlie", "spoken": "Charlie" },
+    { "id": "November", "spoken": "November" },
+    { "id": "Sierra", "spoken": "Sierra" },
+    { "id": "Whiskey", "spoken": "Whiskey" }
+  ],
+  "_taxiwayNote": "Names above are training approximations. Verify layout and exact names from AIP WIII AD 2.24 aerodrome chart.",
+  "stands": [
+    { "id": "A12", "spoken": "stand Alpha Twelve", "type": "DOMESTIC", "apron": "Terminal 3" },
+    { "id": "A15", "spoken": "stand Alpha Fifteen", "type": "DOMESTIC", "apron": "Terminal 3" },
+    { "id": "B06", "spoken": "stand Bravo Six", "type": "INTERNATIONAL", "apron": "Terminal 3" }
+  ],
+  "trainingAreas": [],
+  "procedures": {
+    "sids": [
+      {
+        "id": "DOLTA1A",
+        "name": "DOLTA One Alfa",
+        "runway": "25R",
+        "initialAltFt": 10000,
+        "entryFix": "DOLTA",
+        "_source": "NEEDS AIP WIII AD 2.22 verification — identifier may have changed",
+        "_status": "training-approx"
+      },
+      {
+        "id": "BOMAR2B",
+        "name": "BOMAR Two Bravo",
+        "runway": "25L",
+        "initialAltFt": 9000,
+        "entryFix": "BOMAR",
+        "_source": "NEEDS AIP WIII AD 2.22 verification",
+        "_status": "training-approx"
+      }
+    ],
+    "stars": [
+      {
+        "id": "DOLTA1A",
+        "name": "DOLTA One Alfa",
+        "runway": "25R",
+        "entryFix": "DOLTA",
+        "initialDescentFt": 10000
+      },
+      {
+        "id": "JAKAR2A",
+        "name": "JAKAR Two Alfa",
+        "runway": "07L",
+        "entryFix": "JAKAR",
+        "initialDescentFt": 10000
+      }
+    ],
+    "approaches": [],
+    "holdings": []
+  },
+  "_meta": {
+    "datasetCycle": "NEEDS AIP AIRAC cycle date",
+    "status": "training-approx",
+    "verifiedBy": null,
+    "lastChecked": "2026-10-09",
+    "disclaimer": "For training simulation only. Not for operational use.",
+    "notes": [
+      "ALL frequencies are training approximations — critical to verify vs AIP WIII AD 2.18",
+      "SID names/identifiers may be outdated — verify vs AIP WIII AD 2.22",
+      "Taxiway layout is simplified — real WIII has complex multi-taxiway network",
+      "For MVP demo: restrict to ONE runway config (25R) and ONE taxi route template"
+    ]
+  }
+}
